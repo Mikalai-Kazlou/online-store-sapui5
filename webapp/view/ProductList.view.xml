@@ -1,7 +1,9 @@
 <mvc:View controllerName="com.exercise.onlinestoresapui5.controller.ProductList"
   displayBlock="true"
   xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc">
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:grid="sap.ui.layout.cssgrid">
 
   <Table id="productList"
     class="sapUiResponsiveMargin"
@@ -30,5 +32,41 @@
       </ColumnListItem>
     </items>
   </Table>
+
+  <Panel id="panelForGridList"
+    backgroundDesign="Transparent">
+    <headerToolbar>
+      <Toolbar height="3rem">
+        <Title text="Grid List with GridBoxLayout and minWidth 17rem"/>
+      </Toolbar>
+    </headerToolbar>
+
+    <f:GridList id="gridList"
+      headerText="GridList header"
+      items="{path: 'products>/products'}">
+      <f:customLayout>
+        <grid:GridBoxLayout boxMinWidth="20rem"/>
+      </f:customLayout>
+
+      <f:GridListItem>
+        <VBox class="sapUiSmallMargin">
+
+          <Title text="{products>title}"
+            wrapping="true"/>
+          <Label text="{products>brand}"
+            wrapping="true"/>
+
+          <VBox height="18rem">
+            <Image src="{products>thumbnail}"
+              width="100%"/>
+          </VBox>
+
+          <Text text="{products>description}"/>
+
+        </VBox>
+      </f:GridListItem>
+    </f:GridList>
+
+  </Panel>
 
 </mvc:View>
