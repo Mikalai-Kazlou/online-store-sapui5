@@ -41,11 +41,11 @@
           justifyContent="SpaceBetween">
           <Button text="{i18n>productCatalogAddToCartButtonText}"
             width="8rem"
-            press=".onPress">
+            press=".onAddToCart">
           </Button>
           <Button text="{i18n>productCatalogDetailsButtonText}"
             width="8rem"
-            press=".onPress">
+            press=".onOpenDetails">
           </Button>
         </HBox>
       </VBox>

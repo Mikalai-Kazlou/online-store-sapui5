@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.exercise.onlinestoresapui5.controller.Details"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+
+  <Page title="{i18n>detailsPageTitle}"
+    class="sapUiResponsivePadding--header"
+    showNavButton="true"
+    navButtonPress=".onNavBack">
+    <content>
+    </content>
+  </Page>
+
+</mvc:View>

@@ -9,7 +9,8 @@
 			<Button id="goToCartButton"
 				type="Default"
 				icon="sap-icon://cart"
-				text="{i18n>mainPageHeaderCartButtonText}">
+				text="{i18n>mainPageHeaderCartButtonText}"
+				press=".onOpenCart">
 				<customData>
 					<BadgeCustomData key="badge"
 						value="1"

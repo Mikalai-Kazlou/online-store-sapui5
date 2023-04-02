@@ -72,12 +72,30 @@
 					"pattern": "",
 					"name": "main",
 					"target": "main"
+				},
+				{
+					"pattern": "cart",
+					"name": "cart",
+					"target": "cart"
+				},
+				{
+					"pattern": "details/{id}",
+					"name": "details",
+					"target": "details"
 				}
 			],
 			"targets": {
 				"main": {
 					"viewId": "main",
 					"viewName": "Main"
+				},
+				"cart": {
+					"viewId": "cart",
+					"viewName": "Cart"
+				},
+				"details": {
+					"viewId": "details",
+					"viewName": "Details"
 				}
 			}
 		}
