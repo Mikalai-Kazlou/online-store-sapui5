@@ -14,7 +14,8 @@
     </f:customLayout>
 
     <f:GridListItem>
-      <VBox class="sapUiSmallMargin">
+      <VBox class="sapUiSmallMargin"
+        height="93%">
         <Title text="{products>title}"
           wrapping="true"/>
         <Label text="{products>brand}"
@@ -24,7 +25,22 @@
           <Image src="{products>thumbnail}"
             width="100%"/>
         </VBox>
-        <Text text="{products>description}"/>
+        <Text text="{products>description}">
+          <layoutData>
+            <FlexItemData growFactor="1" />
+          </layoutData>
+        </Text>
+        <HBox class="sapUiTinyMarginTop"
+          justifyContent="SpaceBetween">
+          <Button text="Add to Cart"
+            width="8rem"
+            press=".onPress">
+          </Button>
+          <Button text="Details"
+            width="8rem"
+            press=".onPress">
+          </Button>
+        </HBox>
       </VBox>
     </f:GridListItem>
 
