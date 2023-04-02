@@ -3,9 +3,9 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 
-	<Page title="{i18n>mainPageTitle}">
+	<Page showHeader="false">
 		<content>
-			<mvc:XMLView viewName="com.exercise.onlinestoresapui5.view.ProductList"/>
+			<mvc:XMLView viewName="com.exercise.onlinestoresapui5.view.ProductCatalog"/>
 		</content>
 	</Page>
 

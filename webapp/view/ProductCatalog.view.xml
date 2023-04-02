@@ -1,0 +1,33 @@
+<mvc:View controllerName="com.exercise.onlinestoresapui5.controller.ProductCatalog"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:grid="sap.ui.layout.cssgrid">
+
+  <f:GridList id="productCatalog"
+    class="sapUiResponsiveContentPadding"
+    headerText="{i18n>productCatalogTitle}"
+    items="{path: 'products>/products'}">
+    <f:customLayout>
+      <grid:GridBoxLayout boxMinWidth="20rem"/>
+    </f:customLayout>
+
+    <f:GridListItem>
+      <VBox class="sapUiSmallMargin">
+        <Title text="{products>title}"
+          wrapping="true"/>
+        <Label text="{products>brand}"
+          wrapping="true"/>
+        <VBox class="sapUiTinyMarginTopBottom"
+          height="16rem">
+          <Image src="{products>thumbnail}"
+            width="100%"/>
+        </VBox>
+        <Text text="{products>description}"/>
+      </VBox>
+    </f:GridListItem>
+
+  </f:GridList>
+
+</mvc:View>
