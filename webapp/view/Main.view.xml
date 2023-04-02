@@ -3,7 +3,20 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 
-	<Page showHeader="false">
+	<Page title="{i18n>mainPageTitle}"
+		class="sapUiResponsivePadding--header">
+		<headerContent>
+			<Button id="goToCartButton"
+				type="Default"
+				icon="sap-icon://cart"
+				text="{i18n>mainPageHeaderCartButtonText}">
+				<customData>
+					<BadgeCustomData key="badge"
+						value="1"
+						visible="true"/>
+				</customData>
+			</Button>
+		</headerContent>
 		<content>
 			<mvc:XMLView viewName="com.exercise.onlinestoresapui5.view.ProductCatalog"/>
 		</content>

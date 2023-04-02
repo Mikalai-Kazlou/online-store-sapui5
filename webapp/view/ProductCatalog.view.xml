@@ -20,11 +20,11 @@
           wrapping="true"/>
         <Label text="{products>brand}"
           wrapping="true"/>
-        <VBox class="sapUiTinyMarginTopBottom"
+        <FlexBox class="sapUiTinyMarginTopBottom"
           height="16rem">
           <Image src="{products>thumbnail}"
             width="100%"/>
-        </VBox>
+        </FlexBox>
         <Text text="{products>description}">
           <layoutData>
             <FlexItemData growFactor="1" />
@@ -32,11 +32,11 @@
         </Text>
         <HBox class="sapUiTinyMarginTop"
           justifyContent="SpaceBetween">
-          <Button text="Add to Cart"
+          <Button text="{i18n>productCatalogAddToCartButtonText}"
             width="8rem"
             press=".onPress">
           </Button>
-          <Button text="Details"
+          <Button text="{i18n>productCatalogDetailsButtonText}"
             width="8rem"
             press=".onPress">
           </Button>
