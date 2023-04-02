@@ -1,1 +1,1 @@
-sap.ui.define(["./BaseController","sap/m/MessageBox"],function(e,o){"use strict";return e.extend("com.exercise.onlinestoresapui5.controller.Main",{sayHello:function(){o.show("Hello World!")}})});
+sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("com.exercise.onlinestoresapui5.controller.Main",{})});
