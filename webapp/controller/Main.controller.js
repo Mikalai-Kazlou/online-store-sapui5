@@ -1,13 +1,9 @@
 sap.ui.define([
-  "./BaseController",
-  "sap/m/MessageBox"
-], function (BaseController, MessageBox) {
+  "./BaseController"
+], function (BaseController) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Main", {
-    sayHello: function() {
-      MessageBox.show("Hello World!");
-    }
   });
 
 });
