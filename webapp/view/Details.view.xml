@@ -7,8 +7,11 @@
     class="sapUiResponsivePadding--header"
     showNavButton="true"
     navButtonPress=".onNavBack">
-    <content>
-    </content>
+    <ObjectHeader responsive="true"
+      fullScreenOptimized="true"
+      intro="{products>brand}"
+      title="{products>title}">
+    </ObjectHeader>
   </Page>
 
 </mvc:View>

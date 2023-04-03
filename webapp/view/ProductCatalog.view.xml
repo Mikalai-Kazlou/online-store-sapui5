@@ -20,7 +20,7 @@
           wrapping="true"/>
         <Label text="{products>brand}"
           wrapping="true"/>
-        <FlexBox class="sapUiTinyMarginTopBottom">
+        <FlexBox class="sapUiTinyMarginTop">
           <Image src="{products>thumbnail}"
             mode="Background"
             width="100%"
@@ -32,6 +32,14 @@
             </layoutData>
           </Image>
         </FlexBox>
+        <ObjectNumber class="sapUiSmallMarginTopBottom"
+          number="{
+            parts: [{path: 'products>price'}, {path: 'view>/currency'}],
+            type: 'sap.ui.model.type.Currency',
+            formatOptions: {showMeasure: false}
+          }"
+          unit="{view>/currency}"
+          state="Information"/>
         <Text text="{products>description}">
           <layoutData>
             <FlexItemData growFactor="1"/>
