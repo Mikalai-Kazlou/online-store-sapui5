@@ -1,7 +1,8 @@
 <mvc:View controllerName="com.exercise.onlinestoresapui5.controller.Details"
   displayBlock="true"
   xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc">
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:fiori="sap.ui.webc.fiori">
 
   <Page title="{i18n>detailsPageTitle}"
     class="sapUiResponsivePadding--header"
@@ -12,6 +13,12 @@
       intro="{products>brand}"
       title="{products>title}">
     </ObjectHeader>
+
+    <fiori:MediaGallery items="{path: 'products>images'}">
+      <fiori:MediaGalleryItem>
+        <Image src="{products>}"/>
+      </fiori:MediaGalleryItem>
+    </fiori:MediaGallery>
   </Page>
 
 </mvc:View>
