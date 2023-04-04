@@ -1,6 +1,7 @@
 <mvc:View controllerName="com.exercise.onlinestoresapui5.controller.Details"
   displayBlock="true"
   xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:fiori="sap.ui.webc.fiori">
 
@@ -8,17 +9,80 @@
     class="sapUiResponsivePadding--header"
     showNavButton="true"
     navButtonPress=".onNavBack">
+
     <ObjectHeader responsive="true"
       fullScreenOptimized="true"
       intro="{products>brand}"
       title="{products>title}">
     </ObjectHeader>
 
-    <fiori:MediaGallery items="{path: 'products>images'}">
-      <fiori:MediaGalleryItem>
-        <Image src="{products>}"/>
-      </fiori:MediaGalleryItem>
-    </fiori:MediaGallery>
+    <HBox>
+      <VBox alignItems="End"
+        justifyContent="Center">
+        <layoutData>
+          <FlexItemData growFactor="1"/>
+        </layoutData>
+        <VBox class="sapUiMediumMargin"
+          width="70%">
+          <fiori:MediaGallery items="{path: 'products>images'}">
+            <fiori:MediaGalleryItem>
+              <Image src="{products>}"/>
+            </fiori:MediaGalleryItem>
+          </fiori:MediaGallery>
+        </VBox>
+      </VBox>
+      <VBox class="sapUiMediumMargin"
+        width="35%">
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsProductName}"
+            design="Bold"/>
+          <Text text="{products>title}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsBrand}"
+            design="Bold"/>
+          <Text text="{products>brand}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsCategory}"
+            design="Bold"/>
+          <Text text="{products>category}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsRating}"
+            design="Bold"/>
+          <Text text="{products>rating}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsDiscountPercentage}"
+            design="Bold"/>
+          <Text text="{products>discountPercentage}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom"
+          width="70%">
+          <Label text="{i18n>detailsDescription}"
+            design="Bold"/>
+          <Text text="{products>description}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsStock}"
+            design="Bold"/>
+          <Text text="{products>stock}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>detailsPrice}"
+            design="Bold"/>
+          <ObjectNumber number="{
+              parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
+              type: 'sap.ui.model.type.Currency',
+              formatOptions: {showMeasure: false}
+            }"
+            unit="{constant>/currency}"
+            state="Success"/>
+        </VBox>
+      </VBox>
+    </HBox>
+
   </Page>
 
 </mvc:View>

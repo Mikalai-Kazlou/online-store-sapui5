@@ -34,12 +34,12 @@
         </FlexBox>
         <ObjectNumber class="sapUiSmallMarginTopBottom"
           number="{
-            parts: [{path: 'products>price'}, {path: 'view>/currency'}],
+            parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
             type: 'sap.ui.model.type.Currency',
             formatOptions: {showMeasure: false}
           }"
-          unit="{view>/currency}"
-          state="Information"/>
+          unit="{constant>/currency}"
+          state="Success"/>
         <Text text="{products>description}">
           <layoutData>
             <FlexItemData growFactor="1"/>

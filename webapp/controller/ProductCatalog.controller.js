@@ -5,13 +5,6 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
-    onInit: function () {
-      var oViewModel = new JSONModel({
-        currency: "EUR"
-      });
-      this.getView().setModel(oViewModel, "view");
-    },
-
     onOpenDetails: function (oEvent) {
       const oItem = oEvent.getSource();
       this.navTo("details", {

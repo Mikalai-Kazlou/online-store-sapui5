@@ -2,12 +2,20 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/model/BindingMode",
 	"sap/ui/Device"
-], function(JSONModel, BindingMode, Device) {
+], function (JSONModel, BindingMode, Device) {
 	"use strict";
 
 	return {
-		createDeviceModel : () => {
+		createDeviceModel: () => {
 			const oModel = new JSONModel(Device);
+			oModel.setDefaultBindingMode(BindingMode.OneWay);
+			return oModel;
+		},
+
+		createConstantModel: () => {
+			const oModel = new JSONModel({
+				currency: "USD"
+			});
 			oModel.setDefaultBindingMode(BindingMode.OneWay);
 			return oModel;
 		}
