@@ -1,22 +1,14 @@
 <mvc:View controllerName="com.exercise.onlinestoresapui5.controller.Main"
 	displayBlock="true"
 	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc">
 
 	<Page title="{i18n>mainPageTitle}"
 		class="sapUiResponsivePadding--header">
 		<headerContent>
-			<Button id="goToCartButton"
-				type="Default"
-				icon="sap-icon://cart"
-				text="{i18n>mainPageHeaderCartButtonText}"
-				press=".onOpenCart">
-				<customData>
-					<BadgeCustomData key="badge"
-						value="1"
-						visible="true"/>
-				</customData>
-			</Button>
+			<core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.CartInfo"
+				type="XML"/>
 		</headerContent>
 		<content>
 			<mvc:XMLView viewName="com.exercise.onlinestoresapui5.view.ProductCatalog"/>

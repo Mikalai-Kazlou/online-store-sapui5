@@ -9,6 +9,10 @@ sap.ui.define([
       oRouter.getRoute("details").attachPatternMatched(this._onObjectMatched, this);
     },
 
+    onOpenCart: function () {
+      this.navTo("cart");
+    },
+
     _onObjectMatched: function (oEvent) {
       this.getView().bindElement({
         path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").id),
