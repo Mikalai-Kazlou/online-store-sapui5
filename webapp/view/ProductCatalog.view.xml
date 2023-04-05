@@ -32,14 +32,13 @@
             </layoutData>
           </Image>
         </FlexBox>
-        <ObjectNumber class="sapUiSmallMarginTopBottom"
+        <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
           number="{
             parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
             type: 'sap.ui.model.type.Currency',
             formatOptions: {showMeasure: false}
           }"
-          unit="{constant>/currency}"
-          state="Success"/>
+          unit="{constant>/currency}"/>
         <Text text="{products>description}">
           <layoutData>
             <FlexItemData growFactor="1"/>
