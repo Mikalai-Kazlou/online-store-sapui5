@@ -5,59 +5,62 @@
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:grid="sap.ui.layout.cssgrid">
 
-  <f:GridList id="productCatalog"
-    class="sapUiResponsiveContentPadding"
-    headerText="{i18n>productCatalogTitle}"
-    items="{path: 'products>/products'}">
-    <f:customLayout>
-      <grid:GridBoxLayout boxMinWidth="20rem"/>
-    </f:customLayout>
-
-    <f:GridListItem>
-      <VBox class="sapUiSmallMargin"
-        height="93%">
-        <Title text="{products>title}"
-          wrapping="true"/>
-        <Label text="{products>brand}"
-          wrapping="true"/>
-        <FlexBox class="sapUiTinyMarginTop">
-          <Image src="{products>thumbnail}"
-            mode="Background"
-            width="100%"
-            height="16rem"
-            backgroundSize="cover"
-            backgroundPosition="center center">
+  <VBox class="sapUiMediumMarginBeginEnd sapUiTinyMarginTop">
+    <SearchField liveChange=".onSearch"/>
+  </VBox>
+  <VBox>
+    <f:GridList id="idProductCatalog"
+      class="sapUiResponsiveContentPadding"
+      headerText="{i18n>productCatalogTitle}"
+      items="{path: 'products>/products'}">
+      <f:customLayout>
+        <grid:GridBoxLayout boxMinWidth="20rem"/>
+      </f:customLayout>
+      <f:GridListItem>
+        <VBox class="sapUiSmallMargin"
+          height="93%">
+          <Title text="{products>title}"
+            wrapping="true"/>
+          <Label text="{products>brand}"
+            wrapping="true"/>
+          <FlexBox class="sapUiTinyMarginTop">
+            <Image src="{products>thumbnail}"
+              mode="Background"
+              width="100%"
+              height="16rem"
+              backgroundSize="cover"
+              backgroundPosition="center center">
+              <layoutData>
+                <FlexItemData growFactor="1"/>
+              </layoutData>
+            </Image>
+          </FlexBox>
+          <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
+            number="{
+              parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
+              type: 'sap.ui.model.type.Currency',
+              formatOptions: {showMeasure: false}
+            }"
+            unit="{constant>/currency}"/>
+          <Text text="{products>description}">
             <layoutData>
               <FlexItemData growFactor="1"/>
             </layoutData>
-          </Image>
-        </FlexBox>
-        <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
-          number="{
-            parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
-            type: 'sap.ui.model.type.Currency',
-            formatOptions: {showMeasure: false}
-          }"
-          unit="{constant>/currency}"/>
-        <Text text="{products>description}">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-        </Text>
-        <HBox class="sapUiTinyMarginTop"
-          justifyContent="SpaceBetween">
-          <Button text="{i18n>productCatalogAddToCartButtonText}"
-            width="8rem"
-            press=".onAddToCart">
-          </Button>
-          <Button text="{i18n>productCatalogDetailsButtonText}"
-            width="8rem"
-            press=".onOpenDetails">
-          </Button>
-        </HBox>
-      </VBox>
-    </f:GridListItem>
-
-  </f:GridList>
+          </Text>
+          <HBox class="sapUiTinyMarginTop"
+            justifyContent="SpaceBetween">
+            <Button text="{i18n>productCatalogAddToCartButtonText}"
+              width="8rem"
+              press=".onAddToCart">
+            </Button>
+            <Button text="{i18n>productCatalogDetailsButtonText}"
+              width="8rem"
+              press=".onOpenDetails">
+            </Button>
+          </HBox>
+        </VBox>
+      </f:GridListItem>
+    </f:GridList>
+  </VBox>
 
 </mvc:View>

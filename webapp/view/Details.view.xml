@@ -30,7 +30,8 @@
           </layoutData>
           <VBox class="sapUiMediumMargin"
             width="70%">
-            <fiori:MediaGallery items="{path: 'products>images'}">
+            <fiori:MediaGallery id="mediaGallery"
+              items="{path: 'products>images'}">
               <fiori:MediaGalleryItem>
                 <Image src="{products>}"/>
               </fiori:MediaGalleryItem>
