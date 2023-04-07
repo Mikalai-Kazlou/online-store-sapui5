@@ -9,6 +9,9 @@
     "build:opt": "ui5 build self-contained --clean-dest --all",
     "start": "ui5 serve --port 8080 -o index.html",
     "start:dist": "ui5 serve  --port 8080 -o index.html --config ui5-dist.yaml",
+    "local": "ui5 serve -o ./test/mockServer.html",
+    "utest": "ui5 serve -o ./test/unit/unitTests.qunit.html",
+    "itest": "ui5 serve -o ./test/integration/opaTests.qunit.html",
     "lint": "eslint webapp"
   },
   "devDependencies": {

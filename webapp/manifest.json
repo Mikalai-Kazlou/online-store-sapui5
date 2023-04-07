@@ -13,6 +13,13 @@
 			"products": {
 				"uri": "https://dummyjson.com/products?limit=100",
 				"type": "JSON"
+			},
+			"productsODataMock": {
+				"uri": "https://dummyjson.com/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
 			}
 		}
 	},

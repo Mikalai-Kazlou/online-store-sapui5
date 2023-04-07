@@ -1,0 +1,73 @@
+<edmx:Edmx Version="1.0"
+  xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0"
+    m:MaxDataServiceVersion="3.0"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="OnlineStoreModel"
+      xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityType Name="products">
+        <Key>
+          <PropertyRef Name="id"/>
+        </Key>
+        <Property Name="id"
+          Type="Edm.Int16"
+          Nullable="false"/>
+        <Property Name="title"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          FixedLength="false"
+          Unicode="true"/>
+        <Property Name="description"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="1024"
+          FixedLength="false"
+          Unicode="true"/>
+        <Property Name="price"
+          Type="Edm.Decimal"
+          Precision="19"
+          Scale="4"/>
+        <Property Name="discountPercentage"
+          Type="Edm.Decimal"
+          Precision="19"
+          Scale="4"/>
+        <Property Name="rating"
+          Type="Edm.Decimal"
+          Precision="19"
+          Scale="4"/>
+        <Property Name="stock"
+          Type="Edm.Int16"
+          Nullable="false"/>
+        <Property Name="brand"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          FixedLength="false"
+          Unicode="true"/>
+        <Property Name="category"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          FixedLength="false"
+          Unicode="true"/>
+        <Property Name="thumbnail"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="256"
+          FixedLength="false"
+          Unicode="true"/>
+      </EntityType>
+    </Schema>
+    <Schema Namespace="ODataWebV2.OnlineStore.Model"
+      xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityContainer Name="OnlineStoreEntities"
+        m:IsDefaultEntityContainer="true"
+        p6:LazyLoadingEnabled="true"
+        xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntitySet Name="products"
+          EntityType="OnlineStoreModel.products"/>
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

@@ -6,6 +6,17 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
+    onInit: function () {
+      // const oModel = this.getOwnerComponent().getModel("products");
+      // oModel.attachRequestCompleted(null, this._onDataCompleated);
+    },
+
+    _onDataCompleated(oEvent) {
+      const oModel = oEvent.getSource();
+      const aItems = oModel.getProperty("/products");
+      console.log(aItems);
+    },
+
     onOpenDetails: function (oEvent) {
       const oItem = oEvent.getSource();
       this.navTo("details", {
