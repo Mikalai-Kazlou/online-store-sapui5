@@ -5,41 +5,49 @@
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:grid="sap.ui.layout.cssgrid">
 
-  <VBox class="sapUiMediumMarginBeginEnd sapUiTinyMarginTopBottom">
-    <SearchField liveChange=".onSearch"/>
-    <HBox class="sapUiTinyMarginTop">
-      <VBox class="sapUiTinyMarginEnd">
-        <layoutData>
-          <FlexItemData growFactor="1"/>
-        </layoutData>
-        <Label class="sapUiSmallMarginBegin"
-          text="{i18n>filterPriceLabel}"
-          design="Bold"/>
-        <RangeSlider id="idFilterPrice"
-          showAdvancedTooltip="true"
-          width="100%"
-          showHandleTooltip="false"
-          inputsAsTooltips="true">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-        </RangeSlider>
+  <Panel expandable="true"
+    expanded="true"
+    headerText="Filters"
+    width="auto"
+    class="sapUiResponsiveMargin">
+    <content>
+      <VBox class="sapUiTinyMarginBottom">
+        <SearchField liveChange=".onSearch"/>
+        <HBox class="sapUiTinyMarginTop">
+          <VBox class="sapUiTinyMarginEnd">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterPriceLabel}"
+              design="Bold"/>
+            <RangeSlider id="idFilterPrice"
+              showAdvancedTooltip="true"
+              width="100%"
+              showHandleTooltip="false"
+              inputsAsTooltips="true">
+              <layoutData>
+                <FlexItemData growFactor="1"/>
+              </layoutData>
+            </RangeSlider>
+          </VBox>
+          <VBox class="sapUiTinyMarginBegin">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterStockLabel}"
+              design="Bold"/>
+            <RangeSlider id="idFilterStock"
+              showAdvancedTooltip="true"
+              width="100%"
+              showHandleTooltip="false"
+              inputsAsTooltips="true"/>
+          </VBox>
+        </HBox>
       </VBox>
-      <VBox class="sapUiTinyMarginBegin">
-        <layoutData>
-          <FlexItemData growFactor="1"/>
-        </layoutData>
-        <Label class="sapUiSmallMarginBegin"
-          text="{i18n>filterStockLabel}"
-          design="Bold"/>
-        <RangeSlider id="idFilterStock"
-          showAdvancedTooltip="true"
-          width="100%"
-          showHandleTooltip="false"
-          inputsAsTooltips="true"/>
-      </VBox>
-    </HBox>
-  </VBox>
+    </content>
+  </Panel>
 
   <VBox>
     <f:GridList id="idProductCatalog"
