@@ -17,9 +17,6 @@
           design="Bold"/>
         <RangeSlider id="idFilterPrice"
           showAdvancedTooltip="true"
-          range="0,500"
-          min="0"
-          max="500"
           width="100%"
           showHandleTooltip="false"
           inputsAsTooltips="true">
@@ -37,9 +34,6 @@
           design="Bold"/>
         <RangeSlider id="idFilterStock"
           showAdvancedTooltip="true"
-          range="0,500"
-          min="0"
-          max="500"
           width="100%"
           showHandleTooltip="false"
           inputsAsTooltips="true"/>

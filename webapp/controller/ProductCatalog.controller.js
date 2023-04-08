@@ -7,14 +7,25 @@ sap.ui.define([
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
     onInit: function () {
-      // const oModel = this.getOwnerComponent().getModel("products");
-      // oModel.attachRequestCompleted(null, this._onDataCompleated);
+      const oModel = this.getOwnerComponent().getModel("products");
+      oModel.attachBatchRequestCompleted(null, this._onBatchRequestCompleted.bind(this));
     },
 
-    _onDataCompleated(oEvent) {
+    _onBatchRequestCompleted(oEvent) {
       const oModel = oEvent.getSource();
-      const aItems = oModel.getProperty("/products");
-      console.log(aItems);
+      const aItems = Object.values(oModel.oData);
+
+      this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "price");
+      this._configureRangeFilter(this.byId("idFilterStock"), aItems, "stock");
+    },
+
+    _configureRangeFilter(filter, items, property) {
+      const min = items.reduce((min, item) => min < item[property] ? min : item[property]);
+      const max = items.reduce((max, item) => max > item[property] ? max : item[property]);
+
+      filter.setMin(min);
+      filter.setMax(max);
+      filter.setRange([min, max]);
     },
 
     onOpenDetails: function (oEvent) {

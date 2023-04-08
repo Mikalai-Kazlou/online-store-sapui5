@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "lib": [
+      "es2021",
+      "dom"
+    ],
     "module": "none",
     "noEmit": true,
     "checkJs": true,

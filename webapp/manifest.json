@@ -62,7 +62,7 @@
 				}
 			},
 			"products": {
-				"dataSource": "products"
+				"dataSource": "productsODataMock"
 			}
 		},
 		"routing": {
