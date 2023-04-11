@@ -4,30 +4,30 @@ sap.ui.define([
 ], function (Opa5, Press) {
   "use strict";
 
-  var sViewName = "sap.ui.demo.walkthrough.view.HelloPanel";
+  var sViewName = "com.exercise.onlinestoresapui5.view.Main";
 
   Opa5.createPageObjects({
-    onTheAppPage: {
+    onTheMainPage: {
       actions: {
-        iPressTheSayHelloWithDialogButton: function () {
+        iPressTheCartButton: function () {
           return this.waitFor({
-            id: "helloDialogButton",
+            id: "goToCartButton",
             viewName: sViewName,
             actions: new Press(),
-            errorMessage: "Did not find the 'Say Hello With Dialog' button on the HelloPanel view"
+            errorMessage: "Did not find the 'Cart' button on the Main view"
           });
         }
       },
 
       assertions: {
-        iShouldSeeTheHelloDialog: function () {
+        iShouldSeeTheCartPage: function () {
           return this.waitFor({
-            controlType: "sap.m.Dialog",
+            controlType: "sap.m.Page",
             success: function () {
               // we set the view busy, so we need to query the parent of the app
-              Opa5.assert.ok(true, "The dialog is open");
+              Opa5.assert.ok(true, "The Cart page is open");
             },
-            errorMessage: "Did not find the dialog control"
+            errorMessage: "Did not find the Cart page"
           });
         }
       }

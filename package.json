@@ -15,7 +15,6 @@
     "lint": "eslint webapp"
   },
   "devDependencies": {
-    "@sapui5/ts-types-esm": "1.112.1",
     "@ui5/cli": "^2.14.14",
     "eslint": "^8.27.0",
     "ui5-middleware-livereload": "^0.7.0"

@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
   "use strict";
 
   sap.ui.require([
-    "sap/ui/demo/walkthrough/test/integration/NavigationJourney"
+    "com/exercise/onlinestoresapui5/test/integration/NavigationJourney"
   ], function () {
     QUnit.start();
   });

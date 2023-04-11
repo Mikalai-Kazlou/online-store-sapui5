@@ -1,30 +1,30 @@
 /*global QUnit, opaTest*/
 
 sap.ui.define([
-  "sap/ui/demo/walkthrough/localService/mockserver",
+  "com/exercise/onlinestoresapui5/localService/mockserver",
   "sap/ui/test/opaQunit",
-  "./pages/App"
+  "./pages/Main"
 ], function (mockserver) {
   "use strict";
 
   QUnit.module("Navigation");
 
-  opaTest("Should open the Hello dialog", function (Given, When, Then) {
+  opaTest("Should open the Cart page", function (Given, When, Then) {
     // initialize the mock server
     mockserver.init();
 
     // Arrangements
     Given.iStartMyUIComponent({
       componentConfig: {
-        name: "sap.ui.demo.walkthrough"
+        name: "com.exercise.onlinestoresapui5"
       }
     });
 
     //Actions
-    When.onTheAppPage.iPressTheSayHelloWithDialogButton();
+    When.onTheMainPage.iPressTheCartButton();
 
     // Assertions
-    Then.onTheAppPage.iShouldSeeTheHelloDialog();
+    Then.onTheMainPage.iShouldSeeTheCartPage();
 
     // Cleanup
     Then.iTeardownMyApp();
