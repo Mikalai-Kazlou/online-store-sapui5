@@ -10,7 +10,7 @@
 			"version": "1.0.0"
 		},
 		"dataSources": {
-			"products": {
+			"mockdata": {
 				"uri": "https://dummyjson.com/",
 				"type": "OData",
 				"settings": {
@@ -57,8 +57,8 @@
 					"bundleName": "com.exercise.onlinestoresapui5.i18n.i18n"
 				}
 			},
-			"products": {
-				"dataSource": "products"
+			"mockdata": {
+				"dataSource": "mockdata"
 			}
 		},
 		"routing": {
@@ -82,7 +82,7 @@
 					"target": "cart"
 				},
 				{
-					"pattern": "details/{id}",
+					"pattern": "details/{path}",
 					"name": "details",
 					"target": "details"
 				}

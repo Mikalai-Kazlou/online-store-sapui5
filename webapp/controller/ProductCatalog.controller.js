@@ -7,7 +7,7 @@ sap.ui.define([
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
     onInit: function () {
-      const oModel = this.getOwnerComponent().getModel("products");
+      const oModel = this.getOwnerComponent().getModel("mockdata");
       oModel.attachBatchRequestCompleted(null, this._onBatchRequestCompleted.bind(this));
     },
 
@@ -15,13 +15,13 @@ sap.ui.define([
       const oModel = oEvent.getSource();
       const aItems = Object.values(oModel.oData);
 
-      this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "price");
-      this._configureRangeFilter(this.byId("idFilterStock"), aItems, "stock");
+      this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "Price");
+      this._configureRangeFilter(this.byId("idFilterStock"), aItems, "Stock");
     },
 
     _configureRangeFilter(filter, items, property) {
-      const min = items.reduce((min, item) => min < item[property] ? min : item[property]);
-      const max = items.reduce((max, item) => max > item[property] ? max : item[property]);
+      const min = items.reduce((min, item) => min < item[property] ? min : item[property], Number.MAX_SAFE_INTEGER);
+      const max = items.reduce((max, item) => max > item[property] ? max : item[property], 0);
 
       filter.setMin(min);
       filter.setMax(max);
@@ -31,7 +31,7 @@ sap.ui.define([
     onOpenDetails: function (oEvent) {
       const oItem = oEvent.getSource();
       this.navTo("details", {
-        id: window.encodeURIComponent(oItem.getBindingContext("products").getPath().slice(1))
+        path: window.encodeURIComponent(oItem.getBindingContext("mockdata").getPath().slice(1))
       });
     },
 

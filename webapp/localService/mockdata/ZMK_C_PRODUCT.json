@@ -1,0 +1,52 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 1,
+        "Title": "iPhone 9",
+        "Description": "An apple mobile which is nothing like apple",
+        "Price": 549.00,
+        "Currency": "USD",
+        "Discount": 12.96,
+        "Rating": 4.69,
+        "Stock": 94,
+        "Brand": "Apple",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 2,
+        "Title": "iPhone X",
+        "Description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "Price": 899.00,
+        "Currency": "USD",
+        "Discount": 17.94,
+        "Rating": 4.44,
+        "Stock": 34,
+        "Brand": "Apple",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)/to_Images"
+          }
+        }
+      }
+    ]
+  }
+}

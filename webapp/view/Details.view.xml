@@ -18,8 +18,8 @@
     <content>
       <ObjectHeader responsive="true"
         fullScreenOptimized="true"
-        intro="{products>brand}"
-        title="{products>title}">
+        intro="{mockdata>Brand}"
+        title="{mockdata>Title}">
       </ObjectHeader>
 
       <HBox>
@@ -30,10 +30,10 @@
           </layoutData>
           <VBox class="sapUiMediumMargin"
             width="70%">
-            <fiori:MediaGallery id="mediaGallery"
-              items="{path: 'products>images'}">
+            <fiori:MediaGallery id="idMediaGallery"
+              items="{path: 'mockdata>to_Images'}">
               <fiori:MediaGalleryItem>
-                <Image src="{products>}"/>
+                <Image src="{mockdata>Url}"/>
               </fiori:MediaGalleryItem>
             </fiori:MediaGallery>
           </VBox>
@@ -43,45 +43,45 @@
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsProductName}"
               design="Bold"/>
-            <Text text="{products>title}"/>
+            <Text text="{mockdata>Title}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsBrand}"
               design="Bold"/>
-            <Text text="{products>brand}"/>
+            <Text text="{mockdata>Brand}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsCategory}"
               design="Bold"/>
-            <Text text="{products>category}"/>
+            <Text text="{mockdata>Category}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsRating}"
               design="Bold"/>
-            <Text text="{products>rating}"/>
+            <Text text="{mockdata>Rating}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsDiscountPercentage}"
               design="Bold"/>
-            <Text text="{products>discountPercentage}"/>
+            <Text text="{mockdata>Discount}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom"
             width="70%">
             <Label text="{i18n>detailsDescription}"
               design="Bold"/>
-            <Text text="{products>description}"/>
+            <Text text="{mockdata>Description}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsStock}"
               design="Bold"/>
-            <Text text="{products>stock}"/>
+            <Text text="{mockdata>Stock}"/>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsPrice}"
               design="Bold"/>
             <ObjectNumber class="sapMObjectNumberLarge"
               number="{
-                parts: [{path: 'products>price'}, {path: 'constant>/currency'}],
+                parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
                 type: 'sap.ui.model.type.Currency',
                 formatOptions: {showMeasure: false}
               }"
