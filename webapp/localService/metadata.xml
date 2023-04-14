@@ -132,6 +132,32 @@
           FromRole="FromRole_assoc_832E1BCAE852FBA778239A3A1AB45407"
           ToRole="ToRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
       </EntityType>
+      <EntityType Name="ZMK_I_BRANDType"
+        sap:label="Brands"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="Brand"/>
+        </Key>
+        <Property Name="Brand"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          sap:label="Brand"
+          sap:quickinfo="Product brand"/>
+      </EntityType>
+      <EntityType Name="ZMK_I_CATEGORYType"
+        sap:label="Categories"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="Category"/>
+        </Key>
+        <Property Name="Category"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          sap:label="Category"
+          sap:quickinfo="Product category"/>
+      </EntityType>
       <EntityType Name="ZMK_I_IMAGEType"
         sap:label="Product images"
         sap:content-version="1">
@@ -170,6 +196,18 @@
         sap:supported-formats="atom json xlsx">
         <EntitySet Name="ZMK_C_PRODUCT"
           EntityType="ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <EntitySet Name="ZMK_I_BRAND"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <EntitySet Name="ZMK_I_CATEGORY"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
           sap:creatable="false"
           sap:updatable="false"
           sap:deletable="false"

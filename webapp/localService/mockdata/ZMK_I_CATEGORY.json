@@ -1,0 +1,166 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Groceries')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Groceries')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Groceries"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Smartphones')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Smartphones')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Smartphones"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Laptops')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Laptops')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Laptops"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Fragrances')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Fragrances')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Fragrances"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Furniture')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Furniture')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Furniture"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Skincare')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Skincare')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Skincare"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Home-decoration')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Home-decoration')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Home-decoration"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Lighting')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Lighting')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Lighting"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Tops')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Tops')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Tops"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-dresses')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-dresses')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Womens-dresses"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-shoes')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-shoes')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Womens-shoes"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-shirts')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-shirts')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Mens-shirts"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-shoes')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-shoes')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Mens-shoes"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-watches')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Mens-watches')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Mens-watches"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-watches')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-watches')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Womens-watches"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-bags')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-bags')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Womens-bags"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-jewellery')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Womens-jewellery')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Womens-jewellery"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Sunglasses')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Sunglasses')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Sunglasses"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Automotive')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Automotive')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Automotive"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Motorcycle')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_CATEGORY('Motorcycle')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+        },
+        "Category": "Motorcycle"
+      }
+    ]
+  }
+}
