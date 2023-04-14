@@ -29,7 +29,8 @@
                   sorter: {path: 'Category'}
                 }"
                 mode="MultiSelect"
-                includeItemInSelection="true">
+                includeItemInSelection="true"
+                selectionChange=".onFilterCategorySelectionChange">
                 <StandardListItem title="{mockdata>Category}"/>
               </List>
             </Panel>
@@ -48,7 +49,8 @@
                   sorter: {path: 'Brand'}
                 }"
                 mode="MultiSelect"
-                includeItemInSelection="true">
+                includeItemInSelection="true"
+                selectionChange=".onFilterBrandSelectionChange">
                 <StandardListItem title="{mockdata>Brand}"/>
               </List>
             </Panel>

@@ -295,7 +295,7 @@
           "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RED%20MICKY%20MOUSE..')",
           "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
         },
-        "Brand": "RED MICKY MOUSE.."
+        "Brand": "RED MICKY MOUSE"
       },
       {
         "__metadata": {
