@@ -53,10 +53,13 @@
     <f:GridList id="idProductCatalog"
       class="sapUiResponsiveContentPadding"
       headerText="{i18n>productCatalogTitle}"
-      items="{path: 'mockdata>/ZMK_C_PRODUCT'}"
-      growing="true">
+      items="{path: 'mockdata>/ZMK_C_PRODUCT', 
+          sorter: {path: 'ID'}
+        }"
+      growing="true"
+      growingScrollToLoad="true">
       <f:customLayout>
-        <grid:GridBoxLayout boxMinWidth="20rem"/>
+        <grid:GridBoxLayout boxMinWidth="22rem"/>
       </f:customLayout>
       <f:GridListItem>
         <VBox class="sapUiSmallMargin"
