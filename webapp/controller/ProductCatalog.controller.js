@@ -7,6 +7,13 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
+    onOpenDetails: function (oEvent) {
+      const oItem = oEvent.getSource();
+      this.navTo("details", {
+        path: window.encodeURIComponent(oItem.getBindingContext("mockdata").getPath().slice(1))
+      });
+    },
+
     onProductCatalogUpdateFinished(oEvent) {
       const oProductCatalog = oEvent.getSource();
       const oBinding = oProductCatalog.getBinding("items");
@@ -29,82 +36,62 @@ sap.ui.define([
       }
     },
 
-    onOpenDetails: function (oEvent) {
-      const oItem = oEvent.getSource();
-      this.navTo("details", {
-        path: window.encodeURIComponent(oItem.getBindingContext("mockdata").getPath().slice(1))
-      });
-    },
-
-    onSearch: function (oEvent) {
+    _applyFilters: function (filters, field) {
       const oProductCatalog = this.byId("idProductCatalog");
       const oBinding = oProductCatalog.getBinding("items");
 
       let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== "Title");
+      aFilters = aFilters.filter((item) => item.getPath() !== field);
+      aFilters = [...aFilters, ...filters];
+
+      oBinding.filter(aFilters, FilterType.Application);
+    },
+
+    _applyListFilter: function (oEvent, field) {
+      const aFilters = [];
+
+      const aSelectedItems = oEvent.getSource().getSelectedItems();
+      aSelectedItems.forEach((item) => {
+        aFilters.push(new Filter(field, FilterOperator.EQ, item.getTitle()));
+      });
+
+      this._applyFilters(aFilters, field);
+    },
+
+    _applyRangeFilter: function (oEvent, field) {
+      const aFilters = [];
+
+      const aRange = oEvent.getSource().getRange();
+      aFilters.push(new Filter(field, FilterOperator.BT, aRange[0], aRange[1]));
+
+      this._applyFilters(aFilters, field);
+    },
+
+    onSearch: function (oEvent) {
+      const aFilters = [];
 
       const sQuery = oEvent.getSource().getValue();
       if (sQuery && sQuery.length > 0) {
         aFilters.push(new Filter("Title", FilterOperator.Contains, sQuery));
       }
 
-      oBinding.filter(aFilters, FilterType.Application);
+      this._applyFilters(aFilters, "Title");
     },
 
     onFilterCategorySelectionChange: function (oEvent) {
-      const oProductCatalog = this.byId("idProductCatalog");
-      const oBinding = oProductCatalog.getBinding("items");
-
-      let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== "Category");
-
-      const aSelectedItems = oEvent.getSource().getSelectedItems();
-      aSelectedItems.forEach((item) => {
-        aFilters.push(new Filter("Category", FilterOperator.EQ, item.getTitle()));
-      });
-
-      oBinding.filter(aFilters, FilterType.Application);
+      this._applyListFilter(oEvent, "Category");
     },
 
     onFilterBrandSelectionChange: function (oEvent) {
-      const oProductCatalog = this.byId("idProductCatalog");
-      const oBinding = oProductCatalog.getBinding("items");
-
-      let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== "Brand");
-
-      const aSelectedItems = oEvent.getSource().getSelectedItems();
-      aSelectedItems.forEach((item) => {
-        aFilters.push(new Filter("Brand", FilterOperator.EQ, item.getTitle()));
-      });
-
-      oBinding.filter(aFilters, FilterType.Application);
+      this._applyListFilter(oEvent, "Brand");
     },
 
     onFilterPriceChange: function (oEvent) {
-      const oProductCatalog = this.byId("idProductCatalog");
-      const oBinding = oProductCatalog.getBinding("items");
-
-      let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== "Price");
-
-      const aRange = oEvent.getSource().getRange();
-      aFilters.push(new Filter("Price", FilterOperator.BT, aRange[0], aRange[1]));
-
-      oBinding.filter(aFilters, FilterType.Application);
+      this._applyRangeFilter(oEvent, "Price");
     },
 
     onFilterStockChange: function (oEvent) {
-      const oProductCatalog = this.byId("idProductCatalog");
-      const oBinding = oProductCatalog.getBinding("items");
-
-      let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== "Stock");
-
-      const aRange = oEvent.getSource().getRange();
-      aFilters.push(new Filter("Stock", FilterOperator.BT, aRange[0], aRange[1]));
-
-      oBinding.filter(aFilters, FilterType.Application);
+      this._applyRangeFilter(oEvent, "Stock");
     }
   });
 
