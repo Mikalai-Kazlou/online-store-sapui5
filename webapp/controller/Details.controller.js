@@ -1,8 +1,9 @@
 sap.ui.define([
   "./BaseController",
   "sap/ui/model/Filter",
+  "sap/ui/model/FilterType",
   "sap/ui/model/FilterOperator"
-], function (BaseController, Filter, FilterOperator) {
+], function (BaseController, Filter, FilterType, FilterOperator) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Details", {
@@ -26,7 +27,7 @@ sap.ui.define([
 
       const oMediaGallery = this.byId("idMediaGallery");
       const oBinding = oMediaGallery.getBinding("items");
-      oBinding.filter(aFilters, "Application");
+      oBinding.filter(aFilters, FilterType.Application);
     },
   });
 

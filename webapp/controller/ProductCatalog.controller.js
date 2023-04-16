@@ -8,9 +8,9 @@ sap.ui.define([
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
     onOpenDetails: function (oEvent) {
-      const oItem = oEvent.getSource();
+      const oButton = oEvent.getSource();
       this.navTo("details", {
-        path: window.encodeURIComponent(oItem.getBindingContext("mockdata").getPath().slice(1))
+        path: window.encodeURIComponent(oButton.getBindingContext("mockdata").getPath().slice(1))
       });
     },
 
@@ -92,6 +92,19 @@ sap.ui.define([
 
     onFilterStockChange: function (oEvent) {
       this._applyRangeFilter(oEvent, "Stock");
+    },
+
+    onAddToCart: function (oEvent) {
+      const oButton = oEvent.getSource();
+
+      const oModel = this.getModel("mockdata");
+      const oItemData = oModel.getData(oButton.getBindingContext("mockdata").getPath());
+
+      const oLocalDataModel = this.getModel("localdata");
+      const oCart = oLocalDataModel.getProperty("/cart");
+      oCart.push({ id: oItemData.ID, qnt: 1 });
+
+      localStorage.setItem("online-store-sapui5-localdata", oLocalDataModel.getJSON());
     }
   });
 

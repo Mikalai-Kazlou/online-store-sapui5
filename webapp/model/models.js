@@ -18,6 +18,13 @@ sap.ui.define([
 			});
 			oModel.setDefaultBindingMode(BindingMode.OneWay);
 			return oModel;
+		},
+
+		createLocalDataModel: () => {
+			const oModel = new JSONModel();
+			oModel.setJSON(localStorage.getItem("online-store-sapui5-localdata") || JSON.stringify({ cart: [] }));
+			oModel.setDefaultBindingMode(BindingMode.TwoWay);
+			return oModel;
 		}
 	};
 

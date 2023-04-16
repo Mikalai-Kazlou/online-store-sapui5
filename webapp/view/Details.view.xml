@@ -108,7 +108,7 @@
                 <Button class="sapUiSmallMargin"
                   text="{i18n>productCatalogBuyNowButtonText}"
                   width="8rem"
-                  press=".onOpenDetails">
+                  press=".onBuyNow">
                 </Button>
               </HBox>
             </VBox>
