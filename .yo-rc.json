@@ -6,8 +6,6 @@
     "frameworkVersion": "1.112.1",
     "author": "Mikalai Kazlou",
     "initrepo": true,
-    "tstypes": "@sapui5/ts-types-esm",
-    "tstypesVersion": "1.112.1",
     "appId": "com.exercise.onlinestoresapui5",
     "appURI": "com/exercise/onlinestoresapui5",
     "setupCompleted": true

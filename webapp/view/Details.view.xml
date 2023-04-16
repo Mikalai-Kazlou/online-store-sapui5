@@ -1,0 +1,122 @@
+<mvc:View controllerName="com.exercise.onlinestoresapui5.controller.Details"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  xmlns:fiori="sap.ui.webc.fiori">
+
+  <Page title="{i18n>detailsPageTitle}"
+    class="sapUiResponsivePadding--header"
+    showNavButton="true"
+    navButtonPress=".onNavBack">
+
+    <headerContent>
+      <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.CartInfo"
+        type="XML"/>
+    </headerContent>
+
+    <content>
+      <ObjectHeader responsive="true"
+        fullScreenOptimized="true"
+        intro="{mockdata>Brand}"
+        title="{mockdata>Title}">
+      </ObjectHeader>
+
+      <HBox>
+        <VBox alignItems="End"
+          justifyContent="Center">
+          <layoutData>
+            <FlexItemData growFactor="1"/>
+          </layoutData>
+          <VBox class="sapUiMediumMargin"
+            width="70%">
+            <fiori:MediaGallery id="idMediaGallery"
+              items="{path: 'mockdata>to_Images'}">
+              <fiori:MediaGalleryItem>
+                <Image src="{mockdata>Url}"/>
+              </fiori:MediaGalleryItem>
+            </fiori:MediaGallery>
+          </VBox>
+        </VBox>
+        <VBox class="sapUiMediumMargin"
+          width="35%">
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsProductName}"
+              design="Bold"/>
+            <Text text="{mockdata>Title}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsBrand}"
+              design="Bold"/>
+            <Text text="{mockdata>Brand}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsCategory}"
+              design="Bold"/>
+            <Text text="{mockdata>Category}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsRating}"
+              design="Bold"/>
+            <Text text="{mockdata>Rating}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsDiscountPercentage}"
+              design="Bold"/>
+            <Text text="{mockdata>Discount}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom"
+            width="70%">
+            <Label text="{i18n>detailsDescription}"
+              design="Bold"/>
+            <Text text="{mockdata>Description}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsStock}"
+              design="Bold"/>
+            <Text text="{mockdata>Stock}"/>
+          </VBox>
+          <VBox class="sapUiTinyMarginTopBottom">
+            <Label text="{i18n>detailsPrice}"
+              design="Bold"/>
+            <ObjectNumber class="sapMObjectNumberLarge"
+              number="{
+                parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
+                type: 'sap.ui.model.type.Currency',
+                formatOptions: {showMeasure: false}
+              }"
+              unit="{constant>/currency}"/>
+          </VBox>
+          <VBox class="sapUiLargeMarginTop"
+            alignItems="Center"
+            justifyContent="Center">
+            <VBox>
+              <StepInput value="1"
+                min="1"
+                max="99"
+                width="10rem"
+                textAlign="Center"/>
+            </VBox>
+            <VBox alignItems="Center"
+              justifyContent="Center">
+              <HBox class="sapUiSmallMarginTop">
+                <Button class="sapUiSmallMargin"
+                  text="{i18n>productCatalogAddToCartButtonText}"
+                  width="8rem"
+                  press=".onAddToCart">
+                </Button>
+                <Button class="sapUiSmallMargin"
+                  text="{i18n>productCatalogBuyNowButtonText}"
+                  width="8rem"
+                  press=".onOpenDetails">
+                </Button>
+              </HBox>
+            </VBox>
+          </VBox>
+        </VBox>
+      </HBox>
+    </content>
+
+  </Page>
+
+</mvc:View>
