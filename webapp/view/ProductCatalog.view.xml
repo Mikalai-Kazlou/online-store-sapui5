@@ -69,8 +69,8 @@
             <RangeSlider id="idFilterPrice"
               showAdvancedTooltip="true"
               showHandleTooltip="false"
-              inputsAsTooltips="true">
-            </RangeSlider>
+              inputsAsTooltips="true"
+              change=".onFilterPriceChange"/>
           </VBox>
           <VBox class="sapUiTinyMarginBegin"
             width="100%">
@@ -83,7 +83,8 @@
             <RangeSlider id="idFilterStock"
               showAdvancedTooltip="true"
               showHandleTooltip="false"
-              inputsAsTooltips="true"/>
+              inputsAsTooltips="true"
+              change=".onFilterStockChange"/>
           </VBox>
         </HBox>
       </VBox>
@@ -95,10 +96,11 @@
       class="sapUiResponsiveContentPadding"
       headerText="{i18n>productCatalogTitle}"
       items="{path: 'mockdata>/ZMK_C_PRODUCT', 
-          sorter: {path: 'ID'}
-        }"
+        sorter: {path: 'ID'}
+      }"
       growing="true"
-      growingScrollToLoad="true">
+      growingScrollToLoad="true"
+      updateFinished=".onProductCatalogUpdateFinished">
       <f:customLayout>
         <grid:GridBoxLayout boxMinWidth="22rem"/>
       </f:customLayout>
