@@ -1,0 +1,630 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SAAF%20%26%20KHAAS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SAAF%20%26%20KHAAS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SAAF & KHAAS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('APPLE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('APPLE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "APPLE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SAMSUNG')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SAMSUNG')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SAMSUNG"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('OPPO')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('OPPO')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "OPPO"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HUAWEI')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HUAWEI')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "HUAWEI"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MICROSOFT%20SURFACE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MICROSOFT%20SURFACE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "MICROSOFT SURFACE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('INFINIX')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('INFINIX')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "INFINIX"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HP%20PAVILION')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HP%20PAVILION')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "HP PAVILION"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IMPRESSION%20OF%20ACQUA%20DI%20GIO')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IMPRESSION%20OF%20ACQUA%20DI%20GIO')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "IMPRESSION OF ACQUA DI GIO"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ROYAL%20MIRAGE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ROYAL%20MIRAGE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "ROYAL MIRAGE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FOG%20SCENT%20XPRESSIO')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FOG%20SCENT%20XPRESSIO')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FOG SCENT XPRESSIO"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('AL%20MUNAKH')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('AL%20MUNAKH')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "AL MUNAKH"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LORD%20-%20AL-REHAB')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LORD%20-%20AL-REHAB')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LORD - AL-REHAB"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('AMNAMART')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('AMNAMART')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "AMNAMART"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HEMANI%20TEA')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('HEMANI%20TEA')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "HEMANI TEA"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DERMIVE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DERMIVE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DERMIVE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ROREC%20WHITE%20RICE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ROREC%20WHITE%20RICE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "ROREC WHITE RICE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FAIR%20%26%20CLEAR')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FAIR%20%26%20CLEAR')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FAIR & CLEAR"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('KITCHEN%20SHELF')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('KITCHEN%20SHELF')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "KITCHEN SHELF"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BAKE%20PARLOR%20BIG')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BAKE%20PARLOR%20BIG')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "BAKE PARLOR BIG"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BAKING%20FOOD%20ITEMS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BAKING%20FOOD%20ITEMS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "BAKING FOOD ITEMS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FAUJI')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FAUJI')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FAUJI"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DRY%20ROSE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DRY%20ROSE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DRY ROSE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BOHO%20DECOR')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BOHO%20DECOR')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "BOHO DECOR"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FLYING%20WOODEN')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FLYING%20WOODEN')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FLYING WOODEN"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LED%20LIGHTS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LED%20LIGHTS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LED LIGHTS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LUXURY%20PALACE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LUXURY%20PALACE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LUXURY PALACE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('GOLDEN')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('GOLDEN')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "GOLDEN"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FURNITURE%20BED%20SET')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FURNITURE%20BED%20SET')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FURNITURE BED SET"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RATTTAN%20OUTDOOR')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RATTTAN%20OUTDOOR')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "RATTTAN OUTDOOR"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DADAWU')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DADAWU')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DADAWU"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MULTI%20PURPOSE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MULTI%20PURPOSE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "MULTI PURPOSE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('PROFESSIONAL%20WEAR')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('PROFESSIONAL%20WEAR')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "PROFESSIONAL WEAR"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DIGITAL%20PRINTED')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DIGITAL%20PRINTED')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DIGITAL PRINTED"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SOFT%20COTTON')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SOFT%20COTTON')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SOFT COTTON"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('TOP%20SWEATER')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('TOP%20SWEATER')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "TOP SWEATER"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RED%20MICKY%20MOUSE..')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RED%20MICKY%20MOUSE..')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "RED MICKY MOUSE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('GHAZI%20FABRIC')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('GHAZI%20FABRIC')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "GHAZI FABRIC"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IELGY')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IELGY')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "IELGY"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IELGY%20FASHION')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IELGY%20FASHION')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "IELGY FASHION"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SYNTHETIC%20LEATHER')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SYNTHETIC%20LEATHER')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SYNTHETIC LEATHER"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SANDALS%20FLIP%20FLOPS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SANDALS%20FLIP%20FLOPS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SANDALS FLIP FLOPS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MAASAI%20SANDALS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MAASAI%20SANDALS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "MAASAI SANDALS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ARRIVALS%20GENUINE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('ARRIVALS%20GENUINE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "ARRIVALS GENUINE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('VINTAGE%20APPAREL')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('VINTAGE%20APPAREL')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "VINTAGE APPAREL"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FREE%20FIRE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FREE%20FIRE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FREE FIRE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('THE%20WAREHOUSE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('THE%20WAREHOUSE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "THE WAREHOUSE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SNEAKERS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SNEAKERS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SNEAKERS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RUBBER')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('RUBBER')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "RUBBER"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('NAVIFORCE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('NAVIFORCE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "NAVIFORCE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SKMEI%209117')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SKMEI%209117')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SKMEI 9117"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STRAP%20SKELETON')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STRAP%20SKELETON')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "STRAP SKELETON"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STAINLESS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STAINLESS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "STAINLESS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('EASTERN%20WATCHES')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('EASTERN%20WATCHES')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "EASTERN WATCHES"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LUXURY%20DIGITAL')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LUXURY%20DIGITAL')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LUXURY DIGITAL"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('WATCH%20PEARLS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('WATCH%20PEARLS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "WATCH PEARLS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BRACELET')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BRACELET')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "BRACELET"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LOUISWILL')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LOUISWILL')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LOUISWILL"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('COPENHAGEN%20LUXE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('COPENHAGEN%20LUXE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "COPENHAGEN LUXE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STEAL%20FRAME')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('STEAL%20FRAME')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "STEAL FRAME"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DAROJAY')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DAROJAY')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DAROJAY"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FASHION%20JEWELLERY')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('FASHION%20JEWELLERY')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "FASHION JEWELLERY"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('CUFF%20BUTTERFLY')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('CUFF%20BUTTERFLY')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "CUFF BUTTERFLY"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DESIGNER%20SUN%20GLASSES')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('DESIGNER%20SUN%20GLASSES')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "DESIGNER SUN GLASSES"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MASTAR%20WATCH')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('MASTAR%20WATCH')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "MASTAR WATCH"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('CAR%20AUX')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('CAR%20AUX')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "CAR AUX"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('W1209%20DC12V')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('W1209%20DC12V')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "W1209 DC12V"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('TC%20REUSABLE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('TC%20REUSABLE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "TC REUSABLE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('NEON%20LED%20LIGHT')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('NEON%20LED%20LIGHT')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "NEON LED LIGHT"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('METRO%2070CC%20MOTORCYCLE%20-%20MR70')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('METRO%2070CC%20MOTORCYCLE%20-%20MR70')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "METRO 70CC MOTORCYCLE - MR70"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BRAVE%20BULL')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('BRAVE%20BULL')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "BRAVE BULL"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SHOCK%20ABSORBER')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('SHOCK%20ABSORBER')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "SHOCK ABSORBER"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('JIEPOLLY')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('JIEPOLLY')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "JIEPOLLY"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('XIANGLE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('XIANGLE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "XIANGLE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LIGHTINGBRILLIANCE')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('LIGHTINGBRILLIANCE')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "LIGHTINGBRILLIANCE"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IFEI%20HOME')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('IFEI%20HOME')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "IFEI HOME"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('L''OREAL%20PARIS')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('L''OREAL%20PARIS')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "L'OREAL PARIS"
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('YIOSI')",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_I_BRAND('YIOSI')",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+        },
+        "Brand": "YIOSI"
+      }
+    ]
+  }
+}

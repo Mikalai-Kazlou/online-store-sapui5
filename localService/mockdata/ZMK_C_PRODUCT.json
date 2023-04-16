@@ -1,0 +1,2306 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(21)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(21)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 21,
+        "Title": "Daal Masoor 500 grams",
+        "Description": "Fine quality Branded Product Keep in a cool and dry place",
+        "Price": 20.00,
+        "Currency": "USD",
+        "Discount": 4.810000,
+        "Rating": 4.440000,
+        "Stock": 133,
+        "Brand": "SAAF & KHAAS",
+        "Category": "Groceries",
+        "Thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.png",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(21)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 2,
+        "Title": "IPhone X",
+        "Description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "Price": 899.00,
+        "Currency": "USD",
+        "Discount": 17.940000,
+        "Rating": 4.440000,
+        "Stock": 34,
+        "Brand": "APPLE",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(3)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(3)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 3,
+        "Title": "Samsung Universe 9",
+        "Description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+        "Price": 1249.00,
+        "Currency": "USD",
+        "Discount": 15.460000,
+        "Rating": 4.090000,
+        "Stock": 36,
+        "Brand": "SAMSUNG",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(3)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(4)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(4)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 4,
+        "Title": "OPPOF19",
+        "Description": "OPPO F19 is officially announced on April 2021.",
+        "Price": 280.00,
+        "Currency": "USD",
+        "Discount": 17.910000,
+        "Rating": 4.300000,
+        "Stock": 123,
+        "Brand": "OPPO",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(4)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(5)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(5)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 5,
+        "Title": "Huawei P30",
+        "Description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to ...",
+        "Price": 499.00,
+        "Currency": "USD",
+        "Discount": 10.580000,
+        "Rating": 4.090000,
+        "Stock": 32,
+        "Brand": "HUAWEI",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(5)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(6)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(6)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 6,
+        "Title": "MacBook Pro",
+        "Description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+        "Price": 1749.00,
+        "Currency": "USD",
+        "Discount": 11.020000,
+        "Rating": 4.570000,
+        "Stock": 83,
+        "Brand": "APPLE",
+        "Category": "Laptops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(6)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(7)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(7)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 7,
+        "Title": "Samsung Galaxy Book",
+        "Description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched ...",
+        "Price": 1499.00,
+        "Currency": "USD",
+        "Discount": 4.150000,
+        "Rating": 4.250000,
+        "Stock": 50,
+        "Brand": "SAMSUNG",
+        "Category": "Laptops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(7)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(8)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(8)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 8,
+        "Title": "Microsoft Surface Laptop 4",
+        "Description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+        "Price": 1499.00,
+        "Currency": "USD",
+        "Discount": 10.230000,
+        "Rating": 4.430000,
+        "Stock": 68,
+        "Brand": "MICROSOFT SURFACE",
+        "Category": "Laptops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(8)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(9)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(9)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 9,
+        "Title": "Infinix INBOOK",
+        "Description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+        "Price": 1099.00,
+        "Currency": "USD",
+        "Discount": 11.830000,
+        "Rating": 4.540000,
+        "Stock": 96,
+        "Brand": "INFINIX",
+        "Category": "Laptops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(9)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(10)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(10)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 10,
+        "Title": "HP Pavilion 15-DK1056WM",
+        "Description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+        "Price": 1099.00,
+        "Currency": "USD",
+        "Discount": 6.180000,
+        "Rating": 4.430000,
+        "Stock": 89,
+        "Brand": "HP PAVILION",
+        "Category": "Laptops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(10)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(11)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(11)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 11,
+        "Title": "Perfume Oil",
+        "Description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+        "Price": 13.00,
+        "Currency": "USD",
+        "Discount": 8.400000,
+        "Rating": 4.260000,
+        "Stock": 65,
+        "Brand": "IMPRESSION OF ACQUA DI GIO",
+        "Category": "Fragrances",
+        "Thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(11)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(12)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(12)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 12,
+        "Title": "Brown Perfume",
+        "Description": "Royal Mirage Sport Brown Perfume for Men & Women - 120ml",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 15.660000,
+        "Rating": 4.000000,
+        "Stock": 52,
+        "Brand": "ROYAL MIRAGE",
+        "Category": "Fragrances",
+        "Thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(12)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(13)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(13)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 13,
+        "Title": "Fog Scent Xpressio Perfume",
+        "Description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men ...",
+        "Price": 13.00,
+        "Currency": "USD",
+        "Discount": 8.140000,
+        "Rating": 4.590000,
+        "Stock": 61,
+        "Brand": "FOG SCENT XPRESSIO",
+        "Category": "Fragrances",
+        "Thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(13)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(14)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(14)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 14,
+        "Title": "Non-Alcoholic Concentrated Perfume Oil",
+        "Description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+        "Price": 120.00,
+        "Currency": "USD",
+        "Discount": 15.600000,
+        "Rating": 4.210000,
+        "Stock": 114,
+        "Brand": "AL MUNAKH",
+        "Category": "Fragrances",
+        "Thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(14)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(15)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(15)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 15,
+        "Title": "Eau De Perfume Spray",
+        "Description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 10.990000,
+        "Rating": 4.700000,
+        "Stock": 105,
+        "Brand": "LORD - AL-REHAB",
+        "Category": "Fragrances",
+        "Thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(15)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(35)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(35)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 35,
+        "Title": "DOOR PORTABLE",
+        "Description": "Material: Stainless Steel and Fabric  Item Size: 110 cm x 45 cm x 175 cm Package Contents: 1 Storage Wardrobe",
+        "Price": 41.00,
+        "Currency": "USD",
+        "Discount": 7.980000,
+        "Rating": 4.060000,
+        "Stock": 68,
+        "Brand": "AMNAMART",
+        "Category": "Furniture",
+        "Thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(35)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(17)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(17)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 17,
+        "Title": "Tree Oil 30ml",
+        "Description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria, ...",
+        "Price": 12.00,
+        "Currency": "USD",
+        "Discount": 4.090000,
+        "Rating": 4.520000,
+        "Stock": 78,
+        "Brand": "HEMANI TEA",
+        "Category": "Skincare",
+        "Thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(17)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(18)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(18)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 18,
+        "Title": "Oil Free Moisturizer 100ml",
+        "Description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 13.100000,
+        "Rating": 4.560000,
+        "Stock": 88,
+        "Brand": "DERMIVE",
+        "Category": "Skincare",
+        "Thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(18)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(19)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(19)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 19,
+        "Title": "Skin Beauty Serum.",
+        "Description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m...",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 10.680000,
+        "Rating": 4.420000,
+        "Stock": 54,
+        "Brand": "ROREC WHITE RICE",
+        "Category": "Skincare",
+        "Thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(19)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(20)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(20)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 20,
+        "Title": "Freckle Treatment Cream- 15gm",
+        "Description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so the ...",
+        "Price": 70.00,
+        "Currency": "USD",
+        "Discount": 16.990000,
+        "Rating": 4.060000,
+        "Stock": 140,
+        "Brand": "FAIR & CLEAR",
+        "Category": "Skincare",
+        "Thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(20)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(33)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(33)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 33,
+        "Title": "Tier Corner Shelves",
+        "Description": "Tier Corner Shelves | 3 PCs Wall Mount Kitchen Shelf | Floating Bedroom Shelf",
+        "Price": 700.00,
+        "Currency": "USD",
+        "Discount": 17.000000,
+        "Rating": 4.310000,
+        "Stock": 106,
+        "Brand": "KITCHEN SHELF",
+        "Category": "Furniture",
+        "Thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(33)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(22)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(22)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 22,
+        "Title": "Elbow Macaroni - 400 gm",
+        "Description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+        "Price": 14.00,
+        "Currency": "USD",
+        "Discount": 15.580000,
+        "Rating": 4.570000,
+        "Stock": 146,
+        "Brand": "BAKE PARLOR BIG",
+        "Category": "Groceries",
+        "Thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(22)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(23)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(23)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 23,
+        "Title": "Orange Essence Food Flavou",
+        "Description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+        "Price": 14.00,
+        "Currency": "USD",
+        "Discount": 8.040000,
+        "Rating": 4.850000,
+        "Stock": 26,
+        "Brand": "BAKING FOOD ITEMS",
+        "Category": "Groceries",
+        "Thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(23)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(24)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(24)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 24,
+        "Title": "Cereals muesli fruit nuts",
+        "Description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicer ...",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 16.800000,
+        "Rating": 4.940000,
+        "Stock": 113,
+        "Brand": "FAUJI",
+        "Category": "Groceries",
+        "Thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(24)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(25)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(25)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 25,
+        "Title": "Gulab Powder 50 Gram",
+        "Description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+        "Price": 70.00,
+        "Currency": "USD",
+        "Discount": 13.580000,
+        "Rating": 4.870000,
+        "Stock": 47,
+        "Brand": "DRY ROSE",
+        "Category": "Groceries",
+        "Thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(25)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(26)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(26)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 26,
+        "Title": "Plant Hanger For Home",
+        "Description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+        "Price": 41.00,
+        "Currency": "USD",
+        "Discount": 17.860000,
+        "Rating": 4.080000,
+        "Stock": 131,
+        "Brand": "BOHO DECOR",
+        "Category": "Home-decoration",
+        "Thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(26)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(27)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(27)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 27,
+        "Title": "Flying Wooden Bird",
+        "Description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+        "Price": 51.00,
+        "Currency": "USD",
+        "Discount": 15.580000,
+        "Rating": 4.410000,
+        "Stock": 17,
+        "Brand": "FLYING WOODEN",
+        "Category": "Home-decoration",
+        "Thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(27)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(28)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(28)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 28,
+        "Title": "3D Embellishment Art Lamp",
+        "Description": "3D led lamp sticker Wall sticker 3d wall art light on/off button cell operated (included)",
+        "Price": 20.00,
+        "Currency": "USD",
+        "Discount": 16.490000,
+        "Rating": 4.820000,
+        "Stock": 54,
+        "Brand": "LED LIGHTS",
+        "Category": "Home-decoration",
+        "Thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(28)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(29)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(29)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 29,
+        "Title": "Handcraft Chinese style",
+        "Description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+        "Price": 60.00,
+        "Currency": "USD",
+        "Discount": 15.340000,
+        "Rating": 4.440000,
+        "Stock": 7,
+        "Brand": "LUXURY PALACE",
+        "Category": "Home-decoration",
+        "Thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(29)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(30)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(30)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 30,
+        "Title": "Key Holder",
+        "Description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 2.920000,
+        "Rating": 4.920000,
+        "Stock": 54,
+        "Brand": "GOLDEN",
+        "Category": "Home-decoration",
+        "Thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(30)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(31)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(31)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 31,
+        "Title": "Mornadi Velvet Bed",
+        "Description": "Mornadi Velvet Bed Base with Headboard Slats Support Classic Style Bedroom Furniture Bed Set",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 17.000000,
+        "Rating": 4.160000,
+        "Stock": 140,
+        "Brand": "FURNITURE BED SET",
+        "Category": "Furniture",
+        "Thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(31)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(32)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(32)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 32,
+        "Title": "Sofa for Coffe Cafe",
+        "Description": "Ratttan Outdoor furniture Set Waterproof Rattan Sofa for Coffe Cafe",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 15.590000,
+        "Rating": 4.740000,
+        "Stock": 30,
+        "Brand": "RATTTAN OUTDOOR",
+        "Category": "Furniture",
+        "Thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(32)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(98)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(98)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 98,
+        "Title": "Lights lndenpant kitchen islang",
+        "Description": "Lights lndenpant kitchen islang dining room pendant rice paper chandelier contemporary led pendant light modern chandelier ...",
+        "Price": 34.00,
+        "Currency": "USD",
+        "Discount": 5.920000,
+        "Rating": 4.990000,
+        "Stock": 44,
+        "Brand": "DADAWU",
+        "Category": "Lighting",
+        "Thumbnail": "https://i.dummyjson.com/data/products/98/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(98)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(34)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(34)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 34,
+        "Title": "Plastic Table",
+        "Description": "Very good quality plastic table for multi purpose now in reasonable price",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 4.000000,
+        "Rating": 4.010000,
+        "Stock": 136,
+        "Brand": "MULTI PURPOSE",
+        "Category": "Furniture",
+        "Thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(34)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 1,
+        "Title": "IPhone 9",
+        "Description": "An apple mobile which is nothing like apple",
+        "Price": 549.00,
+        "Currency": "USD",
+        "Discount": 12.960000,
+        "Rating": 4.690000,
+        "Stock": 94,
+        "Brand": "APPLE",
+        "Category": "Smartphones",
+        "Thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(36)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(36)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 36,
+        "Title": "Sleeve Shirt Womens",
+        "Description": "Cotton Solid Color Professional Wear Sleeve Shirt Womens Work Blouses Wholesale Clothing Casual Plain Custom Top OEM Customized",
+        "Price": 90.00,
+        "Currency": "USD",
+        "Discount": 10.890000,
+        "Rating": 4.260000,
+        "Stock": 39,
+        "Brand": "PROFESSIONAL WEAR",
+        "Category": "Tops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(36)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(42)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(42)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 42,
+        "Title": "Stiched Kurta plus trouser",
+        "Description": "FABRIC: LILEIN CHEST: 21 LENGHT: 37 TROUSER: 38: ARABIC LILEIN",
+        "Price": 80.00,
+        "Currency": "USD",
+        "Discount": 15.370000,
+        "Rating": 4.050000,
+        "Stock": 148,
+        "Brand": "DIGITAL PRINTED",
+        "Category": "Womens-dresses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(42)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(38)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(38)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 38,
+        "Title": "Sublimation plain kids tank",
+        "Description": "Sublimation plain kids tank tops wholesale",
+        "Price": 100.00,
+        "Currency": "USD",
+        "Discount": 11.120000,
+        "Rating": 4.800000,
+        "Stock": 20,
+        "Brand": "SOFT COTTON",
+        "Category": "Tops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(38)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(39)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(39)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 39,
+        "Title": "Women Sweaters Wool",
+        "Description": "2021 Custom Winter Fall Zebra Knit Crop Top Women Sweaters Wool Mohair Cos Customize Crew Neck Women's Crop Top Sweater",
+        "Price": 600.00,
+        "Currency": "USD",
+        "Discount": 17.200000,
+        "Rating": 4.550000,
+        "Stock": 55,
+        "Brand": "TOP SWEATER",
+        "Category": "Tops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(39)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(40)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(40)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 40,
+        "Title": "Women winter clothes",
+        "Description": "Women winter clothes thick fleece hoodie top with sweat pantjogger women sweatsuit set joggers pants two piece pants set ...",
+        "Price": 57.00,
+        "Currency": "USD",
+        "Discount": 13.390000,
+        "Rating": 4.910000,
+        "Stock": 84,
+        "Brand": "TOP SWEATER",
+        "Category": "Tops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(40)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(41)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(41)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 41,
+        "Title": "NIGHT SUIT",
+        "Description": "NIGHT SUIT RED MICKY MOUSE. For Girls. Fantastic Suits.",
+        "Price": 55.00,
+        "Currency": "USD",
+        "Discount": 15.050000,
+        "Rating": 4.650000,
+        "Stock": 21,
+        "Brand": "RED MICKY MOUSE",
+        "Category": "Womens-dresses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(41)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(43)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(43)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 43,
+        "Title": "Frock gold printed",
+        "Description": "Ghazi fabric long frock gold printed ready to wear stitched collection (G992)",
+        "Price": 600.00,
+        "Currency": "USD",
+        "Discount": 15.550000,
+        "Rating": 4.310000,
+        "Stock": 150,
+        "Brand": "GHAZI FABRIC",
+        "Category": "Womens-dresses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(43)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(44)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(44)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 44,
+        "Title": "Ladies Multicolored Dress",
+        "Description": "This classy shirt for women gives you a gorgeous look on everyday wear and specially for semi-casual wears.",
+        "Price": 79.00,
+        "Currency": "USD",
+        "Discount": 16.880000,
+        "Rating": 4.030000,
+        "Stock": 2,
+        "Brand": "GHAZI FABRIC",
+        "Category": "Womens-dresses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(44)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(45)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(45)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 45,
+        "Title": "Malai Maxi Dress",
+        "Description": "Ready to wear, Unique design according to modern standard fashion, Best fitting, Imported stuff",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 5.070000,
+        "Rating": 4.670000,
+        "Stock": 96,
+        "Brand": "IELGY",
+        "Category": "Womens-dresses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(45)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(46)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(46)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 46,
+        "Title": "Women's shoes",
+        "Description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 16.960000,
+        "Rating": 4.140000,
+        "Stock": 72,
+        "Brand": "IELGY FASHION",
+        "Category": "Womens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(46)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(47)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(47)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 47,
+        "Title": "Sneaker shoes",
+        "Description": "Synthetic Leather Casual Sneaker shoes for Women/girls Sneakers For Women",
+        "Price": 120.00,
+        "Currency": "USD",
+        "Discount": 10.370000,
+        "Rating": 4.190000,
+        "Stock": 50,
+        "Brand": "SYNTHETIC LEATHER",
+        "Category": "Womens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/47/thumbnail.jpeg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(47)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(48)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(48)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 48,
+        "Title": "Women Strip Heel",
+        "Description": "Features: Flip-flops, Mid Heel, Comfortable, Striped Heel, Antiskid, Striped",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 10.830000,
+        "Rating": 4.020000,
+        "Stock": 25,
+        "Brand": "SANDALS FLIP FLOPS",
+        "Category": "Womens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(48)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(49)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(49)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 49,
+        "Title": "Chappals & Shoe Ladies Metallic",
+        "Description": "Womens Chappals & Shoe Ladies Metallic Tong Thong Sandal Flat Summer 2020 Maasai Sandals",
+        "Price": 23.00,
+        "Currency": "USD",
+        "Discount": 2.620000,
+        "Rating": 4.720000,
+        "Stock": 107,
+        "Brand": "MAASAI SANDALS",
+        "Category": "Womens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(49)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(50)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(50)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 50,
+        "Title": "Women Shoes",
+        "Description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+        "Price": 36.00,
+        "Currency": "USD",
+        "Discount": 16.870000,
+        "Rating": 4.330000,
+        "Stock": 46,
+        "Brand": "ARRIVALS GENUINE",
+        "Category": "Womens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(50)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(51)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(51)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 51,
+        "Title": "Half sleeves T shirts",
+        "Description": "Many store is creating new designs and trend every month and every year. Daraz.pk have a beautiful range of men fashion brands",
+        "Price": 23.00,
+        "Currency": "USD",
+        "Discount": 12.760000,
+        "Rating": 4.260000,
+        "Stock": 132,
+        "Brand": "VINTAGE APPAREL",
+        "Category": "Mens-shirts",
+        "Thumbnail": "https://i.dummyjson.com/data/products/51/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(51)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(52)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(52)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 52,
+        "Title": "FREE FIRE T Shirt",
+        "Description": "quality and professional print - It doesn't just look high quality, it is high quality.",
+        "Price": 10.00,
+        "Currency": "USD",
+        "Discount": 14.720000,
+        "Rating": 4.520000,
+        "Stock": 128,
+        "Brand": "FREE FIRE",
+        "Category": "Mens-shirts",
+        "Thumbnail": "https://i.dummyjson.com/data/products/52/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(52)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(53)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(53)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 53,
+        "Title": "Printed high quality T shirts",
+        "Description": "Brand: vintage Apparel ,Export quality",
+        "Price": 35.00,
+        "Currency": "USD",
+        "Discount": 7.540000,
+        "Rating": 4.890000,
+        "Stock": 6,
+        "Brand": "VINTAGE APPAREL",
+        "Category": "Mens-shirts",
+        "Thumbnail": "https://i.dummyjson.com/data/products/53/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(53)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(54)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(54)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 54,
+        "Title": "Pubg Printed Graphic T-Shirt",
+        "Description": "Product Description Features: 100% Ultra soft Polyester Jersey. Vibrant & colorful printing on front. Feels soft as cotton ...",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 16.440000,
+        "Rating": 4.620000,
+        "Stock": 136,
+        "Brand": "THE WAREHOUSE",
+        "Category": "Mens-shirts",
+        "Thumbnail": "https://i.dummyjson.com/data/products/54/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(54)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(55)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(55)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 55,
+        "Title": "Money Heist Printed Summer T Shirts",
+        "Description": "Fabric Jercy, Size: M & L Wear Stylish Dual Stiched",
+        "Price": 66.00,
+        "Currency": "USD",
+        "Discount": 15.970000,
+        "Rating": 4.900000,
+        "Stock": 122,
+        "Brand": "THE WAREHOUSE",
+        "Category": "Mens-shirts",
+        "Thumbnail": "https://i.dummyjson.com/data/products/55/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(55)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(56)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(56)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 56,
+        "Title": "Sneakers Joggers Shoes",
+        "Description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 12.570000,
+        "Rating": 4.380000,
+        "Stock": 6,
+        "Brand": "SNEAKERS",
+        "Category": "Mens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/56/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(56)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(57)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(57)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 57,
+        "Title": "Loafers for men",
+        "Description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+        "Price": 47.00,
+        "Currency": "USD",
+        "Discount": 10.910000,
+        "Rating": 4.910000,
+        "Stock": 20,
+        "Brand": "RUBBER",
+        "Category": "Mens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/57/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(57)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(58)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(58)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 58,
+        "Title": "Formal offices shoes",
+        "Description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+        "Price": 57.00,
+        "Currency": "USD",
+        "Discount": 12.000000,
+        "Rating": 4.410000,
+        "Stock": 68,
+        "Brand": "THE WAREHOUSE",
+        "Category": "Mens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/58/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(58)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(59)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(59)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 59,
+        "Title": "Spring and summershoes",
+        "Description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+        "Price": 20.00,
+        "Currency": "USD",
+        "Discount": 8.710000,
+        "Rating": 4.330000,
+        "Stock": 137,
+        "Brand": "SNEAKERS",
+        "Category": "Mens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/59/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(59)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(60)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(60)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 60,
+        "Title": "Stylish Casual Jeans Shoes",
+        "Description": "High Quality, Stylish design, Comfortable wear, FAshion, Durable",
+        "Price": 58.00,
+        "Currency": "USD",
+        "Discount": 7.550000,
+        "Rating": 4.550000,
+        "Stock": 129,
+        "Brand": "SNEAKERS",
+        "Category": "Mens-shoes",
+        "Thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(60)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(61)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(61)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 61,
+        "Title": "Leather Straps Wristwatch",
+        "Description": "Style:Sport, Clasp:Buckles, Water Resistance Depth: 3Bar",
+        "Price": 120.00,
+        "Currency": "USD",
+        "Discount": 7.140000,
+        "Rating": 4.630000,
+        "Stock": 91,
+        "Brand": "NAVIFORCE",
+        "Category": "Mens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/61/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(61)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(62)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(62)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 62,
+        "Title": "Waterproof Leather Brand Watch",
+        "Description": "Watch Crown With Environmental IPS Bronze Electroplating; Display system of 12 hours",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 3.150000,
+        "Rating": 4.050000,
+        "Stock": 95,
+        "Brand": "SKMEI 9117",
+        "Category": "Mens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/62/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(62)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(63)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(63)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 63,
+        "Title": "Royal Blue Premium Watch",
+        "Description": "Men Silver Chain Royal Blue Premium Watch Latest Analog Watch",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 2.560000,
+        "Rating": 4.890000,
+        "Stock": 142,
+        "Brand": "SKMEI 9117",
+        "Category": "Mens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(63)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(64)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(64)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 64,
+        "Title": "Leather Strap Skeleton Watch",
+        "Description": "Leather Strap Skeleton Watch for Men - Stylish and Latest Design",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 10.200000,
+        "Rating": 4.980000,
+        "Stock": 61,
+        "Brand": "STRAP SKELETON",
+        "Category": "Mens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/64/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(64)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(65)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(65)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 65,
+        "Title": "Stainless Steel Wrist Watch",
+        "Description": "Stylish Watch For Man (Luxury) Classy Men's Stainless Steel Wrist Watch - Box Packed",
+        "Price": 47.00,
+        "Currency": "USD",
+        "Discount": 17.790000,
+        "Rating": 4.790000,
+        "Stock": 94,
+        "Brand": "STAINLESS",
+        "Category": "Mens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/65/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(65)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(66)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(66)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 66,
+        "Title": "Steel Analog Couple Watches",
+        "Description": "Elegant design, Stylish ,Unique & Trendy,Comfortable wear",
+        "Price": 35.00,
+        "Currency": "USD",
+        "Discount": 3.230000,
+        "Rating": 4.790000,
+        "Stock": 24,
+        "Brand": "EASTERN WATCHES",
+        "Category": "Womens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/66/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(66)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(67)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(67)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 67,
+        "Title": "Fashion Magnetic Wrist Watch",
+        "Description": "Buy this awesome  The product is originally manufactured by the company and it's a top selling product with a very reasonable ...",
+        "Price": 60.00,
+        "Currency": "USD",
+        "Discount": 16.690000,
+        "Rating": 4.030000,
+        "Stock": 46,
+        "Brand": "EASTERN WATCHES",
+        "Category": "Womens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/67/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(67)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(68)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(68)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 68,
+        "Title": "Stylish Luxury Digital Watch",
+        "Description": "Stylish Luxury Digital Watch For Girls / Women - Led Smart Ladies Watches For Girls",
+        "Price": 57.00,
+        "Currency": "USD",
+        "Discount": 9.030000,
+        "Rating": 4.550000,
+        "Stock": 77,
+        "Brand": "LUXURY DIGITAL",
+        "Category": "Womens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/68/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(68)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(69)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(69)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 69,
+        "Title": "Golden Watch Pearls Bracelet Watch",
+        "Description": "Product details of Golden Watch Pearls Bracelet Watch For Girls - Golden Chain Ladies Bracelate Watch for Women",
+        "Price": 47.00,
+        "Currency": "USD",
+        "Discount": 17.550000,
+        "Rating": 4.770000,
+        "Stock": 89,
+        "Brand": "WATCH PEARLS",
+        "Category": "Womens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/69/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(69)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(70)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(70)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 70,
+        "Title": "Stainless Steel Women",
+        "Description": "Fashion Skmei 1830 Shell Dial Stainless Steel Women Wrist Watch Lady Bracelet Watch Quartz Watches Ladies",
+        "Price": 35.00,
+        "Currency": "USD",
+        "Discount": 8.980000,
+        "Rating": 4.080000,
+        "Stock": 111,
+        "Brand": "BRACELET",
+        "Category": "Womens-watches",
+        "Thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(70)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(71)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(71)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 71,
+        "Title": "Women Shoulder Bags",
+        "Description": "LouisWill Women Shoulder Bags Long Clutches Cross Body Bags Phone Bags PU Leather Hand Bags Large Capacity Card Holders Zipper",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 14.650000,
+        "Rating": 4.710000,
+        "Stock": 17,
+        "Brand": "LOUISWILL",
+        "Category": "Womens-bags",
+        "Thumbnail": "https://i.dummyjson.com/data/products/71/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(71)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(72)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(72)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 72,
+        "Title": "Handbag For Girls",
+        "Description": "This fashion is designed to add a charming effect to your casual outfit. This Bag is made of synthetic leather.",
+        "Price": 23.00,
+        "Currency": "USD",
+        "Discount": 17.500000,
+        "Rating": 4.910000,
+        "Stock": 27,
+        "Brand": "LOUISWILL",
+        "Category": "Womens-bags",
+        "Thumbnail": "https://i.dummyjson.com/data/products/72/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(72)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(73)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(73)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 73,
+        "Title": "Fancy hand clutch",
+        "Description": "This fashion is designed to add a charming effect to your casual outfit. This Bag is made of synthetic leather.",
+        "Price": 44.00,
+        "Currency": "USD",
+        "Discount": 10.390000,
+        "Rating": 4.180000,
+        "Stock": 101,
+        "Brand": "BRACELET",
+        "Category": "Womens-bags",
+        "Thumbnail": "https://i.dummyjson.com/data/products/73/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(73)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(74)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(74)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 74,
+        "Title": "Leather Hand Bag",
+        "Description": "It features an attractive design that makes it a must have accessory in your collection. We sell different kind of bags for boys ...",
+        "Price": 57.00,
+        "Currency": "USD",
+        "Discount": 11.190000,
+        "Rating": 4.010000,
+        "Stock": 43,
+        "Brand": "COPENHAGEN LUXE",
+        "Category": "Womens-bags",
+        "Thumbnail": "https://i.dummyjson.com/data/products/74/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(74)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(75)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(75)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 75,
+        "Title": "Seven Pocket Women Bag",
+        "Description": "Seven Pocket Women Bag Handbags Lady Shoulder Crossbody Bag Female Purse Seven Pocket Bag",
+        "Price": 68.00,
+        "Currency": "USD",
+        "Discount": 14.870000,
+        "Rating": 4.930000,
+        "Stock": 13,
+        "Brand": "STEAL FRAME",
+        "Category": "Womens-bags",
+        "Thumbnail": "https://i.dummyjson.com/data/products/75/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(75)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(76)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(76)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 76,
+        "Title": "Silver Ring Set Women",
+        "Description": "Jewelry Type:RingsCertificate Type:None Plating:Silver PlatedShapeattern:None Style:CLASSICReligious",
+        "Price": 70.00,
+        "Currency": "USD",
+        "Discount": 13.570000,
+        "Rating": 4.610000,
+        "Stock": 51,
+        "Brand": "DAROJAY",
+        "Category": "Womens-jewellery",
+        "Thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(76)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(77)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(77)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 77,
+        "Title": "Rose Ring",
+        "Description": "Brand: The Greetings Flower Colour: RedRing Colour: GoldenSize: Adjustable",
+        "Price": 100.00,
+        "Currency": "USD",
+        "Discount": 3.220000,
+        "Rating": 4.210000,
+        "Stock": 149,
+        "Brand": "COPENHAGEN LUXE",
+        "Category": "Womens-jewellery",
+        "Thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(77)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(78)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(78)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 78,
+        "Title": "Rhinestone Korean Style Open Rings",
+        "Description": "Fashion Jewellery 3Pcs Adjustable Pearl Rhinestone Korean Style Open Rings For Women",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 8.020000,
+        "Rating": 4.690000,
+        "Stock": 9,
+        "Brand": "FASHION JEWELLERY",
+        "Category": "Womens-jewellery",
+        "Thumbnail": "https://i.dummyjson.com/data/products/78/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(78)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(79)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(79)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 79,
+        "Title": "Elegant Female Pearl Earrings",
+        "Description": "Elegant Female Pearl Earrings Set Zircon Pearl Earings Women Party Accessories 9 Pairs/Set",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 12.800000,
+        "Rating": 4.740000,
+        "Stock": 16,
+        "Brand": "FASHION JEWELLERY",
+        "Category": "Womens-jewellery",
+        "Thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(79)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(80)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(80)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 80,
+        "Title": "Chain Pin Tassel Earrings",
+        "Description": "Pair Of Ear Cuff Butterfly Long Chain Pin Tassel Earrings - Silver (Long Life Quality Product)",
+        "Price": 45.00,
+        "Currency": "USD",
+        "Discount": 17.750000,
+        "Rating": 4.590000,
+        "Stock": 9,
+        "Brand": "CUFF BUTTERFLY",
+        "Category": "Womens-jewellery",
+        "Thumbnail": "https://i.dummyjson.com/data/products/80/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(80)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(81)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(81)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 81,
+        "Title": "Round Silver Frame Sun Glasses",
+        "Description": "A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social ...",
+        "Price": 19.00,
+        "Currency": "USD",
+        "Discount": 10.100000,
+        "Rating": 4.940000,
+        "Stock": 78,
+        "Brand": "DESIGNER SUN GLASSES",
+        "Category": "Sunglasses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/81/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(81)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(82)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(82)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 82,
+        "Title": "Kabir Singh Square Sunglass",
+        "Description": "Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 15.600000,
+        "Rating": 4.620000,
+        "Stock": 78,
+        "Brand": "DESIGNER SUN GLASSES",
+        "Category": "Sunglasses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/82/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(82)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(83)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(83)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 83,
+        "Title": "Wiley X Night Vision Yellow Glasses",
+        "Description": "Wiley X Night Vision Yellow Glasses for Riders - Night Vision Anti Fog Driving Glasses - Free Night Glass Cover - Shield Eyes ...",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 6.330000,
+        "Rating": 4.970000,
+        "Stock": 115,
+        "Brand": "MASTAR WATCH",
+        "Category": "Sunglasses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/83/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(83)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(84)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(84)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 84,
+        "Title": "Square Sunglasses",
+        "Description": "Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059",
+        "Price": 28.00,
+        "Currency": "USD",
+        "Discount": 13.890000,
+        "Rating": 4.640000,
+        "Stock": 64,
+        "Brand": "MASTAR WATCH",
+        "Category": "Sunglasses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/84/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(84)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(85)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(85)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 85,
+        "Title": "LouisWill Men Sunglasses",
+        "Description": "LouisWill Men Sunglasses Polarized Sunglasses UV400 Sunglasses Day Night Dual Use Safety Driving Night Vision Eyewear AL-MG ...",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 11.270000,
+        "Rating": 4.980000,
+        "Stock": 92,
+        "Brand": "LOUISWILL",
+        "Category": "Sunglasses",
+        "Thumbnail": "https://i.dummyjson.com/data/products/85/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(85)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(86)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(86)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 86,
+        "Title": "Bluetooth Aux",
+        "Description": "Bluetooth Aux Bluetooth Car Aux Car Bluetooth Transmitter Aux Audio Receiver Handfree Car Bluetooth Music Receiver Universal 3.5",
+        "Price": 25.00,
+        "Currency": "USD",
+        "Discount": 10.560000,
+        "Rating": 4.570000,
+        "Stock": 22,
+        "Brand": "CAR AUX",
+        "Category": "Automotive",
+        "Thumbnail": "https://i.dummyjson.com/data/products/86/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(86)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(87)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(87)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 87,
+        "Title": "Temperature Controller Incubator Controller",
+        "Description": "Both Heat and Cool Purpose, Temperature control range: -50 to +110, Temperature measurement accuracy: 0.1, Control accuracy: 0.1",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 11.300000,
+        "Rating": 4.540000,
+        "Stock": 37,
+        "Brand": "W1209 DC12V",
+        "Category": "Automotive",
+        "Thumbnail": "https://i.dummyjson.com/data/products/87/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(87)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(88)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(88)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 88,
+        "Title": "TC Reusable Silicone Magic Washing Gloves",
+        "Description": "TC Reusable Silicone Magic Washing Gloves with Scrubber, Cleaning Brush Scrubber Gloves Heat Resistant Pair for Cleaning of ...",
+        "Price": 29.00,
+        "Currency": "USD",
+        "Discount": 3.190000,
+        "Rating": 4.980000,
+        "Stock": 42,
+        "Brand": "TC REUSABLE",
+        "Category": "Automotive",
+        "Thumbnail": "https://i.dummyjson.com/data/products/88/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(88)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(89)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(89)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 89,
+        "Title": "Qualcomm original Car Charger",
+        "Description": "Best Quality CHarger, Highly Recommended to all best Quality CHarger, Highly Recommended to all",
+        "Price": 40.00,
+        "Currency": "USD",
+        "Discount": 17.530000,
+        "Rating": 4.200000,
+        "Stock": 79,
+        "Brand": "TC REUSABLE",
+        "Category": "Automotive",
+        "Thumbnail": "https://i.dummyjson.com/data/products/89/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(89)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(90)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(90)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 90,
+        "Title": "Cycle Bike Glow",
+        "Description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem ...",
+        "Price": 35.00,
+        "Currency": "USD",
+        "Discount": 11.080000,
+        "Rating": 4.100000,
+        "Stock": 63,
+        "Brand": "NEON LED LIGHT",
+        "Category": "Automotive",
+        "Thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(90)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(91)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(91)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 91,
+        "Title": "Black Motorbike",
+        "Description": "Engine Type:Wet sump, Single Cylinder, Four Stroke, Two Valves, Air Cooled with SOHC (Single Over Head Cam) Chain Drive ...",
+        "Price": 569.00,
+        "Currency": "USD",
+        "Discount": 13.630000,
+        "Rating": 4.040000,
+        "Stock": 115,
+        "Brand": "METRO 70CC MOTORCYCLE - MR70",
+        "Category": "Motorcycle",
+        "Thumbnail": "https://i.dummyjson.com/data/products/91/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(91)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(92)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(92)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 92,
+        "Title": "HOT SALE IN EUROPE electric racing motorcycle",
+        "Description": "HOT SALE IN EUROPE electric racing motorcycle electric motorcycle for sale adult electric motorcycles",
+        "Price": 920.00,
+        "Currency": "USD",
+        "Discount": 14.400000,
+        "Rating": 4.190000,
+        "Stock": 22,
+        "Brand": "BRAVE BULL",
+        "Category": "Motorcycle",
+        "Thumbnail": "https://i.dummyjson.com/data/products/92/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(92)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(93)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(93)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 93,
+        "Title": "Automatic Motor Gas Motorcycles",
+        "Description": "150cc 4-Stroke Motorcycle Automatic Motor Gas Motorcycles Scooter motorcycles 150cc scooter",
+        "Price": 1050.00,
+        "Currency": "USD",
+        "Discount": 3.340000,
+        "Rating": 4.840000,
+        "Stock": 127,
+        "Brand": "SHOCK ABSORBER",
+        "Category": "Motorcycle",
+        "Thumbnail": "https://i.dummyjson.com/data/products/93/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(93)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(94)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(94)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 94,
+        "Title": "New arrivals Fashion motocross goggles",
+        "Description": "New arrivals Fashion motocross goggles motorcycle motocross racing motorcycle",
+        "Price": 900.00,
+        "Currency": "USD",
+        "Discount": 3.850000,
+        "Rating": 4.060000,
+        "Stock": 109,
+        "Brand": "JIEPOLLY",
+        "Category": "Motorcycle",
+        "Thumbnail": "https://i.dummyjson.com/data/products/94/thumbnail.webp",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(94)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(95)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(95)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 95,
+        "Title": "Wholesale cargo lashing Belt",
+        "Description": "Wholesale cargo lashing Belt Tie Down end Ratchet strap customized strap 25mm motorcycle 1500kgs with rubber handle ...",
+        "Price": 930.00,
+        "Currency": "USD",
+        "Discount": 17.670000,
+        "Rating": 4.210000,
+        "Stock": 144,
+        "Brand": "XIANGLE",
+        "Category": "Motorcycle",
+        "Thumbnail": "https://i.dummyjson.com/data/products/95/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(95)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(96)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(96)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 96,
+        "Title": "Lighting ceiling kitchen",
+        "Description": "Wholesale slim hanging decorative kid room lighting ceiling kitchen chandeliers pendant light modern",
+        "Price": 30.00,
+        "Currency": "USD",
+        "Discount": 14.890000,
+        "Rating": 4.830000,
+        "Stock": 96,
+        "Brand": "LIGHTINGBRILLIANCE",
+        "Category": "Lighting",
+        "Thumbnail": "https://i.dummyjson.com/data/products/96/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(96)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(97)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(97)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 97,
+        "Title": "Metal Ceramic Flower",
+        "Description": "Metal Ceramic Flower Chandelier Home Lighting American Vintage Hanging Lighting Pendant Lamp",
+        "Price": 35.00,
+        "Currency": "USD",
+        "Discount": 10.940000,
+        "Rating": 4.930000,
+        "Stock": 146,
+        "Brand": "IFEI HOME",
+        "Category": "Lighting",
+        "Thumbnail": "https://i.dummyjson.com/data/products/97/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(97)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(16)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(16)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 16,
+        "Title": "Hyaluronic Acid Serum",
+        "Description": "L'Oreal Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+        "Price": 19.00,
+        "Currency": "USD",
+        "Discount": 13.310000,
+        "Rating": 4.830000,
+        "Stock": 110,
+        "Brand": "L'OREAL PARIS",
+        "Category": "Skincare",
+        "Thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(16)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(99)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(99)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 99,
+        "Title": "American Vintage Wood Pendant Light",
+        "Description": "American Vintage Wood Pendant Light Farmhouse Antique Hanging Lamp Lampara Colgante",
+        "Price": 46.00,
+        "Currency": "USD",
+        "Discount": 8.840000,
+        "Rating": 4.320000,
+        "Stock": 138,
+        "Brand": "IFEI HOME",
+        "Category": "Lighting",
+        "Thumbnail": "https://i.dummyjson.com/data/products/99/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(99)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(100)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(100)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 100,
+        "Title": "Crystal chandelier maria theresa for 12 light",
+        "Description": "Crystal chandelier maria theresa for 12 light",
+        "Price": 47.00,
+        "Currency": "USD",
+        "Discount": 16.000000,
+        "Rating": 4.740000,
+        "Stock": 133,
+        "Brand": "YIOSI",
+        "Category": "Lighting",
+        "Thumbnail": "https://i.dummyjson.com/data/products/100/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(100)/to_Images"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(37)",
+          "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(37)",
+          "type": "ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+        },
+        "ID": 37,
+        "Title": "Ank Tops for Womens/Girls",
+        "Description": "PACK OF 3 CAMISOLES, VERY COMFORTABLE SOFT COTTON STUFF, COMFORTABLE IN ALL FOUR SEASONS",
+        "Price": 50.00,
+        "Currency": "USD",
+        "Discount": 12.050000,
+        "Rating": 4.520000,
+        "Stock": 107,
+        "Brand": "SOFT COTTON",
+        "Category": "Tops",
+        "Thumbnail": "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
+        "to_Images": {
+          "__deferred": {
+            "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(37)/to_Images"
+          }
+        }
+      }
+    ]
+  }
+}

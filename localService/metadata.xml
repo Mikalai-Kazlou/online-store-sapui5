@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+  xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+  xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+  xmlns:sap="http://www.sap.com/Protocols/SAPData">
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="Org.OData.Aggregation.V1"
+      Alias="Aggregation"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.Analytics.v1"
+      Alias="Analytics"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1"
+      Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CODELIST',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.CodeList.v1"
+      Alias="SAP__CodeList"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.Common.v1"
+      Alias="Common"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.Communication.v1"
+      Alias="Communication"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_MEASURES',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="Org.OData.Measures.V1"
+      Alias="Measures"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1"
+      Alias="PersonalData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="com.sap.vocabularies.UI.v1"
+      Alias="UI"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='')/$value"
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Namespace="Org.OData.Validation.V1"
+      Alias="Validation"/>
+  </edmx:Reference>
+  <edmx:DataServices m:DataServiceVersion="2.0">
+    <Schema Namespace="ZMK_MOCK_DATA_SRV"
+      xml:lang="en"
+      sap:schema-version="1"
+      xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <Annotation Term="Core.SchemaVersion"
+        String="1.0.0"
+        xmlns="http://docs.oasis-open.org/odata/ns/edm"/>
+      <EntityType Name="ZMK_C_PRODUCTType"
+        sap:label="Products"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ID"
+          Type="Edm.Int16"
+          Nullable="false"
+          sap:label="ID"
+          sap:quickinfo="Product ID"/>
+        <Property Name="Title"
+          Type="Edm.String"
+          MaxLength="128"
+          sap:label="Title"
+          sap:quickinfo="Product title"/>
+        <Property Name="Description"
+          Type="Edm.String"
+          MaxLength="1024"
+          sap:label="Description"
+          sap:quickinfo="Product description"/>
+        <Property Name="Price"
+          Type="Edm.Decimal"
+          Precision="24"
+          Scale="3"
+          sap:unit="Currency"
+          sap:label="Price"
+          sap:quickinfo="Product price"/>
+        <Property Name="Currency"
+          Type="Edm.String"
+          MaxLength="5"
+          sap:display-format="UpperCase"
+          sap:label="Currency"
+          sap:quickinfo="Product currency"
+          sap:semantics="currency-code"/>
+        <Property Name="Discount"
+          Type="Edm.Decimal"
+          Precision="16"
+          Scale="6"
+          sap:label="Discount"
+          sap:quickinfo="Product discount"/>
+        <Property Name="Rating"
+          Type="Edm.Decimal"
+          Precision="16"
+          Scale="6"
+          sap:label="Rating"
+          sap:quickinfo="Product rating"/>
+        <Property Name="Stock"
+          Type="Edm.Int32"
+          sap:label="Stock"
+          sap:quickinfo="Product stock"/>
+        <Property Name="Brand"
+          Type="Edm.String"
+          MaxLength="128"
+          sap:label="Brand"
+          sap:quickinfo="Product brand"/>
+        <Property Name="Category"
+          Type="Edm.String"
+          MaxLength="128"
+          sap:label="Category"
+          sap:quickinfo="Product category"/>
+        <Property Name="Thumbnail"
+          Type="Edm.String"
+          MaxLength="255"
+          sap:label="Thumbnail"
+          sap:quickinfo="Product thumbnail"/>
+        <NavigationProperty Name="to_Images"
+          Relationship="ZMK_MOCK_DATA_SRV.assoc_832E1BCAE852FBA778239A3A1AB45407"
+          FromRole="FromRole_assoc_832E1BCAE852FBA778239A3A1AB45407"
+          ToRole="ToRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
+      </EntityType>
+      <EntityType Name="ZMK_I_BRANDType"
+        sap:label="Brands"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="Brand"/>
+        </Key>
+        <Property Name="Brand"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          sap:label="Brand"
+          sap:quickinfo="Product brand"/>
+      </EntityType>
+      <EntityType Name="ZMK_I_CATEGORYType"
+        sap:label="Categories"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="Category"/>
+        </Key>
+        <Property Name="Category"
+          Type="Edm.String"
+          Nullable="false"
+          MaxLength="128"
+          sap:label="Category"
+          sap:quickinfo="Product category"/>
+      </EntityType>
+      <EntityType Name="ZMK_I_IMAGEType"
+        sap:label="Product images"
+        sap:content-version="1">
+        <Key>
+          <PropertyRef Name="ProductID"/>
+          <PropertyRef Name="ID"/>
+        </Key>
+        <Property Name="ProductID"
+          Type="Edm.Int16"
+          Nullable="false"
+          sap:label="ID"
+          sap:quickinfo="Product ID"/>
+        <Property Name="ID"
+          Type="Edm.Int16"
+          Nullable="false"
+          sap:label="ID"
+          sap:quickinfo="Image ID"/>
+        <Property Name="Url"
+          Type="Edm.String"
+          MaxLength="255"
+          sap:label="URL"
+          sap:quickinfo="Image URL"/>
+      </EntityType>
+      <Association Name="assoc_832E1BCAE852FBA778239A3A1AB45407"
+        sap:content-version="1">
+        <End Type="ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+          Multiplicity="1"
+          Role="FromRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
+        <End Type="ZMK_MOCK_DATA_SRV.ZMK_I_IMAGEType"
+          Multiplicity="*"
+          Role="ToRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
+      </Association>
+      <EntityContainer Name="ZMK_MOCK_DATA_SRV_Entities"
+        m:IsDefaultEntityContainer="true"
+        sap:message-scope-supported="true"
+        sap:supported-formats="atom json xlsx">
+        <EntitySet Name="ZMK_C_PRODUCT"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_C_PRODUCTType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <EntitySet Name="ZMK_I_BRAND"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_I_BRANDType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <EntitySet Name="ZMK_I_CATEGORY"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_I_CATEGORYType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <EntitySet Name="ZMK_I_IMAGE"
+          EntityType="ZMK_MOCK_DATA_SRV.ZMK_I_IMAGEType"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1"/>
+        <AssociationSet Name="assoc_832E1BCAE852FBA778239A3A1AB45407"
+          Association="ZMK_MOCK_DATA_SRV.assoc_832E1BCAE852FBA778239A3A1AB45407"
+          sap:creatable="false"
+          sap:updatable="false"
+          sap:deletable="false"
+          sap:content-version="1">
+          <End EntitySet="ZMK_C_PRODUCT"
+            Role="FromRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
+          <End EntitySet="ZMK_I_IMAGE"
+            Role="ToRole_assoc_832E1BCAE852FBA778239A3A1AB45407"/>
+        </AssociationSet>
+      </EntityContainer>
+      <Annotations Target="ZMK_MOCK_DATA_SRV.ZMK_MOCK_DATA_SRV_Entities"
+        xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.ApplyMultiUnitBehaviorForSortingAndFiltering"
+          Bool="true"/>
+      </Annotations>
+      <Annotations Target="ZMK_MOCK_DATA_SRV.ZMK_MOCK_DATA_SRV_Entities/ZMK_C_PRODUCT"
+        xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Capabilities.NavigationRestrictions">
+          <Record>
+            <PropertyValue Property="RestrictedProperties">
+              <Collection>
+                <Record>
+                  <PropertyValue Property="NavigationProperty"
+                    NavigationPropertyPath="to_Images"/>
+                  <PropertyValue Property="InsertRestrictions">
+                    <Record>
+                      <PropertyValue Property="Insertable"
+                        Bool="false"/>
+                    </Record>
+                  </PropertyValue>
+                </Record>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+      </Annotations>
+      <atom:link rel="self"
+        href="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/$metadata"
+        xmlns:atom="http://www.w3.org/2005/Atom"/>
+      <atom:link rel="latest-version"
+        href="https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/$metadata"
+        xmlns:atom="http://www.w3.org/2005/Atom"/>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

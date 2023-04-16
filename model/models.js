@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/model/BindingMode","sap/ui/Device"],function(e,i,n){"use strict";return{createDeviceModel:()=>{const d=new e(n);d.setDefaultBindingMode(i.OneWay);return d}}});
+sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/model/BindingMode","sap/ui/Device"],function(e,n,t){"use strict";return{createDeviceModel:()=>{const i=new e(t);i.setDefaultBindingMode(n.OneWay);return i},createConstantModel:()=>{const t=new e({currency:"USD"});t.setDefaultBindingMode(n.OneWay);return t}}});
