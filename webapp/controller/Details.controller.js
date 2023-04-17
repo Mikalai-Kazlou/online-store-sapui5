@@ -29,6 +29,20 @@ sap.ui.define([
       const oBinding = oMediaGallery.getBinding("items");
       oBinding.filter(aFilters, FilterType.Application);
     },
+
+    onAddToCart: function (oEvent) {
+      const oButton = oEvent.getSource();
+
+      const oBindingContext = oButton.getBindingContext("mockdata");
+      const oModel = oBindingContext.getModel();
+      const oItemData = oModel.getData(oBindingContext.getPath());
+
+      const oStepInput = this.byId("idQuantityStepInput");
+      this.oCart.add(oItemData.ID, oStepInput.getValue());
+
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
+    }
   });
 
 });

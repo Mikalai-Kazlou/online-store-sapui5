@@ -81,17 +81,18 @@
               design="Bold"/>
             <ObjectNumber class="sapMObjectNumberLarge"
               number="{
-                parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
+                parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
                 type: 'sap.ui.model.type.Currency',
                 formatOptions: {showMeasure: false}
               }"
-              unit="{constant>/currency}"/>
+              unit="{mockdata>Currency}"/>
           </VBox>
           <VBox class="sapUiLargeMarginTop"
             alignItems="Center"
             justifyContent="Center">
             <VBox>
-              <StepInput value="1"
+              <StepInput id="idQuantityStepInput"
+                value="1"
                 min="1"
                 max="99"
                 width="10rem"

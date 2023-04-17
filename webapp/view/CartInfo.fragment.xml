@@ -1,12 +1,12 @@
 <HBox xmlns="sap.m">
-  <Button id="goToCartButton"
+  <Button id="idCartButton"
     type="Default"
     icon="sap-icon://cart"
     text="{i18n>mainPageHeaderCartButtonText}"
     press=".onOpenCart">
     <customData>
       <BadgeCustomData key="badge"
-        value="1"
+        value="{cart>/totalQuantity}"
         visible="true"/>
     </customData>
   </Button>

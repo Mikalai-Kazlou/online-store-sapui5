@@ -125,11 +125,11 @@
           </FlexBox>
           <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
             number="{
-              parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
+              parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
               type: 'sap.ui.model.type.Currency',
               formatOptions: {showMeasure: false}
             }"
-            unit="{constant>/currency}"/>
+            unit="{mockdata>Currency}"/>
           <Text text="{mockdata>Description}">
             <layoutData>
               <FlexItemData growFactor="1"/>

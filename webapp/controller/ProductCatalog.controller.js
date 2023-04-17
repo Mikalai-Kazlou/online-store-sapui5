@@ -18,7 +18,7 @@ sap.ui.define([
       const oProductCatalog = oEvent.getSource();
       const oBinding = oProductCatalog.getBinding("items");
 
-      const oModel = this.getModel("mockdata");
+      const oModel = oBinding.getModel();
       const aItems = oBinding.aKeys.map((key) => oModel.getData(`/${key}`));
 
       this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "Price");
@@ -97,14 +97,14 @@ sap.ui.define([
     onAddToCart: function (oEvent) {
       const oButton = oEvent.getSource();
 
-      const oModel = this.getModel("mockdata");
-      const oItemData = oModel.getData(oButton.getBindingContext("mockdata").getPath());
+      const oBindingContext = oButton.getBindingContext("mockdata");
+      const oModel = oBindingContext.getModel();
+      const oItemData = oModel.getData(oBindingContext.getPath());
 
-      const oLocalDataModel = this.getModel("localdata");
-      const oCart = oLocalDataModel.getProperty("/cart");
-      oCart.push({ id: oItemData.ID, qnt: 1 });
+      this.oCart.add(oItemData.ID, 1);
 
-      localStorage.setItem("online-store-sapui5-localdata", oLocalDataModel.getJSON());
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
     }
   });
 
