@@ -5,17 +5,17 @@
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:grid="sap.ui.layout.cssgrid">
 
-  <Panel expandable="true"
-    expanded="true"
-    headerText="Filters"
-    width="auto"
-    class="sapUiResponsiveMargin">
-    <content>
-      <VBox class="sapUiTinyMarginBottom">
-        <SearchField liveChange=".onSearch"/>
+  <HBox class="sapUiTinyMargin">
+    <Panel class="sapUiTinyMargin"
+      expandable="true"
+      expanded="true"
+      headerText="{i18n>filterHeaderText}"
+      width="auto">
+      <content>
+        <VBox class="sapUiTinyMarginBottom">
+          <SearchField liveChange=".onSearch"/>
 
-        <HBox class="sapUiTinyMarginTop">
-          <VBox class="sapUiTinyMarginEnd"
+          <VBox class="sapUiSmallMarginTop"
             width="100%">
             <layoutData>
               <FlexItemData growFactor="1"/>
@@ -23,7 +23,7 @@
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterCategoryLabel}"
               design="Bold"/>
-            <Panel height="25rem">
+            <Panel height="17rem">
               <List id="idFilterCategory"
                 items="{path: 'mockdata>/ZMK_I_CATEGORY', 
                   sorter: {path: 'Category'}
@@ -35,7 +35,7 @@
               </List>
             </Panel>
           </VBox>
-          <VBox class="sapUiTinyMarginBegin"
+          <VBox class="sapUiSmallMarginTop"
             width="100%">
             <layoutData>
               <FlexItemData growFactor="1"/>
@@ -43,7 +43,7 @@
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterBrandLabel}"
               design="Bold"/>
-            <Panel height="25rem">
+            <Panel height="17rem">
               <List id="idFilterBrand"
                 items="{path: 'mockdata>/ZMK_I_BRAND', 
                   sorter: {path: 'Brand'}
@@ -55,10 +55,8 @@
               </List>
             </Panel>
           </VBox>
-        </HBox>
 
-        <HBox class="sapUiTinyMarginTop">
-          <VBox class="sapUiTinyMarginEnd"
+          <VBox class="sapUiMediumMarginTop"
             width="100%">
             <layoutData>
               <FlexItemData growFactor="1"/>
@@ -72,7 +70,7 @@
               inputsAsTooltips="true"
               change=".onFilterPriceChange"/>
           </VBox>
-          <VBox class="sapUiTinyMarginBegin"
+          <VBox class="sapUiMediumMarginTop"
             width="100%">
             <layoutData>
               <FlexItemData growFactor="1"/>
@@ -86,70 +84,73 @@
               inputsAsTooltips="true"
               change=".onFilterStockChange"/>
           </VBox>
-        </HBox>
-      </VBox>
-    </content>
-  </Panel>
 
-  <VBox>
-    <f:GridList id="idProductCatalog"
-      class="sapUiResponsiveContentPadding"
-      headerText="{i18n>productCatalogTitle}"
-      items="{path: 'mockdata>/ZMK_C_PRODUCT', 
-        sorter: {path: 'ID'}
-      }"
-      growing="true"
-      growingScrollToLoad="true"
-      updateFinished=".onProductCatalogUpdateFinished">
-      <f:customLayout>
-        <grid:GridBoxLayout boxMinWidth="22rem"/>
-      </f:customLayout>
-      <f:GridListItem>
-        <VBox class="sapUiSmallMargin"
-          height="93%">
-          <Title text="{mockdata>Title}"
-            wrapping="true"/>
-          <Label text="{mockdata>Brand}"
-            wrapping="true"/>
-          <FlexBox class="sapUiTinyMarginTop">
-            <Image src="{mockdata>Thumbnail}"
-              mode="Background"
-              width="100%"
-              height="16rem"
-              backgroundSize="cover"
-              backgroundPosition="center center">
+        </VBox>
+      </content>
+    </Panel>
+
+    <VBox class="sapUiTinyMargin">
+      <layoutData>
+        <FlexItemData growFactor="1"/>
+      </layoutData>
+      <f:GridList id="idProductCatalog"
+        items="{path: 'mockdata>/ZMK_C_PRODUCT', 
+          sorter: {path: 'ID'}
+        }"
+        growing="true"
+        growingScrollToLoad="true"
+        updateFinished=".onProductCatalogUpdateFinished"
+        width="100%">
+        <f:customLayout>
+          <grid:GridBoxLayout boxMinWidth="22rem"/>
+        </f:customLayout>
+        <f:GridListItem>
+          <VBox class="sapUiSmallMargin"
+            height="93%">
+            <Title text="{mockdata>Title}"
+              wrapping="true"/>
+            <Label text="{mockdata>Brand}"
+              wrapping="true"/>
+            <FlexBox class="sapUiTinyMarginTop">
+              <Image src="{mockdata>Thumbnail}"
+                mode="Background"
+                width="100%"
+                height="16rem"
+                backgroundSize="cover"
+                backgroundPosition="center center">
+                <layoutData>
+                  <FlexItemData growFactor="1"/>
+                </layoutData>
+              </Image>
+            </FlexBox>
+            <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
+              number="{
+                parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
+                type: 'sap.ui.model.type.Currency',
+                formatOptions: {showMeasure: false}
+              }"
+              unit="{mockdata>Currency}"/>
+            <Text text="{mockdata>Description}">
               <layoutData>
                 <FlexItemData growFactor="1"/>
               </layoutData>
-            </Image>
-          </FlexBox>
-          <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
-            number="{
-              parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
-              type: 'sap.ui.model.type.Currency',
-              formatOptions: {showMeasure: false}
-            }"
-            unit="{mockdata>Currency}"/>
-          <Text text="{mockdata>Description}">
-            <layoutData>
-              <FlexItemData growFactor="1"/>
-            </layoutData>
-          </Text>
-          <HBox class="sapUiTinyMarginTop"
-            justifyContent="SpaceBetween">
-            <Button text="{i18n>productCatalogAddToCartButtonText}"
-              width="10rem"
-              press=".onAddToCart"
-              fieldGroupIds="idAddToCartButtonGroup">
-            </Button>
-            <Button text="{i18n>productCatalogDetailsButtonText}"
-              width="10rem"
-              press=".onOpenDetails">
-            </Button>
-          </HBox>
-        </VBox>
-      </f:GridListItem>
-    </f:GridList>
-  </VBox>
+            </Text>
+            <HBox class="sapUiTinyMarginTop"
+              justifyContent="SpaceBetween">
+              <Button text="{i18n>productCatalogAddToCartButtonText}"
+                width="10rem"
+                press=".onAddToCart"
+                fieldGroupIds="idAddToCartButtonGroup">
+              </Button>
+              <Button text="{i18n>productCatalogDetailsButtonText}"
+                width="10rem"
+                press=".onOpenDetails">
+              </Button>
+            </HBox>
+          </VBox>
+        </f:GridListItem>
+      </f:GridList>
+    </VBox>
+  </HBox>
 
 </mvc:View>
