@@ -23,7 +23,7 @@ sap.ui.define([
     onOpenDetails: function (oEvent) {
       const oButton = oEvent.getSource();
       this.navTo("details", {
-        path: window.encodeURIComponent(oButton.getBindingContext("mockdata").getPath().slice(1))
+        id: oButton.getBindingContext("mockdata").getObject().ID
       });
     },
 

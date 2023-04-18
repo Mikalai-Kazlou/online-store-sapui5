@@ -82,7 +82,7 @@
 					"target": "cart"
 				},
 				{
-					"pattern": "details/{path}",
+					"pattern": "details/{id}",
 					"name": "details",
 					"target": "details"
 				}

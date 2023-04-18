@@ -17,10 +17,8 @@ sap.ui.define([
     },
 
     _onPatternMatched: function (oEvent) {
-      const sPath = window.decodeURIComponent(oEvent.getParameter("arguments").path);
-      const iProductID = +sPath.split("(").pop().slice(0, -1);
-
-      this.getView().bindElement({ path: `/${sPath}`, model: "mockdata" });
+      const iProductID = +oEvent.getParameter("arguments").id;
+      this.getView().bindElement({ path: `/ZMK_C_PRODUCT(${iProductID})`, model: "mockdata" });
 
       const aFilters = [];
       aFilters.push(new Filter("ProductID", FilterOperator.EQ, iProductID));
