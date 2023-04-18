@@ -9,14 +9,14 @@ sap.ui.define([
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Details", {
     onInit: function () {
       const oRouter = this.getRouter();
-      oRouter.getRoute("details").attachPatternMatched(this._onObjectMatched, this);
+      oRouter.getRoute("details").attachPatternMatched(this._onPatternMatched, this);
     },
 
     onOpenCart: function () {
       this.navTo("cart");
     },
 
-    _onObjectMatched: function (oEvent) {
+    _onPatternMatched: function (oEvent) {
       const sPath = window.decodeURIComponent(oEvent.getParameter("arguments").path);
       const iProductID = +sPath.split("(").pop().slice(0, -1);
 
@@ -40,8 +40,7 @@ sap.ui.define([
       const oButton = oEvent.getSource();
 
       const oBindingContext = oButton.getBindingContext("mockdata");
-      const oModel = oBindingContext.getModel();
-      const oItemData = oModel.getData(oBindingContext.getPath());
+      const oItemData = oBindingContext.getObject();
 
       const oStepInput = this.byId("idQuantityStepInput");
 
@@ -61,8 +60,7 @@ sap.ui.define([
       const oStepInput = oEvent.getSource();
 
       const oBindingContext = oStepInput.getBindingContext("mockdata");
-      const oModel = oBindingContext.getModel();
-      const oItemData = oModel.getData(oBindingContext.getPath());
+      const oItemData = oBindingContext.getObject();
 
       this.oCart.replace(oItemData.ID, oStepInput.getValue());
 

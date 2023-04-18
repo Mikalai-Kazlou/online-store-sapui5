@@ -8,6 +8,18 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
+    onInit: function () {
+      const oRouter = this.getRouter();
+      oRouter.getRoute("main").attachPatternMatched(this._onPatternMatched, this);
+    },
+
+    _onPatternMatched: function () {
+      const oProductCatalog = this.byId("idProductCatalog");
+      const aItems = oProductCatalog.getItems();
+
+      this._setAddToCartButtonsAttributes(aItems);
+    },
+
     onOpenDetails: function (oEvent) {
       const oButton = oEvent.getSource();
       this.navTo("details", {
@@ -17,23 +29,37 @@ sap.ui.define([
 
     onProductCatalogUpdateFinished(oEvent) {
       const oProductCatalog = oEvent.getSource();
-      const oBinding = oProductCatalog.getBinding("items");
+      const aItems = oProductCatalog.getItems();
 
-      const oModel = oBinding.getModel();
-      const aItems = oBinding.aKeys.map((key) => oModel.getData(`/${key}`));
+      const aItemsData = aItems.map((item) => item.getBindingContext("mockdata").getObject());
 
-      this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "Price");
-      this._configureRangeFilter(this.byId("idFilterStock"), aItems, "Stock");
+      this._setRangeFilterAttributes(this.byId("idFilterPrice"), aItemsData, "Price");
+      this._setRangeFilterAttributes(this.byId("idFilterStock"), aItemsData, "Stock");
 
-      const oItems = oProductCatalog.getItems();
-      oItems.forEach((item) => {
+      this._setAddToCartButtonsAttributes(aItems);
+    },
+
+    _setAddToCartButtonsAttributes: function (items) {
+      items.forEach((item) => {
         const oItemData = item.getBindingContext("mockdata").getObject();
         const oAddToCartButton = item.getContent()[0].getControlsByFieldGroupId("idAddToCartButtonGroup")[0];
         this._setAddToCartButtonAttributes(oItemData.ID, oAddToCartButton);
       });
     },
 
-    _configureRangeFilter(filter, items, property) {
+    _setAddToCartButtonAttributes: function (id, oButton) {
+      const oBundle = this.getResourceBundle();
+
+      if (this.oCart.has(id)) {
+        oButton.setType(ButtonType.Success);
+        oButton.setText(oBundle.getText("productCatalogDropFromCartButtonText"));
+      } else {
+        oButton.setType(ButtonType.Default);
+        oButton.setText(oBundle.getText("productCatalogAddToCartButtonText"));
+      }
+    },
+
+    _setRangeFilterAttributes(filter, items, property) {
       if (!filter.getRange()[0]) {
         const min = items.reduce((min, item) => min < item[property] ? min : item[property], Number.MAX_SAFE_INTEGER);
         const max = items.reduce((max, item) => max > item[property] ? max : item[property], 0);
@@ -106,8 +132,7 @@ sap.ui.define([
       const oButton = oEvent.getSource();
 
       const oBindingContext = oButton.getBindingContext("mockdata");
-      const oModel = oBindingContext.getModel();
-      const oItemData = oModel.getData(oBindingContext.getPath());
+      const oItemData = oBindingContext.getObject();
 
       if (!this.oCart.has(oItemData.ID)) {
         this.oCart.add(oItemData.ID, 1);
@@ -119,18 +144,6 @@ sap.ui.define([
       this._refreshLocalDataModel();
 
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
-    },
-
-    _setAddToCartButtonAttributes: function (id, oButton) {
-      const oBundle = this.getResourceBundle();
-
-      if (this.oCart.has(id)) {
-        oButton.setType(ButtonType.Success);
-        oButton.setText(oBundle.getText("productCatalogDropFromCartButtonText"));
-      } else {
-        oButton.setType(ButtonType.Default);
-        oButton.setText(oBundle.getText("productCatalogAddToCartButtonText"));
-      }
     }
   });
 
