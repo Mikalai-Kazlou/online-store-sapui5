@@ -125,11 +125,11 @@
           </FlexBox>
           <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
             number="{
-              parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
+              parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
               type: 'sap.ui.model.type.Currency',
               formatOptions: {showMeasure: false}
             }"
-            unit="{constant>/currency}"/>
+            unit="{mockdata>Currency}"/>
           <Text text="{mockdata>Description}">
             <layoutData>
               <FlexItemData growFactor="1"/>
@@ -138,11 +138,12 @@
           <HBox class="sapUiTinyMarginTop"
             justifyContent="SpaceBetween">
             <Button text="{i18n>productCatalogAddToCartButtonText}"
-              width="8rem"
-              press=".onAddToCart">
+              width="10rem"
+              press=".onAddToCart"
+              fieldGroupIds="idAddToCartButtonGroup">
             </Button>
             <Button text="{i18n>productCatalogDetailsButtonText}"
-              width="8rem"
+              width="10rem"
               press=".onOpenDetails">
             </Button>
           </HBox>
