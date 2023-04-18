@@ -22,10 +22,6 @@ sap.ui.define([
       return this._cart;
     },
 
-    getTotalQuantity() {
-      return this._cart.reduce((total, item) => total + item.q, 0);
-    },
-
     add: function (id, quantity) {
       const index = this._cart.findIndex((item) => item.id === id);
       if (index >= 0) {
@@ -37,6 +33,21 @@ sap.ui.define([
 
     drop: function (id) {
       this._cart = this._cart.filter((item) => item.id !== id);
+    },
+
+    replace: function (id, quantity) {
+      if (this.has(id)) {
+        this.drop(id);
+        this.add(id, quantity);
+      }
+    },
+
+    has: function (id) {
+      return this._cart.find((item) => item.id === id);
+    },
+
+    getTotalQuantity() {
+      return this._cart.reduce((total, item) => total + item.q, 0);
     }
   });
 

@@ -138,11 +138,12 @@
           <HBox class="sapUiTinyMarginTop"
             justifyContent="SpaceBetween">
             <Button text="{i18n>productCatalogAddToCartButtonText}"
-              width="8rem"
-              press=".onAddToCart">
+              width="10rem"
+              press=".onAddToCart"
+              fieldGroupIds="idAddToCartButtonGroup">
             </Button>
             <Button text="{i18n>productCatalogDetailsButtonText}"
-              width="8rem"
+              width="10rem"
               press=".onOpenDetails">
             </Button>
           </HBox>

@@ -2,8 +2,9 @@ sap.ui.define([
   "./BaseController",
   "sap/ui/model/Filter",
   "sap/ui/model/FilterType",
-  "sap/ui/model/FilterOperator"
-], function (BaseController, Filter, FilterType, FilterOperator) {
+  "sap/ui/model/FilterOperator",
+  "sap/m/ButtonType"
+], function (BaseController, Filter, FilterType, FilterOperator, ButtonType) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
@@ -23,6 +24,13 @@ sap.ui.define([
 
       this._configureRangeFilter(this.byId("idFilterPrice"), aItems, "Price");
       this._configureRangeFilter(this.byId("idFilterStock"), aItems, "Stock");
+
+      const oItems = oProductCatalog.getItems();
+      oItems.forEach((item) => {
+        const oItemData = item.getBindingContext("mockdata").getObject();
+        const oAddToCartButton = item.getContent()[0].getControlsByFieldGroupId("idAddToCartButtonGroup")[0];
+        this._setAddToCartButtonAttributes(oItemData.ID, oAddToCartButton);
+      });
     },
 
     _configureRangeFilter(filter, items, property) {
@@ -101,10 +109,28 @@ sap.ui.define([
       const oModel = oBindingContext.getModel();
       const oItemData = oModel.getData(oBindingContext.getPath());
 
-      this.oCart.add(oItemData.ID, 1);
+      if (!this.oCart.has(oItemData.ID)) {
+        this.oCart.add(oItemData.ID, 1);
+      } else {
+        this.oCart.drop(oItemData.ID);
+      }
 
       this._refreshCartModel();
       this._refreshLocalDataModel();
+
+      this._setAddToCartButtonAttributes(oItemData.ID, oButton);
+    },
+
+    _setAddToCartButtonAttributes: function (id, oButton) {
+      const oBundle = this.getResourceBundle();
+
+      if (this.oCart.has(id)) {
+        oButton.setType(ButtonType.Success);
+        oButton.setText(oBundle.getText("productCatalogDropFromCartButtonText"));
+      } else {
+        oButton.setType(ButtonType.Default);
+        oButton.setText(oBundle.getText("productCatalogAddToCartButtonText"));
+      }
     }
   });
 
