@@ -16,8 +16,10 @@ sap.ui.define([
 
 			// create the device model
 			this.setModel(models.createDeviceModel(), "device");
-			// create constant model
-			this.setModel(models.createConstantModel(), "constant");
+			// create local data model
+			this.setModel(models.createLocalDataModel(), "localdata");
+			// create cart model
+			this.setModel(models.createCartModel(), "cart");
 
 			this.getRouter().initialize();
 		},

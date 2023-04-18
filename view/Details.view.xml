@@ -81,34 +81,37 @@
               design="Bold"/>
             <ObjectNumber class="sapMObjectNumberLarge"
               number="{
-                parts: [{path: 'mockdata>Price'}, {path: 'constant>/currency'}],
+                parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
                 type: 'sap.ui.model.type.Currency',
                 formatOptions: {showMeasure: false}
               }"
-              unit="{constant>/currency}"/>
+              unit="{mockdata>Currency}"/>
           </VBox>
           <VBox class="sapUiLargeMarginTop"
             alignItems="Center"
             justifyContent="Center">
             <VBox>
-              <StepInput value="1"
+              <StepInput id="idQuantityStepInput"
+                value="1"
                 min="1"
                 max="99"
                 width="10rem"
-                textAlign="Center"/>
+                textAlign="Center"
+                change=".onQuantityStepInputChange"/>
             </VBox>
             <VBox alignItems="Center"
               justifyContent="Center">
               <HBox class="sapUiSmallMarginTop">
-                <Button class="sapUiSmallMargin"
+                <Button id="idAddToCartButton"
+                  class="sapUiSmallMargin"
                   text="{i18n>productCatalogAddToCartButtonText}"
-                  width="8rem"
+                  width="10rem"
                   press=".onAddToCart">
                 </Button>
                 <Button class="sapUiSmallMargin"
                   text="{i18n>productCatalogBuyNowButtonText}"
-                  width="8rem"
-                  press=".onOpenDetails">
+                  width="10rem"
+                  press=".onBuyNow">
                 </Button>
               </HBox>
             </VBox>

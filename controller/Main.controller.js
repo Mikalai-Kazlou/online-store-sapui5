@@ -1,1 +1,2 @@
 sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("com.exercise.onlinestoresapui5.controller.Main",{onOpenCart:function(){this.navTo("cart")}})});
+//# sourceMappingURL=Main.controller.js.map
