@@ -15,7 +15,13 @@
     </headerContent>
 
     <content>
-
+      <Panel class="sapUiTinyMargin sapUiLargeMarginBeginEnd"
+        headerText="{i18n>cartHeaderText}"
+        width="auto">
+        <content>
+          <List id="idCartList"/>
+        </content>
+      </Panel>
     </content>
   </Page>
 
