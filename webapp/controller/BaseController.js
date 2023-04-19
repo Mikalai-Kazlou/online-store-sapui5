@@ -45,6 +45,18 @@ sap.ui.define([
       }
     },
 
+    onQuantityStepInputChange: function (oEvent) {
+      const oStepInput = oEvent.getSource();
+
+      const oBindingContext = oStepInput.getBindingContext("mockdata");
+      const oItemData = oBindingContext.getObject();
+
+      this.oCart.replace(oItemData.ID, oStepInput.getValue());
+
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
+    },
+
     _refreshLocalDataModel() {
       const oLocalDataModel = this.getModel("localdata");
       oLocalDataModel.setProperty("/cart", this.oCart.get());

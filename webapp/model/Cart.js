@@ -36,9 +36,11 @@ sap.ui.define([
     },
 
     replace: function (id, quantity) {
-      if (this.has(id)) {
-        this.drop(id);
-        this.add(id, quantity);
+      const item = this.has(id);
+
+      if (item) {
+        const index = this._cart.indexOf(item);
+        this._cart.splice(index, 1, { id, q: quantity });
       }
     },
 

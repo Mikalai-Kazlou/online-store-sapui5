@@ -54,18 +54,6 @@ sap.ui.define([
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
     },
 
-    onQuantityStepInputChange: function (oEvent) {
-      const oStepInput = oEvent.getSource();
-
-      const oBindingContext = oStepInput.getBindingContext("mockdata");
-      const oItemData = oBindingContext.getObject();
-
-      this.oCart.replace(oItemData.ID, oStepInput.getValue());
-
-      this._refreshCartModel();
-      this._refreshLocalDataModel();
-    },
-
     _setAddToCartButtonAttributes: function (id, oButton) {
       const oBundle = this.getResourceBundle();
 
