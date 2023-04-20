@@ -6,11 +6,12 @@
   xmlns:grid="sap.ui.layout.cssgrid">
 
   <HBox class="sapUiTinyMargin">
-    <Panel class="sapUiTinyMargin"
+    <Panel class="sapUiTinyMargin myOnlineStoreSAPUI5Sticky"
       expandable="true"
       expanded="true"
       headerText="{i18n>filterHeaderText}"
-      width="auto">
+      width="auto"
+      expand=".onFilterPanelExpand">
       <content>
         <VBox class="sapUiTinyMarginBottom">
           <SearchField liveChange=".onSearch"/>

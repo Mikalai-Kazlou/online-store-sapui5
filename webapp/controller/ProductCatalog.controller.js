@@ -144,6 +144,14 @@ sap.ui.define([
       this._refreshLocalDataModel();
 
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
+    },
+
+    onFilterPanelExpand: function (oEvent) {
+      const oPanel = oEvent.getSource();
+      const oParameters = oEvent.getParameters();
+
+      const oBundle = this.getResourceBundle();
+      oParameters.expand ? oPanel.setHeaderText(oBundle.getText("filterHeaderText")) : oPanel.setHeaderText("");
     }
   });
 
