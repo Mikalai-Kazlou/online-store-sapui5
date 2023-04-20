@@ -51,7 +51,7 @@ sap.ui.define([
       const oBindingContext = oStepInput.getBindingContext("mockdata");
       const oItemData = oBindingContext.getObject();
 
-      this.oCart.replace(oItemData.ID, oStepInput.getValue());
+      this.oCart.replace(oItemData.ID, oStepInput.getValue(), oItemData.Price);
 
       this._refreshCartModel();
       this._refreshLocalDataModel();

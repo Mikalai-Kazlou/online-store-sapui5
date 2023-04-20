@@ -43,7 +43,7 @@ sap.ui.define([
       const oStepInput = this.byId("idQuantityStepInput");
 
       if (!this.oCart.has(oItemData.ID)) {
-        this.oCart.add(oItemData.ID, oStepInput.getValue());
+        this.oCart.add(oItemData.ID, oStepInput.getValue(), oItemData.Price);
       } else {
         this.oCart.drop(oItemData.ID);
       }

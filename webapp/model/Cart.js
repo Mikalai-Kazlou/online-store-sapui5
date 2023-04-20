@@ -22,12 +22,12 @@ sap.ui.define([
       return this._cart;
     },
 
-    add: function (id, quantity) {
+    add: function (id, quantity, price) {
       const index = this._cart.findIndex((item) => item.id === id);
       if (index >= 0) {
         this._cart[index].q += quantity;
       } else {
-        this._cart.push({ id, q: quantity });
+        this._cart.push({ id, q: quantity, p: price });
       }
     },
 
@@ -35,12 +35,12 @@ sap.ui.define([
       this._cart = this._cart.filter((item) => item.id !== id);
     },
 
-    replace: function (id, quantity) {
+    replace: function (id, quantity, price) {
       const item = this.has(id);
 
       if (item) {
         const index = this._cart.indexOf(item);
-        this._cart.splice(index, 1, { id, q: quantity });
+        this._cart.splice(index, 1, { id, q: quantity, p: price });
       }
     },
 
@@ -53,7 +53,7 @@ sap.ui.define([
     },
 
     getTotalAmount() {
-      return this._cart.reduce((total, item) => total + item.q, 0);
+      return this._cart.reduce((total, item) => total + item.q * item.p, 0);
     }
   });
 
