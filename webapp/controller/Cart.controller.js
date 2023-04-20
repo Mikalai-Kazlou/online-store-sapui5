@@ -5,7 +5,7 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
-    onCartListupdateFinished: function () {
+    onCartListUpdateFinished: function () {
       const oCartList = this.byId("idCartList");
       const aCartItems = oCartList.getItems();
 
@@ -13,6 +13,16 @@ sap.ui.define([
         const oCartItemData = oCartItem.getBindingContext("localdata").getObject();
         oCartItem.bindElement({ path: `/ZMK_C_PRODUCT(${oCartItemData.id})`, model: "mockdata" });
       });
+    },
+
+    onCartListDelete: function (oEvent) {
+      const oCartItem = oEvent.getParameter("listItem");
+      const oCartItemData = oCartItem.getBindingContext("localdata").getObject();
+
+      this.oCart.drop(oCartItemData.id);
+
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
     }
   });
 

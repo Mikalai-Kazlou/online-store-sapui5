@@ -8,9 +8,11 @@
     <content>
       <List id="idCartList"
         items="{path: 'localdata>/cart'}"
+        mode="Delete"
         growing="true"
-        growingThreshold="2"
-        updateFinished=".onCartListupdateFinished">
+        growingThreshold="3"
+        delete=".onCartListDelete"
+        updateFinished=".onCartListUpdateFinished">
         <CustomListItem>
           <HBox>
             <VBox class="sapUiSmallMargin"
