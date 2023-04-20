@@ -50,6 +50,10 @@ sap.ui.define([
 
     getTotalQuantity() {
       return this._cart.reduce((total, item) => total + item.q, 0);
+    },
+
+    getTotalAmount() {
+      return this._cart.reduce((total, item) => total + item.q, 0);
     }
   });
 

@@ -1,0 +1,77 @@
+<VBox xmlns="sap.m">
+  <layoutData>
+    <FlexItemData growFactor="1"/>
+  </layoutData>
+  <Panel class="sapUiSmallMargin sapUiLargeMarginBegin sapUiLargeMarginBottom"
+    headerText="{i18n>cartHeaderText}"
+    width="auto">
+    <content>
+      <List id="idCartList"
+        items="{path: 'localdata>/cart'}"
+        growing="true"
+        growingThreshold="2"
+        updateFinished=".onCartListupdateFinished">
+        <CustomListItem>
+          <HBox>
+            <VBox class="sapUiSmallMargin"
+              alignItems="Center"
+              justifyContent="Center">
+              <Image src="{mockdata>Thumbnail}"
+                mode="Background"
+                width="10rem"
+                height="10rem"
+                backgroundSize="cover"
+                backgroundPosition="center center">
+              </Image>
+            </VBox>
+
+            <VBox>
+              <layoutData>
+                <FlexItemData growFactor="1"/>
+              </layoutData>
+              <VBox class="sapUiTinyMarginTopBottom">
+                <Label text="{i18n>detailsProductName}"
+                  design="Bold"/>
+                <Text text="{mockdata>Title}"/>
+              </VBox>
+              <VBox class="sapUiTinyMarginTopBottom">
+                <Label text="{i18n>detailsBrand}"
+                  design="Bold"/>
+                <Text text="{mockdata>Brand}"/>
+              </VBox>
+              <VBox class="sapUiTinyMarginTopBottom"
+                width="70%">
+                <Label text="{i18n>detailsDescription}"
+                  design="Bold"/>
+                <Text text="{mockdata>Description}"/>
+              </VBox>
+              <VBox class="sapUiTinyMarginTopBottom">
+                <Label text="{i18n>detailsPrice}"
+                  design="Bold"/>
+                <ObjectNumber class="sapMObjectNumberLarge"
+                  number="{
+                    parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
+                    type: 'sap.ui.model.type.Currency',
+                    formatOptions: {showMeasure: false}
+                  }"
+                  unit="{mockdata>Currency}"/>
+              </VBox>
+            </VBox>
+
+            <VBox alignItems="Center"
+              justifyContent="Center"
+              width="10rem">
+              <StepInput id="idQuantityStepInput"
+                value="{localdata>q}"
+                min="1"
+                max="99"
+                width="5rem"
+                textAlign="Center"
+                change=".onQuantityStepInputChange"/>
+            </VBox>
+          </HBox>
+        </CustomListItem>
+      </List>
+    </content>
+  </Panel>
+</VBox>

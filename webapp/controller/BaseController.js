@@ -66,6 +66,7 @@ sap.ui.define([
     _refreshCartModel() {
       const oCartModel = this.getModel("cart");
       oCartModel.setProperty("/totalQuantity", this.oCart.getTotalQuantity());
+      oCartModel.setProperty("/totalAmount", this.oCart.getTotalAmount());
     }
   });
 

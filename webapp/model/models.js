@@ -25,7 +25,9 @@ sap.ui.define([
 			const oCart = new Cart();
 
 			const oModel = new JSONModel({
-				totalQuantity: oCart.getTotalQuantity()
+				totalQuantity: oCart.getTotalQuantity(),
+				totalAmount: oCart.getTotalAmount(),
+				currency: 'USD'
 			});
 
 			oModel.setDefaultBindingMode(BindingMode.TwoWay);
