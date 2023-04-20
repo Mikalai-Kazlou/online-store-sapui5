@@ -1,7 +1,6 @@
 sap.ui.define([
-  "./BaseController",
-  "sap/m/StandardListItem"
-], function (BaseController, StandardListItem) {
+  "./BaseController"
+], function (BaseController) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {

@@ -1,4 +1,15 @@
 <HBox xmlns="sap.m">
+  <HBox class="sapUiSmallMarginEnd">
+    <Label text="{i18n>mainPageHeaderTotalLabel}"
+      design="Bold"/>
+    <ObjectNumber class="sapUiTinyMarginBeginEnd"
+      number="{
+        parts: [{path: 'cart>/totalAmount'}, {path: 'cart>/currency'}],
+        type: 'sap.ui.model.type.Currency',
+        formatOptions: {showMeasure: false}
+      }"
+      unit="{cart>/currency}"/>
+  </HBox>
   <Button id="idCartButton"
     type="Default"
     icon="sap-icon://cart"
