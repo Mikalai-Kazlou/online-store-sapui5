@@ -20,7 +20,10 @@
         width="auto">
         <content>
           <List id="idCartList"
-            items="{path: 'localdata>/cart'}">
+            items="{path: 'localdata>/cart'}"
+            growing="true"
+            growingThreshold="2"
+            updateFinished=".onCartListupdateFinished">
             <CustomListItem>
               <HBox>
                 <VBox class="sapUiSmallMargin"

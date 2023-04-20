@@ -5,12 +5,7 @@ sap.ui.define([
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
-    onInit: function () {
-      const oRouter = this.getRouter();
-      oRouter.getRoute("cart").attachPatternMatched(this._onPatternMatched, this);
-    },
-
-    _onPatternMatched: function () {
+    onCartListupdateFinished: function () {
       const oCartList = this.byId("idCartList");
       const aCartItems = oCartList.getItems();
 
