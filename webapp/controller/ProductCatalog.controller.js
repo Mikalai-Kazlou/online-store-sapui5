@@ -23,7 +23,7 @@ sap.ui.define([
     onOpenDetails: function (oEvent) {
       const oButton = oEvent.getSource();
       this.navTo("details", {
-        path: window.encodeURIComponent(oButton.getBindingContext("mockdata").getPath().slice(1))
+        id: oButton.getBindingContext("mockdata").getObject().ID
       });
     },
 
@@ -135,7 +135,7 @@ sap.ui.define([
       const oItemData = oBindingContext.getObject();
 
       if (!this.oCart.has(oItemData.ID)) {
-        this.oCart.add(oItemData.ID, 1);
+        this.oCart.add(oItemData.ID, 1, oItemData.Price);
       } else {
         this.oCart.drop(oItemData.ID);
       }
@@ -144,6 +144,14 @@ sap.ui.define([
       this._refreshLocalDataModel();
 
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
+    },
+
+    onFilterPanelExpand: function (oEvent) {
+      const oPanel = oEvent.getSource();
+      const oParameters = oEvent.getParameters();
+
+      const oBundle = this.getResourceBundle();
+      oParameters.expand ? oPanel.setHeaderText(oBundle.getText("filterHeaderText")) : oPanel.setHeaderText("");
     }
   });
 

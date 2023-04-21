@@ -17,10 +17,8 @@ sap.ui.define([
     },
 
     _onPatternMatched: function (oEvent) {
-      const sPath = window.decodeURIComponent(oEvent.getParameter("arguments").path);
-      const iProductID = +sPath.split("(").pop().slice(0, -1);
-
-      this.getView().bindElement({ path: `/${sPath}`, model: "mockdata" });
+      const iProductID = +oEvent.getParameter("arguments").id;
+      this.getView().bindElement({ path: `/ZMK_C_PRODUCT(${iProductID})`, model: "mockdata" });
 
       const aFilters = [];
       aFilters.push(new Filter("ProductID", FilterOperator.EQ, iProductID));
@@ -45,7 +43,7 @@ sap.ui.define([
       const oStepInput = this.byId("idQuantityStepInput");
 
       if (!this.oCart.has(oItemData.ID)) {
-        this.oCart.add(oItemData.ID, oStepInput.getValue());
+        this.oCart.add(oItemData.ID, oStepInput.getValue(), oItemData.Price);
       } else {
         this.oCart.drop(oItemData.ID);
       }
@@ -54,18 +52,6 @@ sap.ui.define([
       this._refreshLocalDataModel();
 
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
-    },
-
-    onQuantityStepInputChange: function (oEvent) {
-      const oStepInput = oEvent.getSource();
-
-      const oBindingContext = oStepInput.getBindingContext("mockdata");
-      const oItemData = oBindingContext.getObject();
-
-      this.oCart.replace(oItemData.ID, oStepInput.getValue());
-
-      this._refreshCartModel();
-      this._refreshLocalDataModel();
     },
 
     _setAddToCartButtonAttributes: function (id, oButton) {

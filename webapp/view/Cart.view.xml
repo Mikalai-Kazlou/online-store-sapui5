@@ -8,14 +8,17 @@
     class="sapUiResponsivePadding--header"
     showNavButton="true"
     navButtonPress=".onNavBack">
-
     <headerContent>
       <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.CartInfo"
         type="XML"/>
     </headerContent>
-
     <content>
-
+      <HBox>
+        <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.CartList"
+          type="XML"/>
+        <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.CartSummary"
+          type="XML"/>
+      </HBox>
     </content>
   </Page>
 

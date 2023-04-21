@@ -45,6 +45,18 @@ sap.ui.define([
       }
     },
 
+    onQuantityStepInputChange: function (oEvent) {
+      const oStepInput = oEvent.getSource();
+
+      const oBindingContext = oStepInput.getBindingContext("mockdata");
+      const oItemData = oBindingContext.getObject();
+
+      this.oCart.replace(oItemData.ID, oStepInput.getValue(), oItemData.Price);
+
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
+    },
+
     _refreshLocalDataModel() {
       const oLocalDataModel = this.getModel("localdata");
       oLocalDataModel.setProperty("/cart", this.oCart.get());
@@ -54,6 +66,7 @@ sap.ui.define([
     _refreshCartModel() {
       const oCartModel = this.getModel("cart");
       oCartModel.setProperty("/totalQuantity", this.oCart.getTotalQuantity());
+      oCartModel.setProperty("/totalAmount", this.oCart.getTotalAmount());
     }
   });
 
