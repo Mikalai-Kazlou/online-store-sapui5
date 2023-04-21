@@ -26,7 +26,6 @@
                 backgroundPosition="center center">
               </Image>
             </VBox>
-
             <VBox>
               <layoutData>
                 <FlexItemData growFactor="1"/>
@@ -59,7 +58,6 @@
                   unit="{mockdata>Currency}"/>
               </VBox>
             </VBox>
-
             <VBox alignItems="Center"
               justifyContent="Center"
               width="10rem">
