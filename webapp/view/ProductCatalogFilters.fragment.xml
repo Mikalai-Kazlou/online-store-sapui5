@@ -2,16 +2,25 @@
   <Panel class="sapUiTinyMargin myOnlineStoreSAPUI5Sticky"
     expandable="true"
     expanded="true"
-    headerText="{i18n>filterHeaderText}"
     width="auto"
     expand=".onFilterPanelExpand">
     <layoutData>
       <FlexItemData growFactor="1"/>
     </layoutData>
+    <headerToolbar>
+      <OverflowToolbar style="Clear">
+        <Title id="idFiltersTitle"
+          text="{i18n>filterHeaderText}"/>
+        <ToolbarSpacer/>
+        <Button id="idFiltersClearButton"
+          icon="sap-icon://clear-filter"
+          press=".onClearFilters"/>
+      </OverflowToolbar>
+    </headerToolbar>
     <content>
       <VBox class="sapUiTinyMarginBottom">
-        <SearchField liveChange=".onSearch"/>
-
+        <SearchField id="idFilterSearch"
+          liveChange=".onSearch"/>
         <VBox class="sapUiSmallMarginTop"
           width="100%">
           <layoutData>
@@ -23,8 +32,8 @@
           <Panel height="17rem">
             <List id="idFilterCategory"
               items="{path: 'mockdata>/ZMK_I_CATEGORY', 
-                  sorter: {path: 'Category'}
-                }"
+                sorter: {path: 'Category'}
+              }"
               mode="MultiSelect"
               includeItemInSelection="true"
               selectionChange=".onFilterCategorySelectionChange">
@@ -43,8 +52,8 @@
           <Panel height="17rem">
             <List id="idFilterBrand"
               items="{path: 'mockdata>/ZMK_I_BRAND', 
-                  sorter: {path: 'Brand'}
-                }"
+                sorter: {path: 'Brand'}
+              }"
               mode="MultiSelect"
               includeItemInSelection="true"
               selectionChange=".onFilterBrandSelectionChange">
@@ -52,7 +61,6 @@
             </List>
           </Panel>
         </VBox>
-
         <VBox class="sapUiMediumMarginTop"
           width="100%">
           <layoutData>
@@ -81,7 +89,6 @@
             inputsAsTooltips="true"
             change=".onFilterStockChange"/>
         </VBox>
-
       </VBox>
     </content>
   </Panel>

@@ -76,15 +76,26 @@ sap.ui.define([
 
       let aFilters = oBinding.getFilters(FilterType.Application);
       aFilters = aFilters.filter((item) => item.getPath() !== field);
-      aFilters = [...aFilters, ...filters];
+      aFilters = aFilters.concat(...filters);
 
       oBinding.filter(aFilters, FilterType.Application);
     },
 
-    _applyListFilter: function (oEvent, field) {
+    _applyTextFilter: function (oSource, field) {
       const aFilters = [];
 
-      const aSelectedItems = oEvent.getSource().getSelectedItems();
+      const sQuery = oSource.getValue();
+      if (sQuery && sQuery.length > 0) {
+        aFilters.push(new Filter(field, FilterOperator.Contains, sQuery));
+      }
+
+      this._applyFilters(aFilters, field);
+    },
+
+    _applyListFilter: function (oSource, field) {
+      const aFilters = [];
+
+      const aSelectedItems = oSource.getSelectedItems();
       aSelectedItems.forEach((item) => {
         aFilters.push(new Filter(field, FilterOperator.EQ, item.getTitle()));
       });
@@ -92,40 +103,55 @@ sap.ui.define([
       this._applyFilters(aFilters, field);
     },
 
-    _applyRangeFilter: function (oEvent, field) {
+    _applyRangeFilter: function (oSource, field) {
       const aFilters = [];
 
-      const aRange = oEvent.getSource().getRange();
-      aFilters.push(new Filter(field, FilterOperator.BT, aRange[0], aRange[1]));
+      const [min, max] = oSource.getRange().sort((a, b) => a - b);
+      aFilters.push(new Filter(field, FilterOperator.BT, min, max));
 
       this._applyFilters(aFilters, field);
     },
 
+    onClearFilters: function () {
+      const oFilterSearch = this.byId("idFilterSearch");
+      oFilterSearch.setValue("");
+      this._applyTextFilter(oFilterSearch, "Title");
+
+      const oFilterCategory = this.byId("idFilterCategory");
+      oFilterCategory.removeSelections(true);
+      this._applyListFilter(oFilterCategory, "Category");
+
+      const oFilterBrand = this.byId("idFilterBrand");
+      oFilterBrand.removeSelections(true);
+      this._applyListFilter(oFilterBrand, "Brand");
+
+      const oFilterPrice = this.byId("idFilterPrice");
+      oFilterPrice.setRange([oFilterPrice.getMin(), oFilterPrice.getMax()]);
+      this._applyRangeFilter(oFilterPrice, "Price");
+
+      const oFilterStock = this.byId("idFilterStock");
+      oFilterStock.setRange([oFilterStock.getMin(), oFilterStock.getMax()]);
+      this._applyRangeFilter(oFilterStock, "Stock");
+    },
+
     onSearch: function (oEvent) {
-      const aFilters = [];
-
-      const sQuery = oEvent.getSource().getValue();
-      if (sQuery && sQuery.length > 0) {
-        aFilters.push(new Filter("Title", FilterOperator.Contains, sQuery));
-      }
-
-      this._applyFilters(aFilters, "Title");
+      this._applyTextFilter(oEvent.getSource(), "Title");
     },
 
     onFilterCategorySelectionChange: function (oEvent) {
-      this._applyListFilter(oEvent, "Category");
+      this._applyListFilter(oEvent.getSource(), "Category");
     },
 
     onFilterBrandSelectionChange: function (oEvent) {
-      this._applyListFilter(oEvent, "Brand");
+      this._applyListFilter(oEvent.getSource(), "Brand");
     },
 
     onFilterPriceChange: function (oEvent) {
-      this._applyRangeFilter(oEvent, "Price");
+      this._applyRangeFilter(oEvent.getSource(), "Price");
     },
 
     onFilterStockChange: function (oEvent) {
-      this._applyRangeFilter(oEvent, "Stock");
+      this._applyRangeFilter(oEvent.getSource(), "Stock");
     },
 
     onAddToCart: function (oEvent) {
@@ -147,11 +173,13 @@ sap.ui.define([
     },
 
     onFilterPanelExpand: function (oEvent) {
-      const oPanel = oEvent.getSource();
       const oParameters = oEvent.getParameters();
 
-      const oBundle = this.getResourceBundle();
-      oParameters.expand ? oPanel.setHeaderText(oBundle.getText("filterHeaderText")) : oPanel.setHeaderText("");
+      const oFiltersTitle = this.byId("idFiltersTitle");
+      oFiltersTitle.setVisible(oParameters.expand);
+
+      const oFiltersClearButton = this.byId("idFiltersClearButton");
+      oFiltersClearButton.setVisible(oParameters.expand);
     }
   });
 
