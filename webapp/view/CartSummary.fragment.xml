@@ -1,29 +1,31 @@
-<VBox xmlns="sap.m"
-  width="20%">
-  <Panel class="sapUiSmallMargin sapUiLargeMarginEnd sapUiLargeMarginBottom myOnlineStoreSAPUI5Sticky"
-    headerText="{i18n>cartSummaryText}"
-    width="auto">
-    <layoutData>
-      <FlexItemData growFactor="1"/>
-    </layoutData>
-    <content>
-      <VBox class="sapUiTinyMarginTopBottom">
-        <Label text="{i18n>cartSummaryProducts}"
-          design="Bold"/>
-        <ObjectNumber class="sapMObjectNumberLarge"
-          number="{path: 'cart>/totalQuantity'}"/>
-      </VBox>
-      <VBox class="sapUiTinyMarginTopBottom">
-        <Label text="{i18n>cartSummaryTotal}"
-          design="Bold"/>
-        <ObjectNumber class="sapMObjectNumberLarge"
-          number="{
-            parts: [{path: 'cart>/totalAmount'}, {path: 'cart>/currency'}],
-            type: 'sap.ui.model.type.Currency',
-            formatOptions: {showMeasure: false}
-          }"
-          unit="{cart>/currency}"/>
-      </VBox>
-    </content>
-  </Panel>
-</VBox>
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+  <VBox width="20%">
+    <Panel class="sapUiSmallMargin sapUiLargeMarginEnd sapUiLargeMarginBottom myOnlineStoreSAPUI5Sticky"
+      headerText="{i18n>cartSummaryText}"
+      width="auto">
+      <layoutData>
+        <FlexItemData growFactor="1"/>
+      </layoutData>
+      <content>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>cartSummaryProducts}"
+            design="Bold"/>
+          <ObjectNumber class="sapMObjectNumberLarge"
+            number="{path: 'cart>/totalQuantity'}"/>
+        </VBox>
+        <VBox class="sapUiTinyMarginTopBottom">
+          <Label text="{i18n>cartSummaryTotal}"
+            design="Bold"/>
+          <ObjectNumber class="sapMObjectNumberLarge"
+            number="{
+              parts: [{path: 'cart>/totalAmount'}, {path: 'cart>/currency'}],
+              type: 'sap.ui.model.type.Currency',
+              formatOptions: {showMeasure: false}
+            }"
+            unit="{cart>/currency}"/>
+        </VBox>
+      </content>
+    </Panel>
+  </VBox>
+</core:FragmentDefinition>

@@ -1,95 +1,98 @@
-<VBox xmlns="sap.m">
-  <Panel class="sapUiTinyMargin myOnlineStoreSAPUI5Sticky"
-    expandable="true"
-    expanded="true"
-    width="auto"
-    expand=".onFilterPanelExpand">
-    <layoutData>
-      <FlexItemData growFactor="1"/>
-    </layoutData>
-    <headerToolbar>
-      <OverflowToolbar style="Clear">
-        <Title id="idFiltersTitle"
-          text="{i18n>filterHeaderText}"/>
-        <ToolbarSpacer/>
-        <Button id="idFiltersClearButton"
-          icon="sap-icon://clear-filter"
-          press=".onClearFilters"/>
-      </OverflowToolbar>
-    </headerToolbar>
-    <content>
-      <VBox class="sapUiTinyMarginBottom">
-        <SearchField id="idFilterSearch"
-          liveChange=".onSearch"/>
-        <VBox class="sapUiSmallMarginTop"
-          width="100%">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-          <Label class="sapUiSmallMarginBegin"
-            text="{i18n>filterCategoryLabel}"
-            design="Bold"/>
-          <Panel height="17rem">
-            <List id="idFilterCategory"
-              items="{path: 'mockdata>/ZMK_I_CATEGORY', 
-                sorter: {path: 'Category'}
-              }"
-              mode="MultiSelect"
-              includeItemInSelection="true"
-              selectionChange=".onFilterCategorySelectionChange">
-              <StandardListItem title="{mockdata>Category}"/>
-            </List>
-          </Panel>
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+  <VBox>
+    <Panel class="sapUiTinyMargin myOnlineStoreSAPUI5Sticky"
+      expandable="true"
+      expanded="true"
+      width="auto"
+      expand=".onFilterPanelExpand">
+      <layoutData>
+        <FlexItemData growFactor="1"/>
+      </layoutData>
+      <headerToolbar>
+        <OverflowToolbar style="Clear">
+          <Title id="idFiltersTitle"
+            text="{i18n>filterHeaderText}"/>
+          <ToolbarSpacer/>
+          <Button id="idFiltersClearButton"
+            icon="sap-icon://clear-filter"
+            press=".onClearFilters"/>
+        </OverflowToolbar>
+      </headerToolbar>
+      <content>
+        <VBox class="sapUiTinyMarginBottom">
+          <SearchField id="idFilterSearch"
+            liveChange=".onSearch"/>
+          <VBox class="sapUiSmallMarginTop"
+            width="100%">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterCategoryLabel}"
+              design="Bold"/>
+            <Panel height="17rem">
+              <List id="idFilterCategory"
+                items="{path: 'mockdata>/ZMK_I_CATEGORY', 
+                  sorter: {path: 'Category'}
+                }"
+                mode="MultiSelect"
+                includeItemInSelection="true"
+                selectionChange=".onFilterCategorySelectionChange">
+                <StandardListItem title="{mockdata>Category}"/>
+              </List>
+            </Panel>
+          </VBox>
+          <VBox class="sapUiSmallMarginTop"
+            width="100%">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterBrandLabel}"
+              design="Bold"/>
+            <Panel height="17rem">
+              <List id="idFilterBrand"
+                items="{path: 'mockdata>/ZMK_I_BRAND', 
+                  sorter: {path: 'Brand'}
+                }"
+                mode="MultiSelect"
+                includeItemInSelection="true"
+                selectionChange=".onFilterBrandSelectionChange">
+                <StandardListItem title="{mockdata>Brand}"/>
+              </List>
+            </Panel>
+          </VBox>
+          <VBox class="sapUiMediumMarginTop"
+            width="100%">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterPriceLabel}"
+              design="Bold"/>
+            <RangeSlider id="idFilterPrice"
+              showAdvancedTooltip="true"
+              showHandleTooltip="false"
+              inputsAsTooltips="true"
+              change=".onFilterPriceChange"/>
+          </VBox>
+          <VBox class="sapUiMediumMarginTop"
+            width="100%">
+            <layoutData>
+              <FlexItemData growFactor="1"/>
+            </layoutData>
+            <Label class="sapUiSmallMarginBegin"
+              text="{i18n>filterStockLabel}"
+              design="Bold"/>
+            <RangeSlider id="idFilterStock"
+              showAdvancedTooltip="true"
+              showHandleTooltip="false"
+              inputsAsTooltips="true"
+              change=".onFilterStockChange"/>
+          </VBox>
         </VBox>
-        <VBox class="sapUiSmallMarginTop"
-          width="100%">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-          <Label class="sapUiSmallMarginBegin"
-            text="{i18n>filterBrandLabel}"
-            design="Bold"/>
-          <Panel height="17rem">
-            <List id="idFilterBrand"
-              items="{path: 'mockdata>/ZMK_I_BRAND', 
-                sorter: {path: 'Brand'}
-              }"
-              mode="MultiSelect"
-              includeItemInSelection="true"
-              selectionChange=".onFilterBrandSelectionChange">
-              <StandardListItem title="{mockdata>Brand}"/>
-            </List>
-          </Panel>
-        </VBox>
-        <VBox class="sapUiMediumMarginTop"
-          width="100%">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-          <Label class="sapUiSmallMarginBegin"
-            text="{i18n>filterPriceLabel}"
-            design="Bold"/>
-          <RangeSlider id="idFilterPrice"
-            showAdvancedTooltip="true"
-            showHandleTooltip="false"
-            inputsAsTooltips="true"
-            change=".onFilterPriceChange"/>
-        </VBox>
-        <VBox class="sapUiMediumMarginTop"
-          width="100%">
-          <layoutData>
-            <FlexItemData growFactor="1"/>
-          </layoutData>
-          <Label class="sapUiSmallMarginBegin"
-            text="{i18n>filterStockLabel}"
-            design="Bold"/>
-          <RangeSlider id="idFilterStock"
-            showAdvancedTooltip="true"
-            showHandleTooltip="false"
-            inputsAsTooltips="true"
-            change=".onFilterStockChange"/>
-        </VBox>
-      </VBox>
-    </content>
-  </Panel>
-</VBox>
+      </content>
+    </Panel>
+  </VBox>
+</core:FragmentDefinition>
