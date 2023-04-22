@@ -25,6 +25,14 @@
             }"
             unit="{cart>/currency}"/>
         </VBox>
+        <VBox class="sapUiSmallMarginTop"
+          alignItems="Center"
+          justifyContent="Center">
+          <Button text="{i18n>cartSummaryConfirmOrderButtonText}"
+            width="10rem"
+            press=".onConfirmOrder">
+          </Button>
+        </VBox>
       </content>
     </Panel>
   </VBox>
