@@ -30,7 +30,7 @@
           justifyContent="Center">
           <Button text="{i18n>cartSummaryConfirmOrderButtonText}"
             width="10rem"
-            press=".onConfirmOrder">
+            press=".onOpenConfirmOrderDialog">
           </Button>
         </VBox>
       </content>

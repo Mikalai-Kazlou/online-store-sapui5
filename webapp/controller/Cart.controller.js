@@ -1,6 +1,7 @@
 sap.ui.define([
-  "./BaseController"
-], function (BaseController) {
+  "./BaseController",
+  "sap/ui/core/syncStyleClass"
+], function (BaseController, syncStyleClass) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
@@ -22,6 +23,32 @@ sap.ui.define([
 
       this._refreshCartModel();
       this._refreshLocalDataModel();
+    },
+
+    onOpenConfirmOrderDialog: function () {
+      if (!this.oConfirmOrderDialog) {
+        this.oConfirmOrderDialog = this.loadFragment({
+          name: "com.exercise.onlinestoresapui5.view.ConfirmOrderDialog"
+        });
+      }
+
+      this.oConfirmOrderDialog.then(function (oDialog) {
+        syncStyleClass(this.getOwnerComponent().getContentDensityClass(), this.getView(), oDialog);
+
+        this.oDialog = oDialog;
+        this.oDialog.open();
+
+        // this._oMessageManager.registerObject(this.oView.byId("formContainer"), true);
+        // this.createMessagePopover();
+      }.bind(this));
+    },
+
+    onConfirmOrder: function () {
+      this.oDialog.close();
+    },
+
+    onCancelOrder: function () {
+      this.oDialog.close();
     }
   });
 
