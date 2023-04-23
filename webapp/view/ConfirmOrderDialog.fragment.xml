@@ -3,18 +3,61 @@
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:core="sap.ui.core">
   <Dialog id="idConfirmOrderDialog"
-    title="Confirm order">
-    <content></content>
+    title="{i18n>dialogTitle}">
+    <content>
+      <VBox class="sapUiTinyMargin"
+        id="idConfirmOrderContainer">
+        <f:SimpleForm id="ifConfirmOrderForm"
+          title="{i18n>dialogFormTitle}"
+          editable="true">
+          <f:content>
+
+            <core:Title text="{i18n>dialogPersonalDetailsTitle}"/>
+            <Label text="{i18n>dialogNameLabel}"/>
+            <Input required="true"
+              placeholder="{i18n>dialogNamePlaceholder}"
+              change="onChange"/>
+            <Label text="{i18n>dialogDeliveryAddressLabel}"/>
+            <Input required="true"
+              placeholder="{i18n>dialogDeliveryAddressPlaceholder}"/>
+            <Label text="{i18n>dialogPhoneNumberLabel}"/>
+            <Input required="true"
+              placeholder="{i18n>dialogPhoneNumberPlaceholder}"/>
+            <Label text="{i18n>dialogEmailLabel}"/>
+            <Input required="true"
+              placeholder="{i18n>dialogEmailPlaceholder}"
+              value="{
+                path: 'email',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^\\w+[\\w-+\\.]*\\@[a-zA-Z]+.[a-zA-Z]+'
+                }
+							}" />
+
+            <core:Title text="{i18n>dialogCardDetailsTitle}" />
+            <Label text="{i18n>dialogCardNumberLabel}" />
+            <Input required="true"
+              placeholder="{i18n>dialogCardNumberPlaceholder}"/>
+            <Label text="{i18n>dialogValidLabel}" />
+            <Input required="true"
+              placeholder="{i18n>dialogValidPlaceholder}"/>
+            <Label text="{i18n>dialogCVVLabel}" />
+            <Input required="true"
+              placeholder="{i18n>dialogCVVPlaceholder}"/>
+
+          </f:content>
+        </f:SimpleForm>
+      </VBox>
+    </content>
     <footer>
       <Toolbar>
         <content>
           <ToolbarSpacer/>
           <Button type="Accept"
-            text="Confirm"
+            text="{i18n>dialogConfirmButtonText}"
             press=".onConfirmOrder"/>
-          <Button id="Reject"
-            text="Cancel"
-            type="Reject"
+          <Button type="Reject"
+            text="{i18n>dialogCancelButtonText}"
             press=".onCancelOrder"
             ariaHasPopup="Dialog"/>
         </content>
