@@ -28,7 +28,8 @@
         <VBox class="sapUiSmallMarginTop"
           alignItems="Center"
           justifyContent="Center">
-          <Button text="{i18n>cartSummaryConfirmOrderButtonText}"
+          <Button type="Accept"
+            text="{i18n>cartSummaryConfirmOrderButtonText}"
             width="10rem"
             press=".onOpenConfirmOrderDialog">
           </Button>
