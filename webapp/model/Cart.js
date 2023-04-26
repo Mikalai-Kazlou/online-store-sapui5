@@ -22,6 +22,10 @@ sap.ui.define([
       return this._cart;
     },
 
+    clear: function () {
+      this._cart = [];
+    },
+
     add: function (id, quantity, price) {
       const index = this._cart.findIndex((item) => item.id === id);
       if (index >= 0) {

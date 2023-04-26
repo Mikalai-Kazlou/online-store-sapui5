@@ -102,7 +102,7 @@
             icon="{path: '/', formatter: '.buttonIconFormatter'}"
             type="{path: '/', formatter: '.buttonTypeFormatter'}"
             text="{path: '/', formatter: '.highestSeverityMessages'}"
-            press=".handleMessagePopoverPress"
+            press=".onMessagePopoverPress"
             ariaHasPopup="Dialog"/>
           <ToolbarSpacer/>
           <Button type="Accept"

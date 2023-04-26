@@ -2,13 +2,14 @@ sap.ui.define([
   "./BaseController",
   'sap/m/MessagePopover',
   'sap/m/MessageItem',
+  "sap/m/MessageBox",
   'sap/ui/model/json/JSONModel',
   "sap/ui/core/syncStyleClass",
   'sap/ui/core/message/Message',
   'sap/ui/core/MessageType',
   'sap/ui/core/Core',
   'sap/ui/core/Element'
-], function (BaseController, MessagePopover, MessageItem, JSONModel, syncStyleClass, Message, MessageType, Core, Element) {
+], function (BaseController, MessagePopover, MessageItem, MessageBox, JSONModel, syncStyleClass, Message, MessageType, Core, Element) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
@@ -87,7 +88,7 @@ sap.ui.define([
       }.bind(this));
     },
 
-    handleMessagePopoverPress: function (oEvent) {
+    onMessagePopoverPress: function (oEvent) {
       if (!this.oMP) {
         this.createMessagePopover();
       }
@@ -343,6 +344,20 @@ sap.ui.define([
       if (this.oMP.getItems().length) {
         setTimeout(() => this.oMP.openBy(oButton), 100);
       } else {
+        const oBundle = this.getResourceBundle();
+
+        MessageBox.success(oBundle.getText("confirmOrderSuccess"), {
+          title: oBundle.getText("cartSummaryConfirmOrderButtonText"),
+          styleClass: this.getOwnerComponent().getContentDensityClass(),
+          onClose: () => {
+            this.oCart.clear();
+
+            this._refreshCartModel();
+            this._refreshLocalDataModel();
+
+            this.navTo("main");
+          }
+        });
         this.oDialog.close();
       }
     },
