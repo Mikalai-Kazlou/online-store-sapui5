@@ -171,12 +171,15 @@ sap.ui.define([
       this.removeMessageFromTarget(sTarget);
 
       if (!oInput.getValue()) {
+        const sLabelText = oInput.getLabels()[0].getText();
+        const oBundle = this.getResourceBundle();
+
         this._oMessageManager.addMessages(
           new Message({
-            message: `A mandatory field "${oInput.getLabels()[0].getText()}" is required`,
+            message: oBundle.getText("requiredFieldMessage", [sLabelText]),
             type: MessageType.Error,
-            additionalText: oInput.getLabels()[0].getText(),
-            description: "All required fields must be filled",
+            additionalText: sLabelText,
+            description: oBundle.getText("requiredFieldDescription"),
             target: sTarget,
             processor: this.getView().getModel()
           })
@@ -186,7 +189,6 @@ sap.ui.define([
 
     handleConstrainedField: function (oInput) {
       const sTarget = oInput.getBindingPath("value");
-
       const oBinding = oInput.getBinding("value");
       let sValueState = "None";
 
@@ -194,72 +196,37 @@ sap.ui.define([
         oBinding.getType().validateValue(oInput.getValue());
       } catch (oException) {
         const sID = oInput.getId();
+        const oBundle = this.getResourceBundle();
+        sValueState = "Warning";
+
+        const oMessage = new Message({
+          type: MessageType.Warning,
+          additionalText: oInput.getLabels()[0].getText(),
+          description: oBundle.getText("constrainedFieldDescription"),
+          target: sTarget,
+          processor: this.getView().getModel()
+        });
 
         switch (true) {
           case sID.includes("idDialogInputPhoneNumber"):
-            sValueState = "Warning";
-            this._oMessageManager.addMessages(
-              new Message({
-                message: 'The phone number format is "+123456789"',
-                type: MessageType.Warning,
-                additionalText: oInput.getLabels()[0].getText(),
-                description: "Each field must follow its own format",
-                target: sTarget,
-                processor: this.getView().getModel()
-              })
-            );
+            oMessage.setMessage(oBundle.getText("validationMessagePhoneNumber"));
+            this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputEmail"):
-            sValueState = "Warning";
-            this._oMessageManager.addMessages(
-              new Message({
-                message: 'The email format is "john.doe@gmail.com"',
-                type: MessageType.Warning,
-                additionalText: oInput.getLabels()[0].getText(),
-                description: "Each field must follow its own format",
-                target: sTarget,
-                processor: this.getView().getModel()
-              })
-            );
+            oMessage.setMessage(oBundle.getText("validationMessageEmail"));
+            this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputCardNumber"):
-            sValueState = "Warning";
-            this._oMessageManager.addMessages(
-              new Message({
-                message: 'The card number format is "1234567890123456"',
-                type: MessageType.Warning,
-                additionalText: oInput.getLabels()[0].getText(),
-                description: "Each field must follow its own format",
-                target: sTarget,
-                processor: this.getView().getModel()
-              })
-            );
+            oMessage.setMessage(oBundle.getText("validationMessageCardNumber"));
+            this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputValid"):
-            sValueState = "Warning";
-            this._oMessageManager.addMessages(
-              new Message({
-                message: 'The valid format is "12/25"',
-                type: MessageType.Warning,
-                additionalText: oInput.getLabels()[0].getText(),
-                description: "Each field must follow its own format",
-                target: sTarget,
-                processor: this.getView().getModel()
-              })
-            );
+            oMessage.setMessage(oBundle.getText("validationMessageValid"));
+            this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputCVV"):
-            sValueState = "Warning";
-            this._oMessageManager.addMessages(
-              new Message({
-                message: 'The CVV format is "123"',
-                type: MessageType.Warning,
-                additionalText: oInput.getLabels()[0].getText(),
-                description: "Each field must follow its own format",
-                target: sTarget,
-                processor: this.getView().getModel()
-              })
-            );
+            oMessage.setMessage(oBundle.getText("validationMessageCVV"));
+            this._oMessageManager.addMessages(oMessage);
             break;
           default:
             break;
