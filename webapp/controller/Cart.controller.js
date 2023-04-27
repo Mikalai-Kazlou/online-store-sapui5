@@ -9,8 +9,9 @@ sap.ui.define([
   'sap/ui/core/message/Message',
   'sap/ui/core/MessageType',
   'sap/ui/core/Core',
-  'sap/ui/core/Element'
-], function (BaseController, MessagePopover, MessageItem, MessageBox, MessageToast, JSONModel, syncStyleClass, Message, MessageType, Core, Element) {
+  'sap/ui/core/Element',
+  "../model/constants"
+], function (BaseController, MessagePopover, MessageItem, MessageBox, MessageToast, JSONModel, syncStyleClass, Message, MessageType, Core, Element, constants) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
@@ -51,6 +52,19 @@ sap.ui.define([
       this.oView.setModel(this._oMessageManager.getMessageModel(), "message");
 
       this.oResourceBundle = this.getResourceBundle();
+
+      const oRouter = this.getRouter();
+      oRouter.getRoute("cart").attachPatternMatched(this._onPatternMatched, this);
+    },
+
+    _onPatternMatched: function (oEvent) {
+      const oArgs = oEvent.getParameter("arguments");
+      const oQuery = oArgs["?query"];
+
+      if (oQuery && oQuery.action === constants.actions.buyNow) {
+        const oConfirmOrderDialogButton = this.byId("idConfirmOrderDialogButton");
+        oConfirmOrderDialogButton.firePress();
+      }
     },
 
     onCartListUpdateFinished: function () {
