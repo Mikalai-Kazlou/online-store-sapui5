@@ -31,7 +31,7 @@
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterCategoryLabel}"
               design="Bold"/>
-            <Panel height="17rem">
+            <Panel height="26vh">
               <List id="idFilterCategory"
                 items="{path: 'mockdata>/ZMK_I_CATEGORY', 
                   sorter: {path: 'Category'}
@@ -51,7 +51,7 @@
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterBrandLabel}"
               design="Bold"/>
-            <Panel height="17rem">
+            <Panel height="26vh">
               <List id="idFilterBrand"
                 items="{path: 'mockdata>/ZMK_I_BRAND', 
                   sorter: {path: 'Brand'}
@@ -63,11 +63,8 @@
               </List>
             </Panel>
           </VBox>
-          <VBox class="sapUiMediumMarginTop"
+          <VBox class="sapUiSmallMarginTop"
             width="100%">
-            <layoutData>
-              <FlexItemData growFactor="1"/>
-            </layoutData>
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterPriceLabel}"
               design="Bold"/>
@@ -79,9 +76,6 @@
           </VBox>
           <VBox class="sapUiMediumMarginTop"
             width="100%">
-            <layoutData>
-              <FlexItemData growFactor="1"/>
-            </layoutData>
             <Label class="sapUiSmallMarginBegin"
               text="{i18n>filterStockLabel}"
               design="Bold"/>
