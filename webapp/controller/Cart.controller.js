@@ -3,13 +3,14 @@ sap.ui.define([
   'sap/m/MessagePopover',
   'sap/m/MessageItem',
   "sap/m/MessageBox",
+  "sap/m/MessageToast",
   'sap/ui/model/json/JSONModel',
   "sap/ui/core/syncStyleClass",
   'sap/ui/core/message/Message',
   'sap/ui/core/MessageType',
   'sap/ui/core/Core',
   'sap/ui/core/Element'
-], function (BaseController, MessagePopover, MessageItem, MessageBox, JSONModel, syncStyleClass, Message, MessageType, Core, Element) {
+], function (BaseController, MessagePopover, MessageItem, MessageBox, MessageToast, JSONModel, syncStyleClass, Message, MessageType, Core, Element) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Cart", {
@@ -48,6 +49,8 @@ sap.ui.define([
       this.oView = this.getView();
       this.oView.setModel(oModel);
       this.oView.setModel(this._oMessageManager.getMessageModel(), "message");
+
+      this.oResourceBundle = this.getResourceBundle();
     },
 
     onCartListUpdateFinished: function () {
@@ -71,6 +74,11 @@ sap.ui.define([
     },
 
     onOpenConfirmOrderDialog: function () {
+      if (!this.oCart.get().length) {
+        MessageToast.show(this.oResourceBundle.getText("noProductsInCart"));
+        return;
+      }
+
       if (!this.oConfirmOrderDialog) {
         this.oConfirmOrderDialog = this.loadFragment({
           name: "com.exercise.onlinestoresapui5.view.ConfirmOrderDialog"
@@ -173,14 +181,13 @@ sap.ui.define([
 
       if (!oInput.getValue()) {
         const sLabelText = oInput.getLabels()[0].getText();
-        const oBundle = this.getResourceBundle();
 
         this._oMessageManager.addMessages(
           new Message({
-            message: oBundle.getText("requiredFieldMessage", [sLabelText]),
+            message: this.oResourceBundle.getText("requiredFieldMessage", [sLabelText]),
             type: MessageType.Error,
             additionalText: sLabelText,
-            description: oBundle.getText("requiredFieldDescription"),
+            description: this.oResourceBundle.getText("requiredFieldDescription"),
             target: sTarget,
             processor: this.getView().getModel()
           })
@@ -197,36 +204,35 @@ sap.ui.define([
         oBinding.getType().validateValue(oInput.getValue());
       } catch (oException) {
         const sID = oInput.getId();
-        const oBundle = this.getResourceBundle();
         sValueState = "Warning";
 
         const oMessage = new Message({
           type: MessageType.Warning,
           additionalText: oInput.getLabels()[0].getText(),
-          description: oBundle.getText("constrainedFieldDescription"),
+          description: this.oResourceBundle.getText("constrainedFieldDescription"),
           target: sTarget,
           processor: this.getView().getModel()
         });
 
         switch (true) {
           case sID.includes("idDialogInputPhoneNumber"):
-            oMessage.setMessage(oBundle.getText("validationMessagePhoneNumber"));
+            oMessage.setMessage(this.oResourceBundle.getText("validationMessagePhoneNumber"));
             this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputEmail"):
-            oMessage.setMessage(oBundle.getText("validationMessageEmail"));
+            oMessage.setMessage(this.oResourceBundle.getText("validationMessageEmail"));
             this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputCardNumber"):
-            oMessage.setMessage(oBundle.getText("validationMessageCardNumber"));
+            oMessage.setMessage(this.oResourceBundle.getText("validationMessageCardNumber"));
             this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputValid"):
-            oMessage.setMessage(oBundle.getText("validationMessageValid"));
+            oMessage.setMessage(this.oResourceBundle.getText("validationMessageValid"));
             this._oMessageManager.addMessages(oMessage);
             break;
           case sID.includes("idDialogInputCVV"):
-            oMessage.setMessage(oBundle.getText("validationMessageCVV"));
+            oMessage.setMessage(this.oResourceBundle.getText("validationMessageCVV"));
             this._oMessageManager.addMessages(oMessage);
             break;
           default:
@@ -344,10 +350,8 @@ sap.ui.define([
       if (this.oMP.getItems().length) {
         setTimeout(() => this.oMP.openBy(oButton), 100);
       } else {
-        const oBundle = this.getResourceBundle();
-
-        MessageBox.success(oBundle.getText("confirmOrderSuccess"), {
-          title: oBundle.getText("cartSummaryConfirmOrderButtonText"),
+        MessageBox.success(this.oResourceBundle.getText("confirmOrderSuccess"), {
+          title: this.oResourceBundle.getText("cartSummaryConfirmOrderButtonText"),
           styleClass: this.getOwnerComponent().getContentDensityClass(),
           onClose: () => {
             this.oCart.clear();
