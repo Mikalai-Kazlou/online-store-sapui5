@@ -1,0 +1,119 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core">
+  <Dialog id="idConfirmOrderDialog"
+    title="{i18n>dialogTitle}">
+    <content>
+      <VBox class="sapUiTinyMargin"
+        id="idConfirmOrderContainer">
+        <f:SimpleForm id="ifConfirmOrderForm"
+          title="{i18n>dialogFormTitle}"
+          editable="true">
+          <f:content>
+            <core:Title text="{i18n>dialogPersonalDetailsTitle}"/>
+            <Label text="{i18n>dialogNameLabel}"/>
+            <Input id="idDialogInputName"
+              required="true"
+              placeholder="{i18n>dialogNamePlaceholder}"
+              value="{
+                path: '/name',
+                type: 'sap.ui.model.type.String'
+							}"
+              change=".onDialogInputChange"/>
+            <Label text="{i18n>dialogDeliveryAddressLabel}"/>
+            <Input id="idDialogInputDeliveryAddress"
+              required="true"
+              placeholder="{i18n>dialogDeliveryAddressPlaceholder}"
+              value="{
+                path: '/deliveryAddress',
+                type: 'sap.ui.model.type.String'
+							}"
+              change=".onDialogInputChange"/>
+            <Label text="{i18n>dialogPhoneNumberLabel}"/>
+            <Input id="idDialogInputPhoneNumber"
+              required="true"
+              placeholder="{i18n>dialogPhoneNumberPlaceholder}"
+              value="{
+                path: '/phoneNumber',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^\\+[0-9]{9,}$'
+                }
+							}"
+              change=".onDialogInputChange"/>
+            <Label text="{i18n>dialogEmailLabel}"/>
+            <Input id="idDialogInputEmail"
+              required="true"
+              placeholder="{i18n>dialogEmailPlaceholder}"
+              value="{
+                path: '/email',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^\\w+[\\w-+\\.]*\\@[a-zA-Z]+.[a-zA-Z]+'
+                }
+							}"
+              change=".onDialogInputChange"/>
+            <core:Title text="{i18n>dialogCardDetailsTitle}" />
+            <Label text="{i18n>dialogCardNumberLabel}" />
+            <Input id="idDialogInputCardNumber"
+              required="true"
+              placeholder="{i18n>dialogCardNumberPlaceholder}"
+              value="{
+                path: '/cardNumber',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^[0-9]{16}$'
+                }
+							}"
+              change=".onDialogInputChange"/>
+            <Label text="{i18n>dialogValidLabel}" />
+            <Input id="idDialogInputValid"
+              required="true"
+              placeholder="{i18n>dialogValidPlaceholder}"
+              value="{
+                path: '/valid',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^(0[1-9])|(1[0-2])\/[0-9]{2}$'
+                }
+							}"
+              change=".onDialogInputChange"/>
+            <Label text="{i18n>dialogCVVLabel}" />
+            <Input id="idDialogInputCVV"
+              required="true"
+              placeholder="{i18n>dialogCVVPlaceholder}"
+              value="{
+                path: '/cvv',
+                type: 'sap.ui.model.type.String',
+                constraints: {
+                  search: '^[0-9]{3}$'
+                }
+							}"
+              change=".onDialogInputChange"/>
+          </f:content>
+        </f:SimpleForm>
+      </VBox>
+    </content>
+    <footer>
+      <Toolbar>
+        <content>
+          <Button id="idMessagePopoverButton"
+            icon="{path: '/', formatter: '.buttonIconFormatter'}"
+            type="{path: '/', formatter: '.buttonTypeFormatter'}"
+            text="{path: '/', formatter: '.highestSeverityMessages'}"
+            press=".onMessagePopoverPress"
+            ariaHasPopup="Dialog"/>
+          <ToolbarSpacer/>
+          <Button type="Accept"
+            text="{i18n>dialogConfirmButtonText}"
+            press=".onConfirmOrder"/>
+          <Button type="Reject"
+            text="{i18n>dialogCancelButtonText}"
+            press=".onCancelOrder"
+            ariaHasPopup="Dialog"/>
+        </content>
+      </Toolbar>
+    </footer>
+  </Dialog>
+</core:FragmentDefinition>
