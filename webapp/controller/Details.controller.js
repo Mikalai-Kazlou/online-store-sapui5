@@ -54,6 +54,24 @@ sap.ui.define([
       this._setAddToCartButtonAttributes(oItemData.ID, oButton);
     },
 
+    onBuyNow: function (oEvent) {
+      const oButton = oEvent.getSource();
+
+      const oBindingContext = oButton.getBindingContext("mockdata");
+      const oItemData = oBindingContext.getObject();
+
+      const oStepInput = this.byId("idQuantityStepInput");
+
+      if (!this.oCart.has(oItemData.ID)) {
+        this.oCart.add(oItemData.ID, oStepInput.getValue(), oItemData.Price);
+      }
+
+      this._refreshCartModel();
+      this._refreshLocalDataModel();
+
+      this.navTo("cart");
+    },
+
     _setAddToCartButtonAttributes: function (id, oButton) {
       const oBundle = this.getResourceBundle();
 
