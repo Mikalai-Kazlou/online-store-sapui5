@@ -101,46 +101,48 @@ sap.ui.define([
       }
     },
 
-    _applyFilters: function (filters, field) {
+    _applyFilters: function (filters, property) {
       const oProductCatalog = this.byId("idProductCatalog");
       const oBinding = oProductCatalog.getBinding("items");
 
       let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== field);
+      aFilters = aFilters.filter((item) => item.getPath() !== property);
       aFilters = aFilters.concat(...filters);
 
       oBinding.filter(aFilters, FilterType.Application);
     },
 
-    _applyTextFilter: function (oSource, field) {
+    _applyTextFilter: function (oSource, property) {
       const aFilters = [];
 
       const sQuery = oSource.getValue();
       if (sQuery && sQuery.length > 0) {
-        aFilters.push(new Filter(field, FilterOperator.Contains, sQuery));
+        aFilters.push(new Filter(property, FilterOperator.Contains, sQuery));
       }
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
-    _applyListFilter: function (oSource, field) {
+    _applyListFilter: function (oSource, property) {
       const aFilters = [];
 
       const aSelectedItems = oSource.getSelectedItems();
       aSelectedItems.forEach((item) => {
-        aFilters.push(new Filter(field, FilterOperator.EQ, item.getTitle()));
+        aFilters.push(new Filter(property, FilterOperator.EQ, item.getTitle()));
       });
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
-    _applyRangeFilter: function (oSource, field) {
+    _applyRangeFilter: function (oSource, property) {
       const aFilters = [];
 
       const [min, max] = oSource.getRange().sort((a, b) => a - b);
-      aFilters.push(new Filter(field, FilterOperator.BT, min, max));
+      if (min !== oSource.getMin() || max !== oSource.getMax()) {
+        aFilters.push(new Filter(property, FilterOperator.BT, min, max));
+      }
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
     onClearFilters: function () {
