@@ -3,8 +3,10 @@ sap.ui.define([
   "sap/ui/model/Filter",
   "sap/ui/model/FilterType",
   "sap/ui/model/FilterOperator",
+  "sap/ui/model/ChangeReason",
+  "sap/ui/layout/cssgrid/GridBoxLayout",
   "sap/m/ButtonType"
-], function (BaseController, Filter, FilterType, FilterOperator, ButtonType) {
+], function (BaseController, Filter, FilterType, FilterOperator, ChangeReason, GridBoxLayout, ButtonType) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
@@ -18,6 +20,35 @@ sap.ui.define([
       const aItems = oProductCatalog.getItems();
 
       this._setAddToCartButtonsAttributes(aItems);
+    },
+
+    createProductCatalogListContent: function (sId) {
+      const oListViewSelector = this.byId("idListViewSelector");
+
+      let sListItemId = "idListItemLarge";
+      let oLayoutSettings = { boxMinWidth: "22rem" };
+
+      if (oListViewSelector.getSelectedKey() === "list") {
+        sListItemId = "idListItemSmall";
+        oLayoutSettings = { boxMinWidth: "100%" };
+      }
+
+      const oUIControl = this.byId(sListItemId).clone(sId);
+      const oLayout = new GridBoxLayout(oLayoutSettings);
+
+      const oList = this.byId("idProductCatalog");
+      oList.setCustomLayout(oLayout);
+
+      return oUIControl;
+    },
+
+    onListViewSelectorChange: function (oEvent) {
+      const oList = this.byId("idProductCatalog");
+
+      const oBinding = oList.getBinding("items");
+      oBinding.refresh(true);
+
+      oList.updateAggregation("items", ChangeReason.Refresh);
     },
 
     onOpenDetails: function (oEvent) {
