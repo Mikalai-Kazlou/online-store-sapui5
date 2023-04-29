@@ -3,10 +3,11 @@ sap.ui.define([
   "sap/ui/model/Filter",
   "sap/ui/model/FilterType",
   "sap/ui/model/FilterOperator",
+  "sap/ui/model/Sorter",
   "sap/ui/model/ChangeReason",
   "sap/ui/layout/cssgrid/GridBoxLayout",
   "sap/m/ButtonType"
-], function (BaseController, Filter, FilterType, FilterOperator, ChangeReason, GridBoxLayout, ButtonType) {
+], function (BaseController, Filter, FilterType, FilterOperator, Sorter, ChangeReason, GridBoxLayout, ButtonType) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
@@ -90,7 +91,7 @@ sap.ui.define([
       }
     },
 
-    _setRangeFilterAttributes(filter, items, property) {
+    _setRangeFilterAttributes: function (filter, items, property) {
       if (!filter.getRange()[0]) {
         const min = items.reduce((min, item) => min < item[property] ? min : item[property], Number.MAX_SAFE_INTEGER);
         const max = items.reduce((max, item) => max > item[property] ? max : item[property], 0);
@@ -99,6 +100,16 @@ sap.ui.define([
         filter.setMax(max);
         filter.setRange([min, max]);
       }
+    },
+
+    onSortingChange: function (oEvent) {
+      const oSource = oEvent.getSource();
+      const sSortingKey = oSource.getSelectedKey();
+      const [sProperty, sDirection] = sSortingKey.split("-");
+
+      const oProductCatalog = this.byId("idProductCatalog");
+      const oBinding = oProductCatalog.getBinding("items");
+      oBinding.sort([new Sorter(sProperty, Boolean(sDirection))]);
     },
 
     _applyFilters: function (filters, property) {

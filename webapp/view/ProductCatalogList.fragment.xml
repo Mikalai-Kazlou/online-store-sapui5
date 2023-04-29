@@ -12,7 +12,26 @@
         <OverflowToolbar>
           <Title text="{i18n>productCatalogHeaderText}"/>
           <ToolbarSpacer/>
+          <Label text="{i18n>productCatalogSortingSelectLabel}"
+            design="Bold"/>
+          <Select forceSelection="false"
+            selectedKey="ID"
+            change=".onSortingChange">
+            <items>
+              <core:ListItem key="ID"
+                text="Default"/>
+              <core:ListItem key="Price"
+                text="Price (Lowest)"/>
+              <core:ListItem key="Price-Descending"
+                text="Price (Highest)"/>
+              <core:ListItem key="Title"
+                text="Name (A-Z)"/>
+              <core:ListItem key="Title-Descending"
+                text="Name (Z-A)"/>
+            </items>
+          </Select>
           <SegmentedButton id="idListViewSelector"
+            class="sapUiMediumMarginBegin"
             selectedKey="card"
             selectionChange=".onListViewSelectorChange">
             <items>
