@@ -55,7 +55,13 @@
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsRating}"
               design="Bold"/>
-            <Text text="{mockdata>Rating}"/>
+            <HBox alignItems="Center">
+              <RatingIndicator value="{mockdata>Rating}"
+                iconSize="1.5rem"
+                displayOnly="true"/>
+              <Text class="sapUiTinyMarginBegin"
+                text="{mockdata>Rating}"/>
+            </HBox>
           </VBox>
           <VBox class="sapUiTinyMarginTopBottom">
             <Label text="{i18n>detailsDiscountPercentage}"

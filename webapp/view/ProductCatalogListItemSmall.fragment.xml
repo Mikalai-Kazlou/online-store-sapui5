@@ -1,0 +1,50 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.f"
+  xmlns:grid="sap.ui.layout.cssgrid">
+  <f:GridListItem id="idListItemSmall">
+    <HBox class="sapUiTinyMargin"
+      alignItems="Center">
+      <VBox class="sapUiTinyMargin">
+        <Image src="{mockdata>Thumbnail}"
+          mode="Background"
+          width="5rem"
+          height="5rem"
+          backgroundSize="cover"
+          backgroundPosition="center center">
+        </Image>
+      </VBox>
+      <VBox class="sapUiTinyMargin">
+        <layoutData>
+          <FlexItemData growFactor="1"/>
+        </layoutData>
+        <HBox alignItems="Center">
+          <Title text="{mockdata>Title}"
+            wrapping="true"/>
+          <Label class="sapUiTinyMarginBegin"
+            text="{mockdata>Brand}"
+            wrapping="true"/>
+        </HBox>
+        <Text text="{mockdata>Description}"/>
+      </VBox>
+      <ObjectNumber class="sapUiTinyMargin sapMObjectNumberLarge"
+        number="{
+          parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
+          type: 'sap.ui.model.type.Currency',
+          formatOptions: {showMeasure: false}
+        }"
+        unit="{mockdata>Currency}"/>
+      <VBox class="sapUiTinyMargin">
+        <Button text="{i18n>productCatalogAddToCartButtonText}"
+          width="10rem"
+          press=".onAddToCart"
+          fieldGroupIds="idAddToCartButtonGroup">
+        </Button>
+        <Button text="{i18n>productCatalogDetailsButtonText}"
+          width="10rem"
+          press=".onOpenDetails">
+        </Button>
+      </VBox>
+    </HBox>
+  </f:GridListItem>
+</core:FragmentDefinition>

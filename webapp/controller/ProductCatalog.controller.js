@@ -3,8 +3,11 @@ sap.ui.define([
   "sap/ui/model/Filter",
   "sap/ui/model/FilterType",
   "sap/ui/model/FilterOperator",
+  "sap/ui/model/Sorter",
+  "sap/ui/model/ChangeReason",
+  "sap/ui/layout/cssgrid/GridBoxLayout",
   "sap/m/ButtonType"
-], function (BaseController, Filter, FilterType, FilterOperator, ButtonType) {
+], function (BaseController, Filter, FilterType, FilterOperator, Sorter, ChangeReason, GridBoxLayout, ButtonType) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.ProductCatalog", {
@@ -18,6 +21,35 @@ sap.ui.define([
       const aItems = oProductCatalog.getItems();
 
       this._setAddToCartButtonsAttributes(aItems);
+    },
+
+    createProductCatalogListContent: function (sId) {
+      const oListViewSelector = this.byId("idListViewSelector");
+
+      let sListItemId = "idListItemLarge";
+      let oLayoutSettings = { boxMinWidth: "22rem" };
+
+      if (oListViewSelector.getSelectedKey() === "list") {
+        sListItemId = "idListItemSmall";
+        oLayoutSettings = { boxMinWidth: "100%" };
+      }
+
+      const oUIControl = this.byId(sListItemId).clone(sId);
+      const oLayout = new GridBoxLayout(oLayoutSettings);
+
+      const oList = this.byId("idProductCatalog");
+      oList.setCustomLayout(oLayout);
+
+      return oUIControl;
+    },
+
+    onListViewSelectorChange: function (oEvent) {
+      const oList = this.byId("idProductCatalog");
+
+      const oBinding = oList.getBinding("items");
+      oBinding.refresh(true);
+
+      oList.updateAggregation("items", ChangeReason.Refresh);
     },
 
     onOpenDetails: function (oEvent) {
@@ -59,7 +91,7 @@ sap.ui.define([
       }
     },
 
-    _setRangeFilterAttributes(filter, items, property) {
+    _setRangeFilterAttributes: function (filter, items, property) {
       if (!filter.getRange()[0]) {
         const min = items.reduce((min, item) => min < item[property] ? min : item[property], Number.MAX_SAFE_INTEGER);
         const max = items.reduce((max, item) => max > item[property] ? max : item[property], 0);
@@ -70,46 +102,58 @@ sap.ui.define([
       }
     },
 
-    _applyFilters: function (filters, field) {
+    onSortingChange: function (oEvent) {
+      const oSource = oEvent.getSource();
+      const sSortingKey = oSource.getSelectedKey();
+      const [sProperty, sDirection] = sSortingKey.split("-");
+
+      const oProductCatalog = this.byId("idProductCatalog");
+      const oBinding = oProductCatalog.getBinding("items");
+      oBinding.sort([new Sorter(sProperty, Boolean(sDirection))]);
+    },
+
+    _applyFilters: function (filters, property) {
       const oProductCatalog = this.byId("idProductCatalog");
       const oBinding = oProductCatalog.getBinding("items");
 
       let aFilters = oBinding.getFilters(FilterType.Application);
-      aFilters = aFilters.filter((item) => item.getPath() !== field);
+      aFilters = aFilters.filter((item) => item.getPath() !== property);
       aFilters = aFilters.concat(...filters);
 
       oBinding.filter(aFilters, FilterType.Application);
     },
 
-    _applyTextFilter: function (oSource, field) {
+    _applyTextFilter: function (oSource, property) {
       const aFilters = [];
 
       const sQuery = oSource.getValue();
       if (sQuery && sQuery.length > 0) {
-        aFilters.push(new Filter(field, FilterOperator.Contains, sQuery));
+        aFilters.push(new Filter(property, FilterOperator.Contains, sQuery));
       }
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
-    _applyListFilter: function (oSource, field) {
+    _applyListFilter: function (oSource, property) {
       const aFilters = [];
 
       const aSelectedItems = oSource.getSelectedItems();
       aSelectedItems.forEach((item) => {
-        aFilters.push(new Filter(field, FilterOperator.EQ, item.getTitle()));
+        aFilters.push(new Filter(property, FilterOperator.EQ, item.getTitle()));
       });
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
-    _applyRangeFilter: function (oSource, field) {
+    _applyRangeFilter: function (oSource, property) {
       const aFilters = [];
 
       const [min, max] = oSource.getRange().sort((a, b) => a - b);
-      aFilters.push(new Filter(field, FilterOperator.BT, min, max));
+      if (min !== oSource.getMin() || max !== oSource.getMax()) {
+        aFilters.push(new Filter(property, FilterOperator.BT, min, max));
+      }
 
-      this._applyFilters(aFilters, field);
+      this._applyFilters(aFilters, property);
     },
 
     onClearFilters: function () {

@@ -3,7 +3,10 @@ sap.ui.define(function () {
 
   return {
     currency: "USD",
-    localStorageDataID: "online-store-sapui5-localdata"
+    localStorageDataID: "online-store-sapui5-localdata",
+    actions: {
+      buyNow: "buy-now"
+    }
   };
 
 });
