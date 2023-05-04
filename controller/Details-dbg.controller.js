@@ -2,8 +2,9 @@ sap.ui.define([
   "./BaseController",
   "sap/ui/model/Filter",
   "sap/ui/model/FilterOperator",
-  "sap/m/ButtonType"
-], function (BaseController, Filter, FilterOperator, ButtonType) {
+  "sap/m/ButtonType",
+  "../model/constants"
+], function (BaseController, Filter, FilterOperator, ButtonType, constants) {
   "use strict";
 
   return BaseController.extend("com.exercise.onlinestoresapui5.controller.Details", {
@@ -69,7 +70,11 @@ sap.ui.define([
       this._refreshCartModel();
       this._refreshLocalDataModel();
 
-      this.navTo("cart");
+      this.navTo("cart", {
+        "?query": {
+          action: constants.actions.buyNow
+        }
+      });
     },
 
     _setAddToCartButtonAttributes: function (id, oButton) {

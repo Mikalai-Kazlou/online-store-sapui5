@@ -84,7 +84,7 @@
 					"target": "main"
 				},
 				{
-					"pattern": "cart",
+					"pattern": "cart:?query:",
 					"name": "cart",
 					"target": "cart"
 				},

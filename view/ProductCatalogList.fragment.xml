@@ -7,66 +7,61 @@
       <FlexItemData growFactor="1"/>
     </layoutData>
     <Panel class="sapUiTinyMargin"
-      headerText="{i18n>productCatalogHeaderText}"
       width="auto">
+      <headerToolbar>
+        <OverflowToolbar>
+          <Title text="{i18n>productCatalogHeaderText}"/>
+          <ToolbarSpacer/>
+          <Label text="{i18n>productCatalogSortingSelectLabel}"
+            design="Bold"/>
+          <Select forceSelection="false"
+            selectedKey="ID"
+            change=".onSortingChange">
+            <items>
+              <core:ListItem key="ID"
+                text="Default"/>
+              <core:ListItem key="Price"
+                text="Price (Lowest)"/>
+              <core:ListItem key="Price-Descending"
+                text="Price (Highest)"/>
+              <core:ListItem key="Title"
+                text="Name (A-Z)"/>
+              <core:ListItem key="Title-Descending"
+                text="Name (Z-A)"/>
+            </items>
+          </Select>
+          <SegmentedButton id="idListViewSelector"
+            class="sapUiMediumMarginBegin"
+            selectedKey="card"
+            selectionChange=".onListViewSelectorChange">
+            <items>
+              <SegmentedButtonItem text="Card"
+                key="card"
+                icon="sap-icon://card"/>
+              <SegmentedButtonItem text="List"
+                key="list"
+                icon="sap-icon://list"/>
+            </items>
+          </SegmentedButton>
+        </OverflowToolbar>
+      </headerToolbar>
       <content>
         <VBox class="sapUiTinyMargin">
           <f:GridList id="idProductCatalog"
-            items="{path: 'mockdata>/ZMK_C_PRODUCT', 
+            items="{path: 'mockdata>/ZMK_C_PRODUCT',
+              factory: '.createProductCatalogListContent',
               sorter: {path: 'ID'}
             }"
             growing="true"
             growingScrollToLoad="true"
             updateFinished=".onProductCatalogUpdateFinished"
             width="100%">
-            <f:customLayout>
-              <grid:GridBoxLayout boxMinWidth="22rem"/>
-            </f:customLayout>
-            <f:GridListItem>
-              <VBox class="sapUiSmallMargin"
-                height="93%">
-                <Title text="{mockdata>Title}"
-                  wrapping="true"/>
-                <Label text="{mockdata>Brand}"
-                  wrapping="true"/>
-                <FlexBox class="sapUiTinyMarginTop">
-                  <Image src="{mockdata>Thumbnail}"
-                    mode="Background"
-                    width="100%"
-                    height="16rem"
-                    backgroundSize="cover"
-                    backgroundPosition="center center">
-                    <layoutData>
-                      <FlexItemData growFactor="1"/>
-                    </layoutData>
-                  </Image>
-                </FlexBox>
-                <ObjectNumber class="sapUiSmallMarginTopBottom sapMObjectNumberLarge"
-                  number="{
-                    parts: [{path: 'mockdata>Price'}, {path: 'mockdata>Currency'}],
-                    type: 'sap.ui.model.type.Currency',
-                    formatOptions: {showMeasure: false}
-                  }"
-                  unit="{mockdata>Currency}"/>
-                <Text text="{mockdata>Description}">
-                  <layoutData>
-                    <FlexItemData growFactor="1"/>
-                  </layoutData>
-                </Text>
-                <HBox class="sapUiTinyMarginTop"
-                  justifyContent="SpaceBetween">
-                  <Button text="{i18n>productCatalogAddToCartButtonText}"
-                    width="10rem"
-                    press=".onAddToCart"
-                    fieldGroupIds="idAddToCartButtonGroup">
-                  </Button>
-                  <Button text="{i18n>productCatalogDetailsButtonText}"
-                    width="10rem"
-                    press=".onOpenDetails">
-                  </Button>
-                </HBox>
-              </VBox>
-            </f:GridListItem>
+            <f:dependents>
+              <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.ProductCatalogListItemLarge"
+                type="XML"/>
+              <core:Fragment fragmentName="com.exercise.onlinestoresapui5.view.ProductCatalogListItemSmall"
+                type="XML"/>
+            </f:dependents>
           </f:GridList>
         </VBox>
       </content>
