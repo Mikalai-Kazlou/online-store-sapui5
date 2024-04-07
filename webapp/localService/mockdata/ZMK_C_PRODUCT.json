@@ -17,7 +17,7 @@
         "Stock": 133,
         "Brand": "SAAF & KHAAS",
         "Category": "Groceries",
-        "Thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.png",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(21)/to_Images"
@@ -40,7 +40,7 @@
         "Stock": 34,
         "Brand": "APPLE",
         "Category": "Smartphones",
-        "Thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(2)/to_Images"
@@ -63,7 +63,7 @@
         "Stock": 36,
         "Brand": "SAMSUNG",
         "Category": "Smartphones",
-        "Thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(3)/to_Images"
@@ -86,7 +86,7 @@
         "Stock": 123,
         "Brand": "OPPO",
         "Category": "Smartphones",
-        "Thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(4)/to_Images"
@@ -109,7 +109,7 @@
         "Stock": 32,
         "Brand": "HUAWEI",
         "Category": "Smartphones",
-        "Thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(5)/to_Images"
@@ -132,7 +132,7 @@
         "Stock": 83,
         "Brand": "APPLE",
         "Category": "Laptops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(6)/to_Images"
@@ -155,7 +155,7 @@
         "Stock": 50,
         "Brand": "SAMSUNG",
         "Category": "Laptops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(7)/to_Images"
@@ -178,7 +178,7 @@
         "Stock": 68,
         "Brand": "MICROSOFT SURFACE",
         "Category": "Laptops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(8)/to_Images"
@@ -201,7 +201,7 @@
         "Stock": 96,
         "Brand": "INFINIX",
         "Category": "Laptops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(9)/to_Images"
@@ -224,7 +224,7 @@
         "Stock": 89,
         "Brand": "HP PAVILION",
         "Category": "Laptops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(10)/to_Images"
@@ -247,7 +247,7 @@
         "Stock": 65,
         "Brand": "IMPRESSION OF ACQUA DI GIO",
         "Category": "Fragrances",
-        "Thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(11)/to_Images"
@@ -270,7 +270,7 @@
         "Stock": 52,
         "Brand": "ROYAL MIRAGE",
         "Category": "Fragrances",
-        "Thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(12)/to_Images"
@@ -293,7 +293,7 @@
         "Stock": 61,
         "Brand": "FOG SCENT XPRESSIO",
         "Category": "Fragrances",
-        "Thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(13)/to_Images"
@@ -316,7 +316,7 @@
         "Stock": 114,
         "Brand": "AL MUNAKH",
         "Category": "Fragrances",
-        "Thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(14)/to_Images"
@@ -339,7 +339,7 @@
         "Stock": 105,
         "Brand": "LORD - AL-REHAB",
         "Category": "Fragrances",
-        "Thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(15)/to_Images"
@@ -362,7 +362,7 @@
         "Stock": 68,
         "Brand": "AMNAMART",
         "Category": "Furniture",
-        "Thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(35)/to_Images"
@@ -385,7 +385,7 @@
         "Stock": 78,
         "Brand": "HEMANI TEA",
         "Category": "Skincare",
-        "Thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(17)/to_Images"
@@ -408,7 +408,7 @@
         "Stock": 88,
         "Brand": "DERMIVE",
         "Category": "Skincare",
-        "Thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(18)/to_Images"
@@ -431,7 +431,7 @@
         "Stock": 54,
         "Brand": "ROREC WHITE RICE",
         "Category": "Skincare",
-        "Thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(19)/to_Images"
@@ -454,7 +454,7 @@
         "Stock": 140,
         "Brand": "FAIR & CLEAR",
         "Category": "Skincare",
-        "Thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(20)/to_Images"
@@ -477,7 +477,7 @@
         "Stock": 106,
         "Brand": "KITCHEN SHELF",
         "Category": "Furniture",
-        "Thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/33/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(33)/to_Images"
@@ -500,7 +500,7 @@
         "Stock": 146,
         "Brand": "BAKE PARLOR BIG",
         "Category": "Groceries",
-        "Thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(22)/to_Images"
@@ -523,7 +523,7 @@
         "Stock": 26,
         "Brand": "BAKING FOOD ITEMS",
         "Category": "Groceries",
-        "Thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(23)/to_Images"
@@ -546,7 +546,7 @@
         "Stock": 113,
         "Brand": "FAUJI",
         "Category": "Groceries",
-        "Thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(24)/to_Images"
@@ -569,7 +569,7 @@
         "Stock": 47,
         "Brand": "DRY ROSE",
         "Category": "Groceries",
-        "Thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(25)/to_Images"
@@ -592,7 +592,7 @@
         "Stock": 131,
         "Brand": "BOHO DECOR",
         "Category": "Home-decoration",
-        "Thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(26)/to_Images"
@@ -615,7 +615,7 @@
         "Stock": 17,
         "Brand": "FLYING WOODEN",
         "Category": "Home-decoration",
-        "Thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(27)/to_Images"
@@ -638,7 +638,7 @@
         "Stock": 54,
         "Brand": "LED LIGHTS",
         "Category": "Home-decoration",
-        "Thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(28)/to_Images"
@@ -661,7 +661,7 @@
         "Stock": 7,
         "Brand": "LUXURY PALACE",
         "Category": "Home-decoration",
-        "Thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(29)/to_Images"
@@ -684,7 +684,7 @@
         "Stock": 54,
         "Brand": "GOLDEN",
         "Category": "Home-decoration",
-        "Thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(30)/to_Images"
@@ -707,7 +707,7 @@
         "Stock": 140,
         "Brand": "FURNITURE BED SET",
         "Category": "Furniture",
-        "Thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(31)/to_Images"
@@ -730,7 +730,7 @@
         "Stock": 30,
         "Brand": "RATTTAN OUTDOOR",
         "Category": "Furniture",
-        "Thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(32)/to_Images"
@@ -753,7 +753,7 @@
         "Stock": 44,
         "Brand": "DADAWU",
         "Category": "Lighting",
-        "Thumbnail": "https://i.dummyjson.com/data/products/98/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/98/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(98)/to_Images"
@@ -776,7 +776,7 @@
         "Stock": 136,
         "Brand": "MULTI PURPOSE",
         "Category": "Furniture",
-        "Thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(34)/to_Images"
@@ -799,7 +799,7 @@
         "Stock": 94,
         "Brand": "APPLE",
         "Category": "Smartphones",
-        "Thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(1)/to_Images"
@@ -822,7 +822,7 @@
         "Stock": 39,
         "Brand": "PROFESSIONAL WEAR",
         "Category": "Tops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/36/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(36)/to_Images"
@@ -845,7 +845,7 @@
         "Stock": 148,
         "Brand": "DIGITAL PRINTED",
         "Category": "Womens-dresses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/42/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(42)/to_Images"
@@ -868,7 +868,7 @@
         "Stock": 20,
         "Brand": "SOFT COTTON",
         "Category": "Tops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/38/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(38)/to_Images"
@@ -891,7 +891,7 @@
         "Stock": 55,
         "Brand": "TOP SWEATER",
         "Category": "Tops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/39/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(39)/to_Images"
@@ -914,7 +914,7 @@
         "Stock": 84,
         "Brand": "TOP SWEATER",
         "Category": "Tops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/40/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(40)/to_Images"
@@ -937,7 +937,7 @@
         "Stock": 21,
         "Brand": "RED MICKY MOUSE",
         "Category": "Womens-dresses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/41/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(41)/to_Images"
@@ -960,7 +960,7 @@
         "Stock": 150,
         "Brand": "GHAZI FABRIC",
         "Category": "Womens-dresses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/43/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(43)/to_Images"
@@ -983,7 +983,7 @@
         "Stock": 2,
         "Brand": "GHAZI FABRIC",
         "Category": "Womens-dresses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/44/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(44)/to_Images"
@@ -1006,7 +1006,7 @@
         "Stock": 96,
         "Brand": "IELGY",
         "Category": "Womens-dresses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/45/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(45)/to_Images"
@@ -1029,7 +1029,7 @@
         "Stock": 72,
         "Brand": "IELGY FASHION",
         "Category": "Womens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/46/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(46)/to_Images"
@@ -1052,7 +1052,7 @@
         "Stock": 50,
         "Brand": "SYNTHETIC LEATHER",
         "Category": "Womens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/47/thumbnail.jpeg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/47/thumbnail.jpeg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(47)/to_Images"
@@ -1075,7 +1075,7 @@
         "Stock": 25,
         "Brand": "SANDALS FLIP FLOPS",
         "Category": "Womens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(48)/to_Images"
@@ -1098,7 +1098,7 @@
         "Stock": 107,
         "Brand": "MAASAI SANDALS",
         "Category": "Womens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/49/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(49)/to_Images"
@@ -1121,7 +1121,7 @@
         "Stock": 46,
         "Brand": "ARRIVALS GENUINE",
         "Category": "Womens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/50/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(50)/to_Images"
@@ -1144,7 +1144,7 @@
         "Stock": 132,
         "Brand": "VINTAGE APPAREL",
         "Category": "Mens-shirts",
-        "Thumbnail": "https://i.dummyjson.com/data/products/51/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/51/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(51)/to_Images"
@@ -1167,7 +1167,7 @@
         "Stock": 128,
         "Brand": "FREE FIRE",
         "Category": "Mens-shirts",
-        "Thumbnail": "https://i.dummyjson.com/data/products/52/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/52/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(52)/to_Images"
@@ -1190,7 +1190,7 @@
         "Stock": 6,
         "Brand": "VINTAGE APPAREL",
         "Category": "Mens-shirts",
-        "Thumbnail": "https://i.dummyjson.com/data/products/53/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/53/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(53)/to_Images"
@@ -1213,7 +1213,7 @@
         "Stock": 136,
         "Brand": "THE WAREHOUSE",
         "Category": "Mens-shirts",
-        "Thumbnail": "https://i.dummyjson.com/data/products/54/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/54/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(54)/to_Images"
@@ -1236,7 +1236,7 @@
         "Stock": 122,
         "Brand": "THE WAREHOUSE",
         "Category": "Mens-shirts",
-        "Thumbnail": "https://i.dummyjson.com/data/products/55/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/55/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(55)/to_Images"
@@ -1259,7 +1259,7 @@
         "Stock": 6,
         "Brand": "SNEAKERS",
         "Category": "Mens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/56/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(56)/to_Images"
@@ -1282,7 +1282,7 @@
         "Stock": 20,
         "Brand": "RUBBER",
         "Category": "Mens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/57/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(57)/to_Images"
@@ -1305,7 +1305,7 @@
         "Stock": 68,
         "Brand": "THE WAREHOUSE",
         "Category": "Mens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/58/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(58)/to_Images"
@@ -1328,7 +1328,7 @@
         "Stock": 137,
         "Brand": "SNEAKERS",
         "Category": "Mens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/59/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(59)/to_Images"
@@ -1351,7 +1351,7 @@
         "Stock": 129,
         "Brand": "SNEAKERS",
         "Category": "Mens-shoes",
-        "Thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(60)/to_Images"
@@ -1374,7 +1374,7 @@
         "Stock": 91,
         "Brand": "NAVIFORCE",
         "Category": "Mens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/61/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/61/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(61)/to_Images"
@@ -1397,7 +1397,7 @@
         "Stock": 95,
         "Brand": "SKMEI 9117",
         "Category": "Mens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/62/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/62/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(62)/to_Images"
@@ -1420,7 +1420,7 @@
         "Stock": 142,
         "Brand": "SKMEI 9117",
         "Category": "Mens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/63/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(63)/to_Images"
@@ -1443,7 +1443,7 @@
         "Stock": 61,
         "Brand": "STRAP SKELETON",
         "Category": "Mens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/64/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/64/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(64)/to_Images"
@@ -1466,7 +1466,7 @@
         "Stock": 94,
         "Brand": "STAINLESS",
         "Category": "Mens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/65/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/65/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(65)/to_Images"
@@ -1489,7 +1489,7 @@
         "Stock": 24,
         "Brand": "EASTERN WATCHES",
         "Category": "Womens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/66/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/66/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(66)/to_Images"
@@ -1512,7 +1512,7 @@
         "Stock": 46,
         "Brand": "EASTERN WATCHES",
         "Category": "Womens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/67/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/67/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(67)/to_Images"
@@ -1535,7 +1535,7 @@
         "Stock": 77,
         "Brand": "LUXURY DIGITAL",
         "Category": "Womens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/68/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/68/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(68)/to_Images"
@@ -1558,7 +1558,7 @@
         "Stock": 89,
         "Brand": "WATCH PEARLS",
         "Category": "Womens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/69/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/69/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(69)/to_Images"
@@ -1581,7 +1581,7 @@
         "Stock": 111,
         "Brand": "BRACELET",
         "Category": "Womens-watches",
-        "Thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/70/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(70)/to_Images"
@@ -1604,7 +1604,7 @@
         "Stock": 17,
         "Brand": "LOUISWILL",
         "Category": "Womens-bags",
-        "Thumbnail": "https://i.dummyjson.com/data/products/71/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/71/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(71)/to_Images"
@@ -1627,7 +1627,7 @@
         "Stock": 27,
         "Brand": "LOUISWILL",
         "Category": "Womens-bags",
-        "Thumbnail": "https://i.dummyjson.com/data/products/72/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/72/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(72)/to_Images"
@@ -1650,7 +1650,7 @@
         "Stock": 101,
         "Brand": "BRACELET",
         "Category": "Womens-bags",
-        "Thumbnail": "https://i.dummyjson.com/data/products/73/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/73/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(73)/to_Images"
@@ -1673,7 +1673,7 @@
         "Stock": 43,
         "Brand": "COPENHAGEN LUXE",
         "Category": "Womens-bags",
-        "Thumbnail": "https://i.dummyjson.com/data/products/74/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/74/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(74)/to_Images"
@@ -1696,7 +1696,7 @@
         "Stock": 13,
         "Brand": "STEAL FRAME",
         "Category": "Womens-bags",
-        "Thumbnail": "https://i.dummyjson.com/data/products/75/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/75/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(75)/to_Images"
@@ -1719,7 +1719,7 @@
         "Stock": 51,
         "Brand": "DAROJAY",
         "Category": "Womens-jewellery",
-        "Thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/76/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(76)/to_Images"
@@ -1742,7 +1742,7 @@
         "Stock": 149,
         "Brand": "COPENHAGEN LUXE",
         "Category": "Womens-jewellery",
-        "Thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/77/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(77)/to_Images"
@@ -1765,7 +1765,7 @@
         "Stock": 9,
         "Brand": "FASHION JEWELLERY",
         "Category": "Womens-jewellery",
-        "Thumbnail": "https://i.dummyjson.com/data/products/78/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/78/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(78)/to_Images"
@@ -1788,7 +1788,7 @@
         "Stock": 16,
         "Brand": "FASHION JEWELLERY",
         "Category": "Womens-jewellery",
-        "Thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/79/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(79)/to_Images"
@@ -1811,7 +1811,7 @@
         "Stock": 9,
         "Brand": "CUFF BUTTERFLY",
         "Category": "Womens-jewellery",
-        "Thumbnail": "https://i.dummyjson.com/data/products/80/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/80/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(80)/to_Images"
@@ -1834,7 +1834,7 @@
         "Stock": 78,
         "Brand": "DESIGNER SUN GLASSES",
         "Category": "Sunglasses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/81/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/81/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(81)/to_Images"
@@ -1857,7 +1857,7 @@
         "Stock": 78,
         "Brand": "DESIGNER SUN GLASSES",
         "Category": "Sunglasses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/82/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/82/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(82)/to_Images"
@@ -1880,7 +1880,7 @@
         "Stock": 115,
         "Brand": "MASTAR WATCH",
         "Category": "Sunglasses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/83/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/83/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(83)/to_Images"
@@ -1903,7 +1903,7 @@
         "Stock": 64,
         "Brand": "MASTAR WATCH",
         "Category": "Sunglasses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/84/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/84/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(84)/to_Images"
@@ -1926,7 +1926,7 @@
         "Stock": 92,
         "Brand": "LOUISWILL",
         "Category": "Sunglasses",
-        "Thumbnail": "https://i.dummyjson.com/data/products/85/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/85/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(85)/to_Images"
@@ -1949,7 +1949,7 @@
         "Stock": 22,
         "Brand": "CAR AUX",
         "Category": "Automotive",
-        "Thumbnail": "https://i.dummyjson.com/data/products/86/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/86/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(86)/to_Images"
@@ -1972,7 +1972,7 @@
         "Stock": 37,
         "Brand": "W1209 DC12V",
         "Category": "Automotive",
-        "Thumbnail": "https://i.dummyjson.com/data/products/87/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/87/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(87)/to_Images"
@@ -1995,7 +1995,7 @@
         "Stock": 42,
         "Brand": "TC REUSABLE",
         "Category": "Automotive",
-        "Thumbnail": "https://i.dummyjson.com/data/products/88/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/88/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(88)/to_Images"
@@ -2018,7 +2018,7 @@
         "Stock": 79,
         "Brand": "TC REUSABLE",
         "Category": "Automotive",
-        "Thumbnail": "https://i.dummyjson.com/data/products/89/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/89/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(89)/to_Images"
@@ -2041,7 +2041,7 @@
         "Stock": 63,
         "Brand": "NEON LED LIGHT",
         "Category": "Automotive",
-        "Thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(90)/to_Images"
@@ -2064,7 +2064,7 @@
         "Stock": 115,
         "Brand": "METRO 70CC MOTORCYCLE - MR70",
         "Category": "Motorcycle",
-        "Thumbnail": "https://i.dummyjson.com/data/products/91/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/91/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(91)/to_Images"
@@ -2087,7 +2087,7 @@
         "Stock": 22,
         "Brand": "BRAVE BULL",
         "Category": "Motorcycle",
-        "Thumbnail": "https://i.dummyjson.com/data/products/92/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/92/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(92)/to_Images"
@@ -2110,7 +2110,7 @@
         "Stock": 127,
         "Brand": "SHOCK ABSORBER",
         "Category": "Motorcycle",
-        "Thumbnail": "https://i.dummyjson.com/data/products/93/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/93/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(93)/to_Images"
@@ -2133,7 +2133,7 @@
         "Stock": 109,
         "Brand": "JIEPOLLY",
         "Category": "Motorcycle",
-        "Thumbnail": "https://i.dummyjson.com/data/products/94/thumbnail.webp",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/94/thumbnail.webp",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(94)/to_Images"
@@ -2156,7 +2156,7 @@
         "Stock": 144,
         "Brand": "XIANGLE",
         "Category": "Motorcycle",
-        "Thumbnail": "https://i.dummyjson.com/data/products/95/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/95/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(95)/to_Images"
@@ -2179,7 +2179,7 @@
         "Stock": 96,
         "Brand": "LIGHTINGBRILLIANCE",
         "Category": "Lighting",
-        "Thumbnail": "https://i.dummyjson.com/data/products/96/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/96/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(96)/to_Images"
@@ -2202,7 +2202,7 @@
         "Stock": 146,
         "Brand": "IFEI HOME",
         "Category": "Lighting",
-        "Thumbnail": "https://i.dummyjson.com/data/products/97/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/97/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(97)/to_Images"
@@ -2225,7 +2225,7 @@
         "Stock": 110,
         "Brand": "L'OREAL PARIS",
         "Category": "Skincare",
-        "Thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(16)/to_Images"
@@ -2248,7 +2248,7 @@
         "Stock": 138,
         "Brand": "IFEI HOME",
         "Category": "Lighting",
-        "Thumbnail": "https://i.dummyjson.com/data/products/99/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/99/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(99)/to_Images"
@@ -2271,7 +2271,7 @@
         "Stock": 133,
         "Brand": "YIOSI",
         "Category": "Lighting",
-        "Thumbnail": "https://i.dummyjson.com/data/products/100/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/100/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(100)/to_Images"
@@ -2294,7 +2294,7 @@
         "Stock": 107,
         "Brand": "SOFT COTTON",
         "Category": "Tops",
-        "Thumbnail": "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
+        "Thumbnail": "https://cdn.dummyjson.com/product-images/37/thumbnail.jpg",
         "to_Images": {
           "__deferred": {
             "uri": "https://ecsc00a022b7.epam.com:44300/sap/opu/odata/SAP/ZMK_MOCK_DATA_SRV/ZMK_C_PRODUCT(37)/to_Images"
